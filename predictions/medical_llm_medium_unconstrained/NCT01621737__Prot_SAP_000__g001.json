@@ -1,0 +1,840 @@
+{
+  "activities": [
+    {
+      "id": "act_01",
+      "text": "Informed Consent",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_02",
+      "text": "Assess Inclusion/Exclusion",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_03",
+      "text": "Medical History",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_04",
+      "text": "Physical Exam",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_05",
+      "text": "SCID/Psychiatric History",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_06",
+      "text": "Urine Drug Screen b",
+      "uses_reference_markers": [
+        "b"
+      ]
+    },
+    {
+      "id": "act_07",
+      "text": "Urine Pregnancy Screen c",
+      "uses_reference_markers": [
+        "c"
+      ]
+    },
+    {
+      "id": "act_08",
+      "text": "Vital signs/ weight",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_09",
+      "text": "Blood chemistry/Urine osmolality",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_10",
+      "text": "Oxytocin Levels e",
+      "uses_reference_markers": [
+        "e"
+      ]
+    },
+    {
+      "id": "act_11",
+      "text": "EEG",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_12",
+      "text": "PANSS f",
+      "uses_reference_markers": [
+        "f"
+      ]
+    },
+    {
+      "id": "act_13",
+      "text": "HAM-A/ CDSS/ CGI-S g/ CGI/ GAF",
+      "uses_reference_markers": [
+        "g"
+      ]
+    },
+    {
+      "id": "act_14",
+      "text": "Cognitive tests (CMINDS\u00ae and MSCEIT\u2122 ME) h",
+      "uses_reference_markers": [
+        "h"
+      ]
+    },
+    {
+      "id": "act_15",
+      "text": "CTQ",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_16",
+      "text": "TSQM",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_17",
+      "text": "PTS/ SPIN/ ASEX/ ER-40/ ECR",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_18",
+      "text": "Mid-Week Safety Call j",
+      "uses_reference_markers": [
+        "j"
+      ]
+    },
+    {
+      "id": "act_19",
+      "text": "Dispense study drug",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_20",
+      "text": "Single Challenge Dose k",
+      "uses_reference_markers": [
+        "k"
+      ]
+    },
+    {
+      "id": "act_21",
+      "text": "Concomitant Meds",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_22",
+      "text": "Adverse Events",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_23",
+      "text": "1-hr safety monitoring following in-clinic dose",
+      "uses_reference_markers": []
+    }
+  ],
+  "cells": [
+    {
+      "activity_id": "act_01",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_03",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_04",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_05",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "xx",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "xx",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "(x)",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "xx",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_18",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_20",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_21",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_22",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_23",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    }
+  ],
+  "contacts": [
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": -1,
+        "target_unit": "weeks",
+        "window_after": 0,
+        "window_before": 6,
+        "window_unit": "days"
+      },
+      "id": "con_01",
+      "reference_markers": [
+        "a"
+      ],
+      "text": "Visit: Screen > Week: -1 > Days: -7 to -1"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 0,
+        "target_unit": "weeks",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_02",
+      "reference_markers": [],
+      "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 3,
+        "target_unit": "days",
+        "window_after": 1,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_03",
+      "reference_markers": [],
+      "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 7,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_04",
+      "reference_markers": [],
+      "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 14,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_05",
+      "reference_markers": [],
+      "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 21,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_06",
+      "reference_markers": [],
+      "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 28,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_07",
+      "reference_markers": [],
+      "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 35,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_08",
+      "reference_markers": [],
+      "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 42,
+        "target_unit": "days",
+        "window_after": 0,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_09",
+      "reference_markers": [],
+      "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+  ],
+  "group_id": "NCT01621737__Prot_SAP_000__g001",
+  "model": "medical-llm-medium",
+  "references": [
+    {
+      "reference_marker": "a",
+      "text": "Screening procedures can be done over a week period if needed to complete all procedures such as confirmation of diagnosis. The screening and baseline visits can occur on the same day."
+    },
+    {
+      "reference_marker": "b",
+      "text": "In addition to Visit 1, an optional urine drug screen or blood chemistry may be performed at any point during the study at the discretion of the Principal Investigator or study coordinators if it is suspected the subject is not abstaining from illegal substances or have general health concerns."
+    },
+    {
+      "reference_marker": "c",
+      "text": "Premenopausal women will be queried regarding their menstrual cycles and data correlated with clinical findings.Patients are instructed to use a medically accepted form of birth control through their study participation, and are also questioned about their birth control method at each visit. If a pregnancy is suspected at any time during the study, the patient will be asked to complete a urine pregnancy test."
+    },
+    {
+      "reference_marker": "d",
+      "text": "Basic Metabolic Panel includes Glucose, BUN, Creatinine, Bicarbonate, Chloride, Sodium, Potassium, Calcium, osmolality"
+    },
+    {
+      "reference_marker": "e",
+      "text": "Oxytocin Levels will be collected via saliva and blood draw twice during the Baseline Visit. One blood draw and passive drool will be collected at the beginning of the visit (pre-dose) and a second blood draw and passive drool collection will be taken 30 minutes after the in-clinic dose. The third Oxytocin level will be taken at the patient\u2019s last visit (either Visit 8 at the conclusion of the protocol or the Early Termination visit)."
+    },
+    {
+      "reference_marker": "f",
+      "text": "PANSS must be done at baseline, but it may be completed at screening in addition at the discretion of the investigator if he feels that the subject may not met entry criteria"
+    },
+    {
+      "reference_marker": "g",
+      "text": "The CGI-S will be completed twice at the Baseline Visit, once prior to dosing and a second time at least 50 minutes after the in-clinic dose of the study drug or placebo."
+    }
+  ],
+  "system": "medical_llm_medium_unconstrained"
+}

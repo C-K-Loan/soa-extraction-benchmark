@@ -1,0 +1,523 @@
+{
+  "activities": [
+    {
+      "id": "act_01",
+      "text": "Informed consent",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_02",
+      "text": "In- and exclusion criteria",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_03",
+      "text": "Concomitant medication",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_04",
+      "text": "Concomitant illness",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_05",
+      "text": "Demography",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_06",
+      "text": "Diagnosis of diabetes",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_07",
+      "text": "Diabetes treatment history",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_08",
+      "text": "Medical history",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_09",
+      "text": "Smoking habits",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_10",
+      "text": "History of gallbladder disease",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_11",
+      "text": "History of cardiovascular disease",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_12",
+      "text": "Height",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_13",
+      "text": "Body weight",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_14",
+      "text": "Waist circumference",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_15",
+      "text": "Renal impairment history",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_16",
+      "text": "Randomisation",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_17",
+      "text": "Withdrawal criteria",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_18",
+      "text": "Post-dose fasting routines",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_19",
+      "text": "HbA1c",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_20",
+      "text": "Glucose metabolism",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_21",
+      "text": "Lipids",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_22",
+      "text": "PRO questionnaire",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_23",
+      "text": "Adverse events",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_24",
+      "text": "Hyper/hypoglycaemic episodes",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_25",
+      "text": "ECG, overall interpretation e",
+      "uses_reference_markers": [
+        "e"
+      ]
+    },
+    {
+      "id": "act_26",
+      "text": "Fundoscopy/fundus photography",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_27",
+      "text": "Physical examination",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_28",
+      "text": "Vital signs",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_29",
+      "text": "Antibodies f",
+      "uses_reference_markers": [
+        "f"
+      ]
+    },
+    {
+      "id": "act_30",
+      "text": "Biochemistry",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_31",
+      "text": "Creatinine",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_32",
+      "text": "Calcitonin",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_33",
+      "text": "Haematology",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_34",
+      "text": "PK sampling",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_35",
+      "text": "PK sampling (trough + peak) g",
+      "uses_reference_markers": [
+        "g"
+      ]
+    },
+    {
+      "id": "act_36",
+      "text": "Blood pregnancy test h",
+      "uses_reference_markers": [
+        "h"
+      ]
+    },
+    {
+      "id": "act_37",
+      "text": "Urinalysis",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_38",
+      "text": "IV/IWRS call",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_39",
+      "text": "Dispensing visit",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_40",
+      "text": "Trial drug directions for use of s.c. trial product",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_41",
+      "text": "Drug accountability",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_42",
+      "text": "Dispense glucose meter",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_43",
+      "text": "Dispense subject identity card",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_44",
+      "text": "Dispense diary",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_45",
+      "text": "Collect and review diary",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_46",
+      "text": "Attend visit fasting i",
+      "uses_reference_markers": [
+        "i"
+      ]
+    },
+    {
+      "id": "act_47",
+      "text": "Affirmation statement or Case book signed",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_48",
+      "text": "End of trial j",
+      "uses_reference_markers": [
+        "j"
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "activity_id": "act_01",
+      "cell_content": "x",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    }
+  ],
+  "contacts": [
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": -2,
+        "target_unit": "weeks",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_01",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Trial Periods: Screening > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 0,
+        "target_unit": "weeks",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_02",
+      "reference_markers": [],
+      "text": "Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 2,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_03",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 3 > Weeks: 2 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 4,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_04",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 4 > Weeks: 4 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 6,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_05",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 5 > Weeks: 6 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 8,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_06",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 6 > Weeks: 8 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 12,
+        "target_unit": "weeks",
+        "window_after": 5,
+        "window_before": 5,
+        "window_unit": "days"
+      },
+      "id": "con_07",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 7 > Weeks: 12 > Visit window Days: \u00b15"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 16,
+        "target_unit": "weeks",
+        "window_after": 5,
+        "window_before": 5,
+        "window_unit": "days"
+      },
+      "id": "con_08",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 8 > Weeks: 16 > Visit window Days: \u00b15"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 20,
+        "target_unit": "weeks",
+        "window_after": 5,
+        "window_before": 5,
+        "window_unit": "days"
+      },
+      "id": "con_09",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 9 > Weeks: 20 > Visit window Days: \u00b15"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 24,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_10",
+      "reference_markers": [],
+      "text": "Treatment > Visit number: 10 > Weeks: 24 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 26,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_11",
+      "reference_markers": [
+        "2"
+      ],
+      "text": "End-of-treatment2 > Visit number: 11 > Weeks: 26 > Visit window Days: \u00b13"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 31,
+        "target_unit": "weeks",
+        "window_after": 5,
+        "window_before": 0,
+        "window_unit": "days"
+      },
+      "id": "con_12",
+      "reference_markers": [
+        "3"
+      ],
+      "text": "Follow-up3 > Visit number: 12 > Weeks: 31 > Visit window Days: +5"
+    },
+    {
+      "anchor": "randomisation",
+      "condition": "premature discontinuation",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 26,
+        "target_unit": "weeks",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "days"
+      },
+      "id": "con_13",
+      "reference_markers": [
+        "3"
+      ],
+      "text": "End-of-trial - premature discontinuation3 > Visit number: 11X > Weeks: 26 > Visit window Days: \u00b13"
+    }
+  ],
+  "group_id": "NCT01923181__Prot_000__g001",
+  "model": "anthropic/claude-sonnet-5.5",
+  "references": [
+    {
+      "reference_marker": "1",
+      "text": "Subject can be randomised as soon as all inclusion and exclusion criteria are confirmed. The screening assessments must not exceed 2 weeks prior to randomisation (Visit 2)."
+    },
+    {
+      "reference_marker": "2",
+      "text": "The End-of-treatment and Follow-up visits are applicable for all randomised subjects including subjects who have discontinued trial product prematurely."
+    },
+    {
+      "reference_marker": "3",
+      "text": "Subjects discontinuing trial product prematurely will be asked to attend the End-of-treatment (V11) as soon as possible after treatment discontinuation and the Follow-up or premature discontinuation (V12) five weeks later (\u00b15 days visit window). Furthermore, they are asked to attend the End-of-trial \u2013 premature discontinuation visit (V11X) (see Section 3.1.9)."
+    },
+    {
+      "reference_marker": "4",
+      "text": "An ECG performed for any reason unrelated to the trial within 30 days prior to the randomisation visit is acceptable as Visit 2 data, provided no clinical symptoms suggestive of cardiac disease has occurred in the meantime."
+    },
+    {
+      "reference_marker": "5",
+      "text": "At the randomisation visit, the antibody assessment must be done pre-dose."
+    },
+    {
+      "reference_marker": "6",
+      "text": "Trough and peak PK sampling is only applicable for subjects in the oral treatment arms. Subjects must attend the visit without having taken the tablet on the same day (see Section 3.1.10)."
+    },
+    {
+      "reference_marker": "7",
+      "text": "For women of child bearing potential: Serum pregnancy tests must be performed."
+    },
+    {
+      "reference_marker": "8",
+      "text": "Fasting is defined as having consumed only water since midnight. For the Follow-up visit (V12) attending fasting is defined as having consumed only water for at least the preceding 2 hours."
+    },
+    {
+      "reference_marker": "9",
+      "text": "Affirmation statement/case book signing and end of trial are at the Follow-up visit (V12). Only patients who have discontinued treatment prematurely are asked to attend the End-of-trial \u2013 premature discontinuation visit (V11X) which will then be end of trial."
+    }
+  ],
+  "system": "claude_sonnet_55"
+}

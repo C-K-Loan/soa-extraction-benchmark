@@ -1,0 +1,626 @@
+gold: as released | window side 0 == empty: True
+system               |    TARGET P / R / F1 (gold n)   |    WINDOW P / R / F1 (gold n)   |    ANCHOR P / R / F1 (gold n)   | CONDITION P / R / F1 (gold n)  
+Gemini-3.8-Flash     |  96.2 /  96.2 /  96.2 (53) pred 53 |  64.9 /  96.0 /  77.4 (25) pred 37 |  93.3 /  93.3 /  93.3 (60) pred 60 |  42.9 /  42.9 /  42.9 ( 7) pred  7 
+GPT-5.6-terra        | 100.0 /  98.1 /  99.0 (53) pred 52 |  92.0 /  92.0 /  92.0 (25) pred 25 |  96.7 /  96.7 /  96.7 (60) pred 60 |  50.0 /  57.1 /  53.3 ( 7) pred  8 
+Claude-Sonnet-5.5    | 100.0 /  98.1 /  99.0 (53) pred 52 |  61.0 / 100.0 /  75.8 (25) pred 41 |  75.0 /  75.0 /  75.0 (60) pred 60 |  45.5 /  71.4 /  55.6 ( 7) pred 11 
+Medical LLM Medium   |  75.0 /  73.6 /  74.3 (53) pred 52 |  55.0 /  88.0 /  67.7 (25) pred 40 |  54.1 /  55.0 /  54.5 (60) pred 61 |  44.4 /  57.1 /  50.0 ( 7) pred  9 
+
+pooled micro P / R / F1 over temporal units:
+ Gemini-3.8-Flash     target+window:  83.3 /  96.2 /  89.3 (gold 78)   all four fields:  85.4 /  92.4 /  88.7 (gold 145)
+ GPT-5.6-terra        target+window:  97.4 /  96.2 /  96.8 (gold 78)   all four fields:  94.5 /  94.5 /  94.5 (gold 145)
+ Claude-Sonnet-5.5    target+window:  82.8 /  98.7 /  90.1 (gold 78)   all four fields:  77.4 /  87.6 /  82.2 (gold 145)
+ Medical LLM Medium   target+window:  66.3 /  78.2 /  71.8 (gold 78)   all four fields:  60.5 /  67.6 /  63.8 (gold 145)
+
+error kinds per system and field (wrong / missed / extra):
+ Gemini-3.8-Flash     TARGET: 0/2/2  WINDOW: 1/0/12  ANCHOR: 4/0/0  CONDITION: 0/4/4
+ GPT-5.6-terra        TARGET: 0/1/0  WINDOW: 2/0/0  ANCHOR: 2/0/0  CONDITION: 0/3/4
+ Claude-Sonnet-5.5    TARGET: 0/1/0  WINDOW: 0/0/16  ANCHOR: 15/0/0  CONDITION: 0/2/6
+ Medical LLM Medium   TARGET: 12/2/0  WINDOW: 1/2/16  ANCHOR: 27/0/0  CONDITION: 0/3/4
+
+===== TARGET wrong =====
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 3 > Timing of visit: 2 days
+    gold TARGET: {'target': 2, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 2, 'target_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 4 > Timing of visit: 4 days ±3
+    gold TARGET: {'target': 4, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 4, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 5 > Timing of visit: 6 days ±3
+    gold TARGET: {'target': 6, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 6, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 6 > Timing of visit: 8 days ±3
+    gold TARGET: {'target': 8, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 8, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 7 > Timing of visit: 12 days ±5
+    gold TARGET: {'target': 12, 'target_unit': 'weeks', 'window_before': 5, 'window_after': 5, 'window_unit': 'days'}
+    pred TARGET: {'target': 12, 'target_unit': 'days', 'window_after': 5, 'window_before': 5, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 8 > Timing of visit: 16 days ±5
+    gold TARGET: {'target': 16, 'target_unit': 'weeks', 'window_before': 5, 'window_after': 5, 'window_unit': 'days'}
+    pred TARGET: {'target': 16, 'target_unit': 'days', 'window_after': 5, 'window_before': 5, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 9 > Timing of visit: 20 days ±5
+    gold TARGET: {'target': 20, 'target_unit': 'weeks', 'window_before': 5, 'window_after': 5, 'window_unit': 'days'}
+    pred TARGET: {'target': 20, 'target_unit': 'days', 'window_after': 5, 'window_before': 5, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 10 > Timing of visit: 24 days ±3
+    gold TARGET: {'target': 24, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 24, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: iods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: Trial Periods > End-of-treatment2) > Visit number: 11 > Timing of visit: 26 days ±3
+    gold TARGET: {'target': 26, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {'target': 26, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: ial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5
+    pred header: Trial Periods > Follow-up3) > Visit number: 12 > Timing of visit: 31 days +5
+    gold TARGET: {'target': 31, 'target_unit': 'weeks', 'window_before': 0, 'window_after': 5, 'window_unit': 'days'}
+    pred TARGET: {'target': 31, 'target_unit': 'days', 'window_after': 5, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT02791490
+    gold header: isit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days
+    pred header: Randomization > Visit 4 > Day: 1
+    gold TARGET: {'target': 1, 'target_unit': 'days', 'window_before': 5, 'window_after': 5, 'window_unit': 'days'}
+    pred TARGET: {'target': 0, 'target_unit': 'days', 'window_after': 5, 'window_before': 5, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT02791490
+    gold header: > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)
+    pred header: Double-Blind Treatment > TC > Day: 9
+    gold TARGET: {'target': 9, 'target_unit': 'days', 'window_before': 1, 'window_after': 1, 'window_unit': 'days'}
+    pred TARGET: {'target': 8, 'target_unit': 'days', 'window_after': 1, 'window_before': 1, 'window_unit': 'days'}
+
+===== TARGET missed =====
+ [Gemini-3.8-Flash] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days
+    pred header: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wke,f (q84d) > Window: -/+6 days
+    gold TARGET: {'target': 84, 'target_unit': 'days', 'window_before': 6, 'window_after': 6, 'window_unit': 'days', 'cycle_length_days': 84, 'cycles': [1, None]}
+    pred TARGET: {'cycle_length_days': 84.0, 'cycles': [1, None], 'window_after': 6.0, 'window_before': 6.0, 'window_unit': 'days'}
+ [Gemini-3.8-Flash] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Period/Phase: Double-Blind Treatment Phase > Early Permanent Study Drug Discontinuation
+    gold TARGET: {'target': 0}
+    pred TARGET: {}
+ [GPT-5.6-terra] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold TARGET: {'target': 0}
+    pred TARGET: {}
+ [Claude-Sonnet-5.5] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold TARGET: {'target': 0}
+    pred TARGET: {}
+ [Medical LLM Medium] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold TARGET: {'target': 0}
+    pred TARGET: {}
+ [Medical LLM Medium] NCT01923181
+    gold header: ature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 1X
+    gold TARGET: {'target': 26, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred TARGET: {}
+
+===== TARGET extra =====
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 8 > Screen/ Baseline 4
+    pred header: Visit No.: 1⁸ > Screen/ Baseline⁴
+    gold TARGET: {}
+    pred TARGET: {'target': 0, 'target_unit': 'months', 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 5 > Screen/Baseline 4
+    pred header: Visit No.: 1^5 > Screen/Baseline^4
+    gold TARGET: {}
+    pred TARGET: {'target': 0.0, 'target_unit': 'months', 'window_before': 3.0, 'window_unit': 'months'}
+
+===== WINDOW wrong =====
+ [Gemini-3.8-Flash] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3
+    pred header: ial Periods: Treatment > Visit number: 10 > Timing of visit: Weeks: 24 > Visit window: Days: ±5
+    gold WINDOW: {'target': 24, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred WINDOW: {'target': 24.0, 'target_unit': 'weeks', 'window_after': 5.0, 'window_before': 5.0, 'window_unit': 'days'}
+ [GPT-5.6-terra] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days
+    pred header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days
+    gold WINDOW: {'target': 84, 'target_unit': 'days', 'window_before': 4, 'window_after': 4, 'window_unit': 'days'}
+    pred WINDOW: {'target': 12, 'target_unit': 'weeks', 'window_after': 4, 'window_unit': 'days'}
+ [GPT-5.6-terra] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days
+    pred header: : Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wkᶠ (q84d) > Window: -/+6 days
+    gold WINDOW: {'target': 84, 'target_unit': 'days', 'window_before': 6, 'window_after': 6, 'window_unit': 'days', 'cycle_length_days': 84, 'cycles': [1, None]}
+    pred WINDOW: {'cycle_length_days': 84, 'cycles': [1, None], 'target': 12, 'target_unit': 'weeks', 'window_after': 6, 'window_unit': 'days'}
+ [Medical LLM Medium] NCT02791490
+    gold header: duled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days
+    pred header: Post-Treatment > Follow-up > 14-Day Post Treatment Telephone Contact
+    gold WINDOW: {'target': 14, 'target_unit': 'days', 'window_before': 0, 'window_after': 3, 'window_unit': 'days'}
+    pred WINDOW: {'target': 14, 'target_unit': 'days', 'window_after': 3, 'window_before': 3, 'window_unit': 'days'}
+
+===== WINDOW missed =====
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 3 > Timing of visit: 2 days
+    gold WINDOW: {'target': 2, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred WINDOW: {'target': 2, 'target_unit': 'days'}
+ [Medical LLM Medium] NCT01923181
+    gold header: ature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 1X
+    gold WINDOW: {'target': 26, 'target_unit': 'weeks', 'window_before': 3, 'window_after': 3, 'window_unit': 'days'}
+    pred WINDOW: {}
+
+===== WINDOW extra =====
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 8 > Screen/ Baseline 4
+    pred header: Visit No.: 1⁸ > Screen/ Baseline⁴
+    gold WINDOW: {}
+    pred WINDOW: {'target': 0, 'target_unit': 'months', 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 2 > Year 1 > Mo. 6
+    pred header: Visit No.: 2 > Year 1 > Mo. 6
+    gold WINDOW: {'target': 6, 'target_unit': 'months'}
+    pred WINDOW: {'target': 6, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 3 > Year 1 > Mo. 12
+    pred header: Visit No.: 3 > Year 1 > Mo. 12
+    gold WINDOW: {'target': 12, 'target_unit': 'months'}
+    pred WINDOW: {'target': 12, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 4 > Year 2 > Mo. 18
+    pred header: Visit No.: 4 > Year 2 > Mo. 18
+    gold WINDOW: {'target': 18, 'target_unit': 'months'}
+    pred WINDOW: {'target': 18, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 5 > Year 2 > Mo. 24
+    pred header: Visit No.: 5 > Year 2 > Mo. 24
+    gold WINDOW: {'target': 24, 'target_unit': 'months'}
+    pred WINDOW: {'target': 24, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 6 > Year 3 > Mo. 30
+    pred header: Visit No.: 6 > Year 3 > Mo. 30
+    gold WINDOW: {'target': 30, 'target_unit': 'months'}
+    pred WINDOW: {'target': 30, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 7 > Year 3 > Mo. 36 11
+    pred header: Visit No.: 7 > Year 3 > Mo. 36¹¹
+    gold WINDOW: {'target': 36, 'target_unit': 'months'}
+    pred WINDOW: {'target': 36, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 8 13 > Year 4 > Mo. 42
+    pred header: Visit No.: 8¹³ > Year 4 > Mo. 42
+    gold WINDOW: {'target': 42, 'target_unit': 'months'}
+    pred WINDOW: {'target': 42, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 9 13 > Year 4 > Mo. 48
+    pred header: Visit No.: 9¹³ > Year 4 > Mo. 48
+    gold WINDOW: {'target': 48, 'target_unit': 'months'}
+    pred WINDOW: {'target': 48, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 10 13 > Year 5 > Mo. 54
+    pred header: Visit No.: 10¹³ > Year 5 > Mo. 54
+    gold WINDOW: {'target': 54, 'target_unit': 'months'}
+    pred WINDOW: {'target': 54, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 11 13 > Year 5 > Mo. 60 11
+    pred header: Visit No.: 11¹³ > Year 5 > Mo. 60¹¹
+    gold WINDOW: {'target': 60, 'target_unit': 'months'}
+    pred WINDOW: {'target': 60, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 5 > Screen/Baseline 4
+    pred header: Visit No.: 1^5 > Screen/Baseline^4
+    gold WINDOW: {}
+    pred WINDOW: {'target': 0.0, 'target_unit': 'months', 'window_before': 3.0, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 2 > Year 1 > Mo. 6
+    pred header: Visit No.: 2 > Year 1 > Mo. 6
+    gold WINDOW: {'target': 6, 'target_unit': 'months'}
+    pred WINDOW: {'target': 6, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 3 > Year 1 > Mo. 12
+    pred header: Visit No.: 3 > Year 1 > Mo. 12
+    gold WINDOW: {'target': 12, 'target_unit': 'months'}
+    pred WINDOW: {'target': 12, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 4 > Year 2 > Mo. 18
+    pred header: Visit No.: 4 > Year 2 > Mo. 18
+    gold WINDOW: {'target': 18, 'target_unit': 'months'}
+    pred WINDOW: {'target': 18, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 5 > Year 2 > Mo. 24
+    pred header: Visit No.: 5 > Year 2 > Mo. 24
+    gold WINDOW: {'target': 24, 'target_unit': 'months'}
+    pred WINDOW: {'target': 24, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 6 > Year 3 > Mo. 30
+    pred header: Visit No.: 6 > Year 3 > Mo. 30
+    gold WINDOW: {'target': 30, 'target_unit': 'months'}
+    pred WINDOW: {'target': 30, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 7 > Year 3 > Mo. 36 11
+    pred header: Visit No.: 7 > Year 3 > Mo. 36 11
+    gold WINDOW: {'target': 36, 'target_unit': 'months'}
+    pred WINDOW: {'target': 36, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 8 13 > Year 4 > Mo. 42
+    pred header: Visit No.: 8 13 > Year 4 > Mo. 42
+    gold WINDOW: {'target': 42, 'target_unit': 'months'}
+    pred WINDOW: {'target': 42, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 9 13 > Year 4 > Mo. 48
+    pred header: Visit No.: 9 13 > Year 4 > Mo. 48
+    gold WINDOW: {'target': 48, 'target_unit': 'months'}
+    pred WINDOW: {'target': 48, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 10 13 > Year 5 > Mo. 54
+    pred header: Visit No.: 10 13 > Year 5 > Mo. 54
+    gold WINDOW: {'target': 54, 'target_unit': 'months'}
+    pred WINDOW: {'target': 54, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 11 13 > Year 5 > Mo. 60 11
+    pred header: Visit No.: 11 13 > Year 5 > Mo. 60 11
+    gold WINDOW: {'target': 60, 'target_unit': 'months'}
+    pred WINDOW: {'target': 60, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 2 > Year 1 > Mo. 6
+    pred header: Visit No.: 2 > Year 1 > Mo. 6
+    gold WINDOW: {'target': 6, 'target_unit': 'months'}
+    pred WINDOW: {'target': 6, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 3 > Year 1 > Mo. 12
+    pred header: Visit No.: 3 > Year 1 > Mo. 12
+    gold WINDOW: {'target': 12, 'target_unit': 'months'}
+    pred WINDOW: {'target': 12, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 4 > Year 2 > Mo. 18
+    pred header: Visit No.: 4 > Year 2 > Mo. 18
+    gold WINDOW: {'target': 18, 'target_unit': 'months'}
+    pred WINDOW: {'target': 18, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 5 > Year 2 > Mo. 24
+    pred header: Visit No.: 5 > Year 2 > Mo. 24
+    gold WINDOW: {'target': 24, 'target_unit': 'months'}
+    pred WINDOW: {'target': 24, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 6 > Year 3 > Mo. 30
+    pred header: Visit No.: 6 > Year 3 > Mo. 30
+    gold WINDOW: {'target': 30, 'target_unit': 'months'}
+    pred WINDOW: {'target': 30, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Claude-Sonnet-5.5] NCT01667081
+    gold header: Visit No.: 7 > Year 3 > Mo. 36 7
+    pred header: Visit No.: 7 > Year 3 > Mo. 36⁷
+    gold WINDOW: {'target': 36, 'target_unit': 'months'}
+    pred WINDOW: {'target': 36, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 2 > Year 1 > Mo. 6
+    pred header: Visit No.: 2 > Year 1 > Mo. 6
+    gold WINDOW: {'target': 6, 'target_unit': 'months'}
+    pred WINDOW: {'target': 6, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 3 > Year 1 > Mo. 12
+    pred header: Visit No.: 3 > Year 1 > Mo. 12
+    gold WINDOW: {'target': 12, 'target_unit': 'months'}
+    pred WINDOW: {'target': 12, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 4 > Year 2 > Mo. 18
+    pred header: Visit No.: 4 > Year 2 > Mo. 18
+    gold WINDOW: {'target': 18, 'target_unit': 'months'}
+    pred WINDOW: {'target': 18, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 5 > Year 2 > Mo. 24
+    pred header: Visit No.: 5 > Year 2 > Mo. 24
+    gold WINDOW: {'target': 24, 'target_unit': 'months'}
+    pred WINDOW: {'target': 24, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 6 > Year 3 > Mo. 30
+    pred header: Visit No.: 6 > Year 3 > Mo. 30
+    gold WINDOW: {'target': 30, 'target_unit': 'months'}
+    pred WINDOW: {'target': 30, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 7 > Year 3 > Mo. 36 11
+    pred header: Visit No.: 7 > Year 3 > Mo. 36
+    gold WINDOW: {'target': 36, 'target_unit': 'months'}
+    pred WINDOW: {'target': 36, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 8 13 > Year 4 > Mo. 42
+    pred header: Visit No.: 8 > Year 4 > Mo. 42
+    gold WINDOW: {'target': 42, 'target_unit': 'months'}
+    pred WINDOW: {'target': 42, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 9 13 > Year 4 > Mo. 48
+    pred header: Visit No.: 9 > Year 4 > Mo. 48
+    gold WINDOW: {'target': 48, 'target_unit': 'months'}
+    pred WINDOW: {'target': 48, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 10 13 > Year 5 > Mo. 54
+    pred header: Visit No.: 10 > Year 5 > Mo. 54
+    gold WINDOW: {'target': 54, 'target_unit': 'months'}
+    pred WINDOW: {'target': 54, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 11 13 > Year 5 > Mo. 60 11
+    pred header: Visit No.: 11 > Year 5 > Mo. 60
+    gold WINDOW: {'target': 60, 'target_unit': 'months'}
+    pred WINDOW: {'target': 60, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 2 > Year 1 > Mo. 6
+    pred header: Visit No.: 2 > Year 1 > Mo. 6
+    gold WINDOW: {'target': 6, 'target_unit': 'months'}
+    pred WINDOW: {'target': 6, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 3 > Year 1 > Mo. 12
+    pred header: Visit No.: 3 > Year 1 > Mo. 12
+    gold WINDOW: {'target': 12, 'target_unit': 'months'}
+    pred WINDOW: {'target': 12, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 4 > Year 2 > Mo. 18
+    pred header: Visit No.: 4 > Year 2 > Mo. 18
+    gold WINDOW: {'target': 18, 'target_unit': 'months'}
+    pred WINDOW: {'target': 18, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 5 > Year 2 > Mo. 24
+    pred header: Visit No.: 5 > Year 2 > Mo. 24
+    gold WINDOW: {'target': 24, 'target_unit': 'months'}
+    pred WINDOW: {'target': 24, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 6 > Year 3 > Mo. 30
+    pred header: Visit No.: 6 > Year 3 > Mo. 30
+    gold WINDOW: {'target': 30, 'target_unit': 'months'}
+    pred WINDOW: {'target': 30, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+ [Medical LLM Medium] NCT01667081
+    gold header: Visit No.: 7 > Year 3 > Mo. 36 7
+    pred header: Visit No.: 7 > Year 3 > Mo. 367
+    gold WINDOW: {'target': 36, 'target_unit': 'months'}
+    pred WINDOW: {'target': 36, 'target_unit': 'months', 'window_after': 3, 'window_before': 3, 'window_unit': 'months'}
+
+===== ANCHOR wrong =====
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 8 > Screen/ Baseline 4
+    pred header: Visit No.: 1⁸ > Screen/ Baseline⁴
+    gold ANCHOR: study start
+    pred ANCHOR: last visit of the previous protocol
+ [Gemini-3.8-Flash] NCT01667081
+    gold header: Visit No.: 1 5 > Screen/Baseline 4
+    pred header: Visit No.: 1^5 > Screen/Baseline^4
+    gold ANCHOR: study start
+    pred ANCHOR: last visit of the previous protocol
+ [Gemini-3.8-Flash] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Period/Phase: Double-Blind Treatment Phase > Early Permanent Study Drug Discontinuation
+    gold ANCHOR: discontinuation
+    pred ANCHOR: study start
+ [Gemini-3.8-Flash] NCT02791490
+    gold header: duled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days
+    pred header: duled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days
+    gold ANCHOR: treatment
+    pred ANCHOR: Post Treatment
+ [GPT-5.6-terra] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold ANCHOR: discontinuation
+    pred ANCHOR: study start
+ [GPT-5.6-terra] NCT01923181
+    gold header: ature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: mature discontinuation³ > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: treatment discontinuation
+ [Claude-Sonnet-5.5] NCT01877915
+    gold header: -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge
+    pred header: -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Claude-Sonnet-5.5] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold ANCHOR: discontinuation
+    pred ANCHOR: study start
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2
+    pred header: Trial Periods: Screening > Visit number: 1 > Timing of visit Weeks: -2
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0
+    pred header: Randomisation > Visit number: 2 > Timing of visit Weeks: 0
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3
+    pred header: Treatment > Visit number: 3 > Weeks: 2 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3
+    pred header: Treatment > Visit number: 4 > Weeks: 4 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3
+    pred header: Treatment > Visit number: 5 > Weeks: 6 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3
+    pred header: Treatment > Visit number: 6 > Weeks: 8 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5
+    pred header: Treatment > Visit number: 7 > Weeks: 12 > Visit window Days: ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5
+    pred header: Treatment > Visit number: 8 > Weeks: 16 > Visit window Days: ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5
+    pred header: Treatment > Visit number: 9 > Weeks: 20 > Visit window Days: ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3
+    pred header: Treatment > Visit number: 10 > Weeks: 24 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: iods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: End-of-treatment2 > Visit number: 11 > Weeks: 26 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: ial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5
+    pred header: Follow-up3 > Visit number: 12 > Weeks: 31 > Visit window Days: +5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Claude-Sonnet-5.5] NCT01923181
+    gold header: ature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: d-of-trial - premature discontinuation3 > Visit number: 11X > Weeks: 26 > Visit window Days: ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01877915
+    gold header: -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge
+    pred header: Double-Blind Treatment Phase > Treatment Period > Day/Week: Day -51 to Day -1
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT01877915
+    gold header: Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization
+    pred header: Double-Blind Treatment Phase > Treatment Period > Baseline > Day/Week: Day 1/ Randomization
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days
+    pred header: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28)
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days
+    pred header: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84)
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT01877915
+    gold header: ouble-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days
+    pred header: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk (q84d)
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT01877915
+    gold header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    pred header: Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation
+    gold ANCHOR: discontinuation
+    pred ANCHOR: last dose
+ [Medical LLM Medium] NCT01877915
+    gold header: Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days
+    pred header: Follow-Up After GTED > Day/Week: End of Study
+    gold ANCHOR: GTED
+    pred ANCHOR: global treatment end date
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2
+    pred header: Trial Periods > Screening > Visit number: 1 > Timing of visit: -2 weeks
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0
+    pred header: Trial Periods > Randomisation > Visit number: 2 > Timing of visit: 0 days
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 3 > Timing of visit: 2 days
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 4 > Timing of visit: 4 days ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 5 > Timing of visit: 6 days ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 6 > Timing of visit: 8 days ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 7 > Timing of visit: 12 days ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 8 > Timing of visit: 16 days ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5
+    pred header: Trial Periods > Treatment > Visit number: 9 > Timing of visit: 20 days ±5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3
+    pred header: Trial Periods > Treatment > Visit number: 10 > Timing of visit: 24 days ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: iods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: Trial Periods > End-of-treatment2) > Visit number: 11 > Timing of visit: 26 days ±3
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: ial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5
+    pred header: Trial Periods > Follow-up3) > Visit number: 12 > Timing of visit: 31 days +5
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT01923181
+    gold header: ature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3
+    pred header: Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 1X
+    gold ANCHOR: study start
+    pred ANCHOR: randomisation
+ [Medical LLM Medium] NCT02791490
+    gold header: it Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days
+    pred header: Screening and Run-in Period > Visit 3 > Week: -2
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: isit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days
+    pred header: Randomization > Visit 4 > Day: 1
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)
+    pred header: Double-Blind Treatment > TC > Day: 9
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: sit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days
+    pred header: Double-Blind Treatment > Visit 5 > Week: 6
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: it Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days
+    pred header: Double-Blind Treatment > Visit 6 > Week: 14
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: it Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days
+    pred header: Double-Blind Treatment > Visit 7 > Week: 20
+    gold ANCHOR: study start
+    pred ANCHOR: randomization
+ [Medical LLM Medium] NCT02791490
+    gold header: duled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days
+    pred header: Post-Treatment > Follow-up > 14-Day Post Treatment Telephone Contact
+    gold ANCHOR: treatment
+    pred ANCHOR: discontinuation
+
+===== ANCHOR missed =====
+
+===== ANCHOR extra =====

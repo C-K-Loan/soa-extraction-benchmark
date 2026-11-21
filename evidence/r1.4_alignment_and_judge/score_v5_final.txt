@@ -1,0 +1,52 @@
+reference: ADJUDICATED human/adjudication.final.json
+
+== coverage / cost
+ claude-sonnet-5.5: 48/48 tasks, 2 with recorded problems, $0.51
+ gemini-3.8-flash: 48/48 tasks, 0 with recorded problems, $0.40
+ gpt-5.6-terra: 48/48 tasks, 0 with recorded problems, $0.49
+
+== alignment vs human (all gold labels / non-prefilled)
+ claude-sonnet-5.5: 99.89% of 916; 99.54% of 216 (1 differ)
+ gemini-3.8-flash: 99.67% of 916; 98.61% of 216 (3 differ)
+ gpt-5.6-terra: 99.67% of 916; 98.61% of 216 (3 differ)
+ majority: 99.67% of 916; 98.61% of 216 (3 differ)
+ claude-sonnet-5.5 vs gemini-3.8-flash: 99.67%
+ claude-sonnet-5.5 vs gpt-5.6-terra: 99.67%
+ gemini-3.8-flash vs gpt-5.6-terra: 100.00%
+
+== content / semantic over 904 of 906 human-aligned pairs graded by all judges
+ reference yes: content 231, semantic 72
+ -- content
+   claude-sonnet-5.5            yes  208  acc 97.46%  kappa 0.93  P 1.00 R 0.90 F1 0.95  (TP 208 FP 0 FN 23)
+   gemini-3.8-flash             yes  225  acc 99.34%  kappa 0.98  P 1.00 R 0.97 F1 0.99  (TP 225 FP 0 FN 6)
+   gpt-5.6-terra                yes  204  acc 97.01%  kappa 0.92  P 1.00 R 0.88 F1 0.94  (TP 204 FP 0 FN 27)
+   majority                     yes  217  acc 98.45%  kappa 0.96  P 1.00 R 0.94 F1 0.97  (TP 217 FP 0 FN 14)
+   inter-judge: all three agree 95.8%, pairwise kappa [0.93, 0.91, 0.93]
+ -- semantic
+   claude-sonnet-5.5            yes   73  acc 99.00%  kappa 0.93  P 0.93 R 0.94 F1 0.94  (TP 68 FP 5 FN 4)
+   gemini-3.8-flash             yes   73  acc 99.23%  kappa 0.95  P 0.95 R 0.96 F1 0.95  (TP 69 FP 4 FN 3)
+   gpt-5.6-terra                yes   74  acc 98.89%  kappa 0.93  P 0.92 R 0.94 F1 0.93  (TP 68 FP 6 FN 4)
+   majority                     yes   70  acc 99.12%  kappa 0.94  P 0.96 R 0.93 F1 0.94  (TP 67 FP 3 FN 5)
+   inter-judge: all three agree 98.7%, pairwise kappa [0.94, 0.93, 0.95]
+
+== semantic disagreements, majority vs reference
+ ref YES judges -Y- col | 'reatment Period > Day/Week: Early Permanent Study Drug Discontinuation' | 'ble-Blind Treatment Phase > Early Permanent Study Drug Discontinuation' | Treatment Period omitted
+ ref YES judges Y-- col | 'le-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization' | 't Phase > Treatment Period > Baseline > Day/Week: Day 1/ Randomization' | Baseline marker a dropped fine, but Treatment Period inserted and placement changed
+ ref YES judges -Y- row | 'Hypoglycaemic episodes' | 'Hyper/hypoglycaemic episodes' | adds hyperglycaemic episodes
+ ref no  judges YYY row | 'Smoking habits' | 'Smoking history' | smoking history instead of smoking habits
+ ref no  judges YYY row | 'Blood pregnancy test 7' | 'Pregnancy test⁷' | 'Blood' omitted from blood pregnancy test
+ ref no  judges YYY row | 'Hand out directions for use of s.c. trial product' | 'Dispensing/return of trial products for use of e-Diary' | different activity: dispensing/return of products for e-Diary
+ ref YES judges --Y col | 'Visit Number/Title: Rescue > Scheduled Day, Week: Rescue' | 'd Treatment > Visit Number/Title: Rescue > Scheduled Day, Week: Rescue' | extra Double-Blind Treatment trial period stated
+ ref YES judges Y-- row | 'Witness dose of blinded study medication and Met-IR in clinic' | 'Witness dose of blinded study medication and Met-R in clinic' | Met-R instead of Met-IR
+
+== per system (reference labels | judge majority), aligned pairs
+ rows:
+   Gemini-3.8-Flash     gold 169 aligned 169 | content  27 semantic   2 | judges: content  19 semantic   2
+   GPT-5.6-terra        gold 169 aligned 161 | content  36 semantic  13 | judges: content  34 semantic  15
+   Claude-Sonnet-5.5    gold 169 aligned 169 | content  11 semantic   8 | judges: content  10 semantic   7
+   Medical LLM Medium   gold 169 aligned 167 | content  41 semantic  17 | judges: content  40 semantic  17
+ columns:
+   Gemini-3.8-Flash     gold  60 aligned  60 | content  28 semantic   4 | judges: content  28 semantic   2
+   GPT-5.6-terra        gold  60 aligned  60 | content  25 semantic   0 | judges: content  25 semantic   0
+   Claude-Sonnet-5.5    gold  60 aligned  60 | content  21 semantic   2 | judges: content  21 semantic   2
+   Medical LLM Medium   gold  60 aligned  60 | content  42 semantic  26 | judges: content  40 semantic  25

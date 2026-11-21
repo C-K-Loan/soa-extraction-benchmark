@@ -1,0 +1,43 @@
+check MedLLM-Medium pooled SoA5 0.8138 published 0.8138 cellF1 0.8291 pub 0.8291
+check GPT pooled SoA5 0.9345 published 0.9345 cellF1 0.9492 pub 0.9492
+check Gemini pooled SoA5 0.9432 published 0.9432 cellF1 0.9352 pub 0.9352
+check Claude pooled SoA5 0.8746 published 0.8746 cellF1 0.7993 pub 0.7993
+MedLLM-Medium  SoA    point 0.814 CI [0.768,0.879]
+MedLLM-Medium  cellF1 point 0.829 CI [0.790,0.915]
+GPT            SoA    point 0.934 CI [0.873,0.985]
+GPT            cellF1 point 0.949 CI [0.885,0.999]
+Gemini         SoA    point 0.943 CI [0.824,0.994]
+Gemini         cellF1 point 0.935 CI [0.724,0.999]
+Claude         SoA    point 0.875 CI [0.639,1.000]
+Claude         cellF1 point 0.799 CI [0.422,1.000]
+first-place share (ties split): {'MedLLM-Medium': 0.0, 'GPT': 0.113, 'Gemini': 0.548, 'Claude': 0.338}
+
+paired SoA differences (resample groups, both systems same resample):
+  MedLLM-Medium  - GPT            point -0.121 mean -0.122 CI [-0.191,-0.055] P(a>b)=0.000
+  MedLLM-Medium  - Gemini         point -0.129 mean -0.124 CI [-0.182,-0.032] P(a>b)=0.005
+  MedLLM-Medium  - Claude         point -0.061 mean -0.063 CI [-0.222,+0.167] P(a>b)=0.281
+  GPT            - Gemini         point -0.009 mean -0.003 CI [-0.107,+0.146] P(a>b)=0.365
+  GPT            - Claude         point +0.060 mean +0.059 CI [-0.038,+0.232] P(a>b)=0.661
+  Gemini         - Claude         point +0.069 mean +0.062 CI [-0.162,+0.329] P(a>b)=0.637
+  cellF1 MedLLM-Medium  - Claude         CI [-0.175,+0.370] P(a>b)=0.583
+  cellF1 GPT            - Gemini         CI [-0.092,+0.265] P(a>b)=0.554
+P(MedLLM highest cell recall)= 0.3886
+
+leave-one-group-out pooled SoA:
+ drop NCT01621737_g001 Gemini 0.934 > GPT 0.924 > Claude 0.854 > MedLLM-Medium 0.792
+ drop NCT01667081_g001 Gemini 0.939 > GPT 0.932 > Claude 0.850 > MedLLM-Medium 0.820
+ drop NCT01667081_g002 Gemini 0.938 > GPT 0.933 > Claude 0.863 > MedLLM-Medium 0.809
+ drop NCT01877915_g001 Gemini 0.988 > GPT 0.927 > Claude 0.849 > MedLLM-Medium 0.829
+ drop NCT01923181_g001 Claude 0.998 > GPT 0.974 > Gemini 0.927 > MedLLM-Medium 0.821
+ drop NCT02791490_g001 Gemini 0.929 > GPT 0.920 > Claude 0.838 > MedLLM-Medium 0.814
+
+sensitivity: resample 5 protocols
+  MedLLM-Medium  CI [0.766 0.879]
+  GPT            CI [0.868 0.989]
+  Gemini         CI [0.805 0.993]
+  Claude         CI [0.615 1.   ]
+  Gemini-GPT CI [-0.164  0.113] P>0 0.613
+  GPT-MedLLM-Medium CI [0.057 0.194] P>0 1.000
+  Gemini-MedLLM-Medium CI [0.02  0.182] P>0 0.988
+  Claude-MedLLM-Medium CI [-0.191  0.215] P>0 0.716
+  Gemini-Claude CI [-0.173  0.354] P>0 0.652

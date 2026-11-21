@@ -1,0 +1,38 @@
+{
+  "systems": [
+    {
+      "system": "medical_llm_medium_schema_constrained",
+      "model": "medical-llm-medium",
+      "n_groups": 6,
+      "note": "Image input, output constrained to the JSON schema, hidden reasoning off. Reported in Table 3 at an SoA score of 81.4."
+    },
+    {
+      "system": "medical_llm_medium_unconstrained",
+      "model": "medical-llm-medium",
+      "n_groups": 6,
+      "note": "Image input, schema named in the prompt and the reply parsed (unconstrained decoding), hidden reasoning off. SoA score 87.1; not in Table 3."
+    },
+    {
+      "system": "gemini_38_flash",
+      "model": "google/gemini-3.8-flash",
+      "n_groups": 6,
+      "source_ablation": "ablations/ab003/gemini38_flash_img",
+      "note": "Image input, called through OpenRouter."
+    },
+    {
+      "system": "gpt_56_terra",
+      "model": "openai/gpt-5.6-terra",
+      "n_groups": 6,
+      "source_ablation": "ablations/ab003/gpt56_terra_img",
+      "note": "Image input, called through OpenRouter."
+    },
+    {
+      "system": "claude_sonnet_55",
+      "model": "anthropic/claude-sonnet-5.5",
+      "n_groups": 6,
+      "source_ablation": "ablations/ab003/claude55_img",
+      "note": "Image input, called through OpenRouter."
+    }
+  ],
+  "note": "One JSON per (system, group). Keys: activities, contacts, references, cells. Shape matches gold/soa_gold.jsonl but with 'cells' instead of 'soa'."
+}

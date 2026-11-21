@@ -1,0 +1,3 @@
+# only code/metrics_teds_grits.py (the earlier in-house TEDS) needs APTED;
+# the scorer, reproduce.sh and verify.py use the standard library only
+apted>=1.0.3

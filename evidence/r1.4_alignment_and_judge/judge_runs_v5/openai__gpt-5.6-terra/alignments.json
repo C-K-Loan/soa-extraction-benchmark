@@ -1,0 +1,7342 @@
+{
+ "schema": "soa-judge-alignment/5",
+ "judge": "openai/gpt-5.6-terra",
+ "tasks_hash": "caf866376e25",
+ "alignments": {
+  "tec964d": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "t3d4496": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "teba592": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "t913bcb": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "tacbb07": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "tb7df1d": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "tb1afef": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "tc8cb0e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "t193652": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t4a9ad4": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t01f808": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t250218": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "tc791b1": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t431b06": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t50fc9d": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "taae133": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t2bce7a": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t51afd9": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "tb8e1dd": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t9d5791": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "tb501d6": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t785d0f": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "t57dc32": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "taf3935": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "t0589f4": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "td7ac84": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "t452463": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "tf2f15e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "tade2fa": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "t29161c": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "tfaa0de": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "te8643b": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "t703eaf": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_05",
+   "act_05": "act_06",
+   "act_06": "act_07",
+   "act_07": "act_08",
+   "act_08": "act_09",
+   "act_09": "act_10",
+   "act_10": "act_11",
+   "act_11": "act_12",
+   "act_12": "act_13",
+   "act_13": "act_14",
+   "act_14": "act_15",
+   "act_15": "act_16",
+   "act_16": "act_17",
+   "act_17": "act_19",
+   "act_18": "act_20",
+   "act_19": "act_21",
+   "act_20": "act_22",
+   "act_21": "act_23",
+   "act_22": null,
+   "act_23": "act_24",
+   "act_24": "act_25",
+   "act_25": "act_26",
+   "act_26": "act_27",
+   "act_27": "act_28",
+   "act_28": "act_29",
+   "act_29": "act_30",
+   "act_30": "act_31",
+   "act_31": "act_32",
+   "act_32": "act_33",
+   "act_33": "act_34",
+   "act_34": null,
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tc01958": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t649451": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_15",
+   "act_13": "act_16",
+   "act_14": "act_17",
+   "act_15": "act_18",
+   "act_16": "act_12",
+   "act_17": "act_13",
+   "act_18": "act_14",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tcff5f2": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t8183ed": {
+   "act_01": null,
+   "act_02": "act_24",
+   "act_03": "act_25",
+   "act_04": "act_26",
+   "act_05": "act_27",
+   "act_06": "act_28",
+   "act_07": "act_29",
+   "act_08": "act_30",
+   "act_09": "act_31",
+   "act_10": "act_32",
+   "act_11": "act_33",
+   "act_12": "act_34",
+   "act_13": "act_35",
+   "act_14": "act_36",
+   "act_15": "act_37",
+   "act_16": "act_38",
+   "act_17": "act_08",
+   "act_18": "act_39",
+   "act_19": "act_40",
+   "act_20": "act_41",
+   "act_21": "act_42",
+   "act_22": null,
+   "act_23": "act_01",
+   "act_24": "act_02",
+   "act_25": "act_03",
+   "act_26": "act_04",
+   "act_27": "act_06",
+   "act_28": "act_07",
+   "act_29": null,
+   "act_30": "act_09",
+   "act_31": "act_10",
+   "act_32": "act_11",
+   "act_33": "act_12",
+   "act_34": "act_13",
+   "act_35": "act_14",
+   "act_36": "act_15",
+   "act_37": "act_16",
+   "act_38": "act_17",
+   "act_39": "act_18",
+   "act_40": "act_19",
+   "act_41": "act_20",
+   "act_42": "act_21",
+   "act_43": "act_22",
+   "act_44": "act_23",
+   "act_45": null,
+   "act_46": null,
+   "act_47": null,
+   "act_48": null
+  },
+  "tf1a8fe": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "tba18be": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tb8daac": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t6a2780": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t5dada8": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "tdc3ad7": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t9c8a4a": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "t7c9871": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t77422e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "te984ad": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "tcacd51": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  }
+ },
+ "content": {
+  "tec964d": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "wrong",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "t3d4496": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "teba592": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "strict",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "t913bcb": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "tacbb07": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "strict",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "wrong",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "strict",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "tb7df1d": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "tb1afef": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "wrong",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "tc8cb0e": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "t193652": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "wrong",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "strict",
+   "act_17": "strict",
+   "act_18": "strict",
+   "act_19": "strict",
+   "act_20": "strict"
+  },
+  "t4a9ad4": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "t01f808": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "wrong",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "strict",
+   "act_15": "same",
+   "act_16": "wrong",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "wrong"
+  },
+  "t250218": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "tc791b1": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same"
+  },
+  "t431b06": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "same",
+   "con_12": "same"
+  },
+  "t50fc9d": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same"
+  },
+  "taae133": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "t2bce7a": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same"
+  },
+  "t51afd9": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "tb8e1dd": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "strict",
+   "act_11": "strict",
+   "act_12": "wrong"
+  },
+  "t9d5791": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "tb501d6": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "strict",
+   "act_11": "strict",
+   "act_12": "strict"
+  },
+  "t785d0f": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "t57dc32": {
+   "act_01": "same",
+   "act_02": "wrong",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "wrong",
+   "act_11": "wrong",
+   "act_12": "wrong"
+  },
+  "taf3935": {
+   "con_01": "wrong",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same"
+  },
+  "t0589f4": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "td7ac84": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "wrong",
+   "con_06": "same",
+   "con_07": "strict"
+  },
+  "t452463": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "tf2f15e": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "strict",
+   "con_07": "strict"
+  },
+  "tade2fa": {
+   "act_01": "strict",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "wrong",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "wrong",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "t29161c": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "strict",
+   "con_06": "same",
+   "con_07": "strict"
+  },
+  "tfaa0de": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "strict",
+   "act_06": "strict",
+   "act_07": "strict",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "strict",
+   "act_13": "strict",
+   "act_14": "same",
+   "act_15": "strict",
+   "act_16": "strict",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "strict",
+   "act_21": "same",
+   "act_22": "strict",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "te8643b": {
+   "con_01": "wrong",
+   "con_02": "strict",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "strict",
+   "con_07": "wrong"
+  },
+  "t703eaf": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "strict",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "wrong",
+   "act_27": "same",
+   "act_28": "wrong",
+   "act_29": "strict",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_35": "wrong",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "same",
+   "act_40": "strict",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "strict",
+   "act_47": "strict",
+   "act_48": "wrong"
+  },
+  "tc01958": {
+   "con_01": "strict",
+   "con_02": "wrong",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "wrong",
+   "con_07": "wrong",
+   "con_08": "wrong",
+   "con_09": "wrong",
+   "con_10": "wrong",
+   "con_11": "wrong",
+   "con_12": "wrong",
+   "con_13": "wrong"
+  },
+  "t649451": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "strict",
+   "act_25": "wrong",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "wrong",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "wrong",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "wrong",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "wrong",
+   "act_47": "strict",
+   "act_48": "wrong"
+  },
+  "tcff5f2": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "wrong",
+   "con_13": "strict"
+  },
+  "t8183ed": {
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "strict",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "wrong",
+   "act_10": "wrong",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "strict",
+   "act_20": "same",
+   "act_21": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "strict",
+   "act_26": "wrong",
+   "act_27": "same",
+   "act_28": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "wrong",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "strict",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "same",
+   "act_40": "wrong",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same"
+  },
+  "tf1a8fe": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "strict",
+   "con_12": "strict",
+   "con_13": "strict"
+  },
+  "tba18be": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "wrong",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "wrong",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "same",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "same",
+   "act_47": "strict",
+   "act_48": "same"
+  },
+  "tb8daac": {
+   "con_01": "wrong",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "wrong",
+   "con_11": "strict",
+   "con_12": "strict",
+   "con_13": "strict"
+  },
+  "t6a2780": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "wrong",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "wrong",
+   "act_35": "same",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "wrong",
+   "act_40": "wrong",
+   "act_41": "same"
+  },
+  "t5dada8": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "wrong",
+   "con_07": "wrong",
+   "con_08": "wrong",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "wrong"
+  },
+  "tdc3ad7": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "same",
+   "act_41": "strict"
+  },
+  "t9c8a4a": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "same"
+  },
+  "t7c9871": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "wrong",
+   "act_40": "same",
+   "act_41": "same"
+  },
+  "t77422e": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "wrong",
+   "con_10": "same",
+   "con_11": "same"
+  },
+  "te984ad": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "wrong",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "wrong",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "strict",
+   "act_16": "same",
+   "act_17": "strict",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "strict",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "strict",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "wrong",
+   "act_40": "same",
+   "act_41": "same"
+  },
+  "tcacd51": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "strict",
+   "con_11": "same"
+  }
+ },
+ "reasons": {
+  "tec964d": {
+   "act_14": "ME omitted from MSCEIT assessment name"
+  },
+  "t3d4496": {},
+  "teba592": {},
+  "t913bcb": {},
+  "tacbb07": {
+   "act_13": "CGI:I designation omitted"
+  },
+  "tb7df1d": {},
+  "tb1afef": {
+   "act_17": "Footnote marker moved from ASEX to ECR"
+  },
+  "tc8cb0e": {},
+  "t193652": {
+   "act_04": "footnote marker 1 instead of 12"
+  },
+  "t4a9ad4": {},
+  "t01f808": {
+   "act_11": "ECLs instead of ECIs",
+   "act_16": "footnote 4 instead of 5",
+   "act_20": "footnote 5 instead of 9"
+  },
+  "t250218": {},
+  "tc791b1": {},
+  "t431b06": {},
+  "t50fc9d": {},
+  "taae133": {},
+  "t2bce7a": {},
+  "t51afd9": {},
+  "tb8e1dd": {
+   "act_12": "footnote marker 2 instead of 8"
+  },
+  "t9d5791": {},
+  "tb501d6": {},
+  "t785d0f": {},
+  "t57dc32": {
+   "act_02": "footnote marker c instead of 2",
+   "act_10": "footnote marker d instead of 3",
+   "act_11": "footnote marker g instead of 8",
+   "act_12": "footnote marker h instead of 8"
+  },
+  "taf3935": {
+   "con_01": "footnote marker 5 instead of 4"
+  },
+  "t0589f4": {},
+  "td7ac84": {
+   "con_05": "footnote markers differ"
+  },
+  "t452463": {},
+  "tf2f15e": {},
+  "tade2fa": {
+   "act_05": "Pregnancy instead of preplanned",
+   "act_18": "Prothrombotic instead of prothrombin complex concentrates"
+  },
+  "t29161c": {},
+  "tfaa0de": {},
+  "te8643b": {
+   "con_01": "screening period and 21-day window omitted; treatment phase substituted",
+   "con_03": "visit window omitted",
+   "con_04": "visit window omitted",
+   "con_05": "visit window omitted",
+   "con_07": "30±15-day window omitted"
+  },
+  "t703eaf": {
+   "act_26": "fundus photography omitted; findings substituted",
+   "act_28": "extra footnote marker points to different footnote",
+   "act_35": "multiple peaks instead of one peak",
+   "act_38": "IWRS changed to IVRS",
+   "act_48": "footnote marker 10 instead of 9"
+  },
+  "tc01958": {
+   "con_02": "days instead of weeks",
+   "con_03": "days instead of weeks; visit window omitted",
+   "con_04": "days instead of weeks",
+   "con_05": "days instead of weeks",
+   "con_06": "days instead of weeks",
+   "con_07": "days instead of weeks",
+   "con_08": "days instead of weeks",
+   "con_09": "days instead of weeks",
+   "con_10": "days instead of weeks",
+   "con_11": "days instead of weeks",
+   "con_12": "wrong footnote marker; days instead of weeks",
+   "con_13": "wrong footnote, visit number, and timing omitted"
+  },
+  "t649451": {
+   "act_25": "Different footnote marker",
+   "act_29": "Different footnote marker",
+   "act_35": "Different footnote marker",
+   "act_36": "Different footnote marker",
+   "act_40": "Hand out action omitted",
+   "act_46": "Different footnote marker",
+   "act_48": "Different footnote marker"
+  },
+  "tcff5f2": {
+   "con_12": "footnote marker 3 instead of 2"
+  },
+  "t8183ed": {
+   "act_09": "Smoking history replaces smoking habits",
+   "act_10": "Disease qualifier omitted",
+   "act_26": "Fundus photography omitted",
+   "act_32": "Calcium instead of calcitonin",
+   "act_36": "Blood specimen qualifier omitted",
+   "act_38": "Trial visits replaces IV/IWRS call",
+   "act_40": "Different dispensing and return activity"
+  },
+  "tf1a8fe": {},
+  "tba18be": {
+   "act_03": "Medical and surgical history instead of concomitant medication",
+   "act_08": "Alcohol history instead of medical history"
+  },
+  "tb8daac": {
+   "con_01": "wrong footnote marker",
+   "con_10": "visit window is ±5 instead of ±3"
+  },
+  "t6a2780": {
+   "act_08": "metformin replaced by nonspecific background medication",
+   "act_34": "footnote marker h instead of i",
+   "act_36": "extra incorrect footnote marker i",
+   "act_38": "footnote marker j instead of l",
+   "act_39": "extra incorrect footnote marker k",
+   "act_40": "footnote marker l instead of b"
+  },
+  "t5dada8": {
+   "con_03": "± 5 days scheduling window omitted",
+   "con_04": "± 5 days scheduling window omitted",
+   "con_05": "± 1 day(s) scheduling window omitted",
+   "con_06": "± 7 days scheduling window omitted",
+   "con_07": "± 7 days scheduling window omitted",
+   "con_08": "± 7 days scheduling window omitted",
+   "con_11": "+3 days scheduling window omitted"
+  },
+  "tdc3ad7": {},
+  "t9c8a4a": {},
+  "t7c9871": {
+   "act_36": "extra footnote marker j not in reference",
+   "act_39": "extra footnote marker m not in reference"
+  },
+  "t77422e": {
+   "con_09": "extra Double-Blind Treatment trial period stated"
+  },
+  "te984ad": {
+   "act_06": "footnote marker e instead of c",
+   "act_12": "monitoring omitted",
+   "act_38": "footnote marker j instead of l",
+   "act_39": "extra footnote marker m"
+  },
+  "tcacd51": {}
+ },
+ "flags": {
+  "tec964d": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": true
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t3d4496": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "teba592": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t913bcb": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tacbb07": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": true,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": true,
+    "semantic": true
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb7df1d": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb1afef": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": true
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tc8cb0e": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t193652": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": true
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": true,
+    "semantic": false
+   },
+   "act_19": {
+    "content": true,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t4a9ad4": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t01f808": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": true
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": true
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t250218": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tc791b1": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t431b06": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   },
+   "con_12": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t50fc9d": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "taae133": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t2bce7a": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t51afd9": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tb8e1dd": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": true,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t9d5791": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tb501d6": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": true,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t785d0f": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t57dc32": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": true
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": true,
+    "semantic": true
+   },
+   "act_11": {
+    "content": true,
+    "semantic": true
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "taf3935": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t0589f4": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "td7ac84": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t452463": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tf2f15e": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tade2fa": {
+   "act_01": {
+    "content": true,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": true,
+    "semantic": true
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": true,
+    "semantic": true
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t29161c": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tfaa0de": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": true,
+    "semantic": false
+   },
+   "act_06": {
+    "content": true,
+    "semantic": false
+   },
+   "act_07": {
+    "content": true,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": false
+   },
+   "act_13": {
+    "content": true,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": true,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": true,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "te8643b": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t703eaf": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": true,
+    "semantic": true
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": true,
+    "semantic": true
+   },
+   "act_29": {
+    "content": true,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": true
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": true,
+    "semantic": false
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tc01958": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": true
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": true,
+    "semantic": true
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   },
+   "con_08": {
+    "content": true,
+    "semantic": true
+   },
+   "con_09": {
+    "content": true,
+    "semantic": true
+   },
+   "con_10": {
+    "content": true,
+    "semantic": true
+   },
+   "con_11": {
+    "content": true,
+    "semantic": true
+   },
+   "con_12": {
+    "content": true,
+    "semantic": true
+   },
+   "con_13": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t649451": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": true,
+    "semantic": false
+   },
+   "act_25": {
+    "content": true,
+    "semantic": true
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": true,
+    "semantic": true
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": true
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": true,
+    "semantic": true
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tcff5f2": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": true
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t8183ed": {
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": true,
+    "semantic": true
+   },
+   "act_10": {
+    "content": true,
+    "semantic": true
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": true,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": true,
+    "semantic": false
+   },
+   "act_26": {
+    "content": true,
+    "semantic": true
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": true,
+    "semantic": true
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tf1a8fe": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tba18be": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": true,
+    "semantic": true
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": true,
+    "semantic": true
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": false,
+    "semantic": false
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb8daac": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": true
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t6a2780": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": true,
+    "semantic": true
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": true,
+    "semantic": true
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t5dada8": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": true,
+    "semantic": true
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   },
+   "con_08": {
+    "content": true,
+    "semantic": true
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tdc3ad7": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t9c8a4a": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t7c9871": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t77422e": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": true
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "te984ad": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": true,
+    "semantic": true
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": true,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": true,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": true,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tcacd51": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  }
+ },
+ "info": {
+  "tec964d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1639,
+    "completion_tokens": 391,
+    "total_tokens": 2030,
+    "cost": 0.008788,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1636,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008788,
+     "upstream_inference_prompt_cost": 0.004096,
+     "upstream_inference_completions_cost": 0.004692
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t3d4496": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1652,
+    "completion_tokens": 155,
+    "total_tokens": 1807,
+    "cost": 0.0059885,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1649,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0059885,
+     "upstream_inference_prompt_cost": 0.0041285,
+     "upstream_inference_completions_cost": 0.00186
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "teba592": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 379,
+    "total_tokens": 2019,
+    "cost": 0.0086465,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1637,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0086465,
+     "upstream_inference_prompt_cost": 0.0040985,
+     "upstream_inference_completions_cost": 0.004548
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t913bcb": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 155,
+    "total_tokens": 1805,
+    "cost": 0.0059835,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1647,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0059835,
+     "upstream_inference_prompt_cost": 0.0041235,
+     "upstream_inference_completions_cost": 0.00186
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tacbb07": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1637,
+    "completion_tokens": 544,
+    "total_tokens": 2181,
+    "cost": 0.010619,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1634,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010619,
+     "upstream_inference_prompt_cost": 0.004091,
+     "upstream_inference_completions_cost": 0.006528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 154,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb7df1d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1649,
+    "completion_tokens": 177,
+    "total_tokens": 1826,
+    "cost": 0.006245,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1646,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.006245,
+     "upstream_inference_prompt_cost": 0.004121,
+     "upstream_inference_completions_cost": 0.002124
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 20,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb1afef": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 585,
+    "total_tokens": 2225,
+    "cost": 0.0111185,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1637,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0111185,
+     "upstream_inference_prompt_cost": 0.0040985,
+     "upstream_inference_completions_cost": 0.00702
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 190,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc8cb0e": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1652,
+    "completion_tokens": 155,
+    "total_tokens": 1807,
+    "cost": 0.0021958,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1649,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0021958,
+     "upstream_inference_prompt_cost": 0.0003358,
+     "upstream_inference_completions_cost": 0.00186
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t193652": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1629,
+    "completion_tokens": 557,
+    "total_tokens": 2186,
+    "cost": 0.010755,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1626,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010755,
+     "upstream_inference_prompt_cost": 0.004071,
+     "upstream_inference_completions_cost": 0.006684
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 211,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t4a9ad4": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1789,
+    "completion_tokens": 392,
+    "total_tokens": 2181,
+    "cost": 0.009175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1786,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009175,
+     "upstream_inference_prompt_cost": 0.004471,
+     "upstream_inference_completions_cost": 0.004704
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 187,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t01f808": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1627,
+    "completion_tokens": 465,
+    "total_tokens": 2092,
+    "cost": 0.009646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1624,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009646,
+     "upstream_inference_prompt_cost": 0.004066,
+     "upstream_inference_completions_cost": 0.00558
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 98,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t250218": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1758,
+    "completion_tokens": 297,
+    "total_tokens": 2055,
+    "cost": 0.0079575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1755,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0079575,
+     "upstream_inference_prompt_cost": 0.0043935,
+     "upstream_inference_completions_cost": 0.003564
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 92,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc791b1": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 331,
+    "total_tokens": 1963,
+    "cost": 0.0080505,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1629,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0080505,
+     "upstream_inference_prompt_cost": 0.0040785,
+     "upstream_inference_completions_cost": 0.003972
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t431b06": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1776,
+    "completion_tokens": 203,
+    "total_tokens": 1979,
+    "cost": 0.0068745,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1773,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0068745,
+     "upstream_inference_prompt_cost": 0.0044385,
+     "upstream_inference_completions_cost": 0.002436
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t50fc9d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 387,
+    "total_tokens": 2013,
+    "cost": 0.0087075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1623,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0087075,
+     "upstream_inference_prompt_cost": 0.0040635,
+     "upstream_inference_completions_cost": 0.004644
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 54,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "taae133": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1777,
+    "completion_tokens": 338,
+    "total_tokens": 2115,
+    "cost": 0.008497,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1774,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008497,
+     "upstream_inference_prompt_cost": 0.004441,
+     "upstream_inference_completions_cost": 0.004056
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 133,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t2bce7a": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1406,
+    "completion_tokens": 203,
+    "total_tokens": 1609,
+    "cost": 0.0059495,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1403,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0059495,
+     "upstream_inference_prompt_cost": 0.0035135,
+     "upstream_inference_completions_cost": 0.002436
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t51afd9": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1590,
+    "completion_tokens": 216,
+    "total_tokens": 1806,
+    "cost": 0.0065655,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1587,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0065655,
+     "upstream_inference_prompt_cost": 0.0039735,
+     "upstream_inference_completions_cost": 0.002592
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 75,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb8e1dd": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 260,
+    "total_tokens": 1663,
+    "cost": 0.006626,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1400,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.006626,
+     "upstream_inference_prompt_cost": 0.003506,
+     "upstream_inference_completions_cost": 0.00312
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 43,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t9d5791": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 263,
+    "total_tokens": 1848,
+    "cost": 0.007117,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1582,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007117,
+     "upstream_inference_prompt_cost": 0.003961,
+     "upstream_inference_completions_cost": 0.003156
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 122,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb501d6": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 203,
+    "total_tokens": 1605,
+    "cost": 0.0059395,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1399,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0059395,
+     "upstream_inference_prompt_cost": 0.0035035,
+     "upstream_inference_completions_cost": 0.002436
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t785d0f": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1587,
+    "completion_tokens": 246,
+    "total_tokens": 1833,
+    "cost": 0.006918,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1584,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.006918,
+     "upstream_inference_prompt_cost": 0.003966,
+     "upstream_inference_completions_cost": 0.002952
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 105,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t57dc32": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 311,
+    "total_tokens": 1720,
+    "cost": 0.007253,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1406,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007253,
+     "upstream_inference_prompt_cost": 0.003521,
+     "upstream_inference_completions_cost": 0.003732
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 59,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "taf3935": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 394,
+    "total_tokens": 1978,
+    "cost": 0.0086865,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1581,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0086865,
+     "upstream_inference_prompt_cost": 0.0039585,
+     "upstream_inference_completions_cost": 0.004728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 240,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t0589f4": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 411,
+    "total_tokens": 2149,
+    "cost": 0.0092755,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1735,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0092755,
+     "upstream_inference_prompt_cost": 0.0043435,
+     "upstream_inference_completions_cost": 0.004932
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "td7ac84": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1792,
+    "completion_tokens": 223,
+    "total_tokens": 2015,
+    "cost": 0.0071545,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1789,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0071545,
+     "upstream_inference_prompt_cost": 0.0044785,
+     "upstream_inference_completions_cost": 0.002676
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 90,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t452463": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 411,
+    "total_tokens": 2149,
+    "cost": 0.005285,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1735,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.005285,
+     "upstream_inference_prompt_cost": 0.000353,
+     "upstream_inference_completions_cost": 0.004932
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tf2f15e": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1781,
+    "completion_tokens": 233,
+    "total_tokens": 2014,
+    "cost": 0.007247,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1778,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007247,
+     "upstream_inference_prompt_cost": 0.004451,
+     "upstream_inference_completions_cost": 0.002796
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 108,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tade2fa": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1739,
+    "completion_tokens": 571,
+    "total_tokens": 2310,
+    "cost": 0.011198,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1736,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011198,
+     "upstream_inference_prompt_cost": 0.004346,
+     "upstream_inference_completions_cost": 0.006852
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 131,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t29161c": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1808,
+    "completion_tokens": 320,
+    "total_tokens": 2128,
+    "cost": 0.0083585,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1805,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0083585,
+     "upstream_inference_prompt_cost": 0.0045185,
+     "upstream_inference_completions_cost": 0.00384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 195,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tfaa0de": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1727,
+    "completion_tokens": 628,
+    "total_tokens": 2355,
+    "cost": 0.011852,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1724,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011852,
+     "upstream_inference_prompt_cost": 0.004316,
+     "upstream_inference_completions_cost": 0.007536
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 215,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "te8643b": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1713,
+    "completion_tokens": 465,
+    "total_tokens": 2178,
+    "cost": 0.009861,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1710,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009861,
+     "upstream_inference_prompt_cost": 0.004281,
+     "upstream_inference_completions_cost": 0.00558
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 293,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t703eaf": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1988,
+    "completion_tokens": 1372,
+    "total_tokens": 3360,
+    "cost": 0.0214325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1985,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0214325,
+     "upstream_inference_prompt_cost": 0.0049685,
+     "upstream_inference_completions_cost": 0.016464
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 557,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc01958": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2071,
+    "completion_tokens": 1310,
+    "total_tokens": 3381,
+    "cost": 0.020896,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2068,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.020896,
+     "upstream_inference_prompt_cost": 0.005176,
+     "upstream_inference_completions_cost": 0.01572
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 979,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t649451": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1986,
+    "completion_tokens": 1265,
+    "total_tokens": 3251,
+    "cost": 0.0201435,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1983,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0201435,
+     "upstream_inference_prompt_cost": 0.0049635,
+     "upstream_inference_completions_cost": 0.01518
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 429,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tcff5f2": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2026,
+    "completion_tokens": 616,
+    "total_tokens": 2642,
+    "cost": 0.0124555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2023,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0124555,
+     "upstream_inference_prompt_cost": 0.0050635,
+     "upstream_inference_completions_cost": 0.007392
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 382,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t8183ed": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1923,
+    "completion_tokens": 1801,
+    "total_tokens": 3724,
+    "cost": 0.026418,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1920,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.026418,
+     "upstream_inference_prompt_cost": 0.004806,
+     "upstream_inference_completions_cost": 0.021612
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1034,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tf1a8fe": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2108,
+    "completion_tokens": 325,
+    "total_tokens": 2433,
+    "cost": 0.0091685,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2105,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0091685,
+     "upstream_inference_prompt_cost": 0.0052685,
+     "upstream_inference_completions_cost": 0.0039
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 104,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tba18be": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1992,
+    "completion_tokens": 1013,
+    "total_tokens": 3005,
+    "cost": 0.0171345,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1989,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0171345,
+     "upstream_inference_prompt_cost": 0.0049785,
+     "upstream_inference_completions_cost": 0.012156
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 209,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb8daac": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2132,
+    "completion_tokens": 547,
+    "total_tokens": 2679,
+    "cost": 0.0118925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2129,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0118925,
+     "upstream_inference_prompt_cost": 0.0053285,
+     "upstream_inference_completions_cost": 0.006564
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 305,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t6a2780": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 848,
+    "total_tokens": 3062,
+    "cost": 0.0157095,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2211,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0157095,
+     "upstream_inference_prompt_cost": 0.0055335,
+     "upstream_inference_completions_cost": 0.010176
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 114,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t5dada8": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 1855,
+    "completion_tokens": 529,
+    "total_tokens": 2384,
+    "cost": 0.010984,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 1852,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010984,
+     "upstream_inference_prompt_cost": 0.004636,
+     "upstream_inference_completions_cost": 0.006348
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 264,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tdc3ad7": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 667,
+    "total_tokens": 2879,
+    "cost": 0.0135325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2209,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0135325,
+     "upstream_inference_prompt_cost": 0.0055285,
+     "upstream_inference_completions_cost": 0.008004
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t9c8a4a": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2040,
+    "completion_tokens": 187,
+    "total_tokens": 2227,
+    "cost": 0.0073425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2037,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0073425,
+     "upstream_inference_prompt_cost": 0.0050985,
+     "upstream_inference_completions_cost": 0.002244
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t7c9871": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 845,
+    "total_tokens": 3059,
+    "cost": 0.0156735,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2211,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0156735,
+     "upstream_inference_prompt_cost": 0.0055335,
+     "upstream_inference_completions_cost": 0.01014
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 152,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t77422e": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 199,
+    "total_tokens": 2247,
+    "cost": 0.0075065,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2045,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0075065,
+     "upstream_inference_prompt_cost": 0.0051185,
+     "upstream_inference_completions_cost": 0.002388
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "te984ad": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2209,
+    "completion_tokens": 964,
+    "total_tokens": 3173,
+    "cost": 0.017089,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2206,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017089,
+     "upstream_inference_prompt_cost": 0.005521,
+     "upstream_inference_completions_cost": 0.011568
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 257,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tcacd51": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "openai/gpt-5.6-terra",
+   "provider": "OpenAI",
+   "usage": {
+    "prompt_tokens": 2042,
+    "completion_tokens": 187,
+    "total_tokens": 2229,
+    "cost": 0.0073475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 2039,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0073475,
+     "upstream_inference_prompt_cost": 0.0051035,
+     "upstream_inference_completions_cost": 0.002244
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  }
+ }
+}

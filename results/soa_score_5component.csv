@@ -1,0 +1,26 @@
+system,model,component,tp,fp,fn,precision,recall,f1
+medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),activity,166,3,3,0.9822,0.9822,0.9822
+medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),contact,52,9,8,0.8525,0.8667,0.8595
+medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),reference,42,13,40,0.7636,0.5122,0.6131
+medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),cell,638,211,52,0.7515,0.9246,0.8291
+medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),attachment,55,49,48,0.5288,0.534,0.5314
+medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),activity,167,0,2,1.0,0.9882,0.994
+medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),contact,59,1,1,0.9833,0.9833,0.9833
+medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),reference,55,1,27,0.9821,0.6707,0.7971
+medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),cell,669,165,21,0.8022,0.9696,0.878
+medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),attachment,59,38,44,0.6082,0.5728,0.59
+gemini_38_flash,google/gemini-3.8-flash,activity,168,1,1,0.9941,0.9941,0.9941
+gemini_38_flash,google/gemini-3.8-flash,contact,60,0,0,1.0,1.0,1.0
+gemini_38_flash,google/gemini-3.8-flash,reference,82,0,0,1.0,1.0,1.0
+gemini_38_flash,google/gemini-3.8-flash,cell,606,0,84,1.0,0.8783,0.9352
+gemini_38_flash,google/gemini-3.8-flash,attachment,81,12,22,0.871,0.7864,0.8265
+gpt_56_terra,openai/gpt-5.6-terra,activity,158,5,11,0.9693,0.9349,0.9518
+gpt_56_terra,openai/gpt-5.6-terra,contact,60,0,0,1.0,1.0,1.0
+gpt_56_terra,openai/gpt-5.6-terra,reference,82,0,0,1.0,1.0,1.0
+gpt_56_terra,openai/gpt-5.6-terra,cell,626,3,64,0.9952,0.9072,0.9492
+gpt_56_terra,openai/gpt-5.6-terra,attachment,72,26,31,0.7347,0.699,0.7164
+claude_sonnet_55,anthropic/claude-sonnet-5.5,activity,169,0,0,1.0,1.0,1.0
+claude_sonnet_55,anthropic/claude-sonnet-5.5,contact,60,0,0,1.0,1.0,1.0
+claude_sonnet_55,anthropic/claude-sonnet-5.5,reference,82,0,0,1.0,1.0,1.0
+claude_sonnet_55,anthropic/claude-sonnet-5.5,cell,460,1,230,0.9978,0.6667,0.7993
+claude_sonnet_55,anthropic/claude-sonnet-5.5,attachment,94,8,9,0.9216,0.9126,0.9171

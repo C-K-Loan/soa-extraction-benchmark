@@ -1,0 +1,91 @@
+{
+ "seed": 20261120,
+ "task_system": {
+  "tec964d": "gpt_56_terra",
+  "t3d4496": "gpt_56_terra",
+  "teba592": "claude_sonnet_55",
+  "t913bcb": "claude_sonnet_55",
+  "tacbb07": "medical_llm_medium_schema_constrained",
+  "tb7df1d": "medical_llm_medium_schema_constrained",
+  "tb1afef": "gemini_38_flash",
+  "tc8cb0e": "gemini_38_flash",
+  "t193652": "gpt_56_terra",
+  "t4a9ad4": "gpt_56_terra",
+  "t01f808": "medical_llm_medium_schema_constrained",
+  "t250218": "medical_llm_medium_schema_constrained",
+  "tc791b1": "claude_sonnet_55",
+  "t431b06": "claude_sonnet_55",
+  "t50fc9d": "gemini_38_flash",
+  "taae133": "gemini_38_flash",
+  "t2bce7a": "claude_sonnet_55",
+  "t51afd9": "claude_sonnet_55",
+  "tb8e1dd": "gpt_56_terra",
+  "t9d5791": "gpt_56_terra",
+  "tb501d6": "gemini_38_flash",
+  "t785d0f": "gemini_38_flash",
+  "t57dc32": "medical_llm_medium_schema_constrained",
+  "taf3935": "medical_llm_medium_schema_constrained",
+  "t0589f4": "claude_sonnet_55",
+  "td7ac84": "claude_sonnet_55",
+  "t452463": "gemini_38_flash",
+  "tf2f15e": "gemini_38_flash",
+  "tade2fa": "gpt_56_terra",
+  "t29161c": "gpt_56_terra",
+  "tfaa0de": "medical_llm_medium_schema_constrained",
+  "te8643b": "medical_llm_medium_schema_constrained",
+  "t703eaf": "medical_llm_medium_schema_constrained",
+  "tc01958": "medical_llm_medium_schema_constrained",
+  "t649451": "claude_sonnet_55",
+  "tcff5f2": "claude_sonnet_55",
+  "t8183ed": "gpt_56_terra",
+  "tf1a8fe": "gpt_56_terra",
+  "tba18be": "gemini_38_flash",
+  "tb8daac": "gemini_38_flash",
+  "t6a2780": "medical_llm_medium_schema_constrained",
+  "t5dada8": "medical_llm_medium_schema_constrained",
+  "tdc3ad7": "claude_sonnet_55",
+  "t9c8a4a": "claude_sonnet_55",
+  "t7c9871": "gemini_38_flash",
+  "t77422e": "gemini_38_flash",
+  "te984ad": "gpt_56_terra",
+  "tcacd51": "gpt_56_terra"
+ },
+ "blinding_by_group": {
+  "NCT01621737__Prot_SAP_000__g001": {
+   "System A": "gpt_56_terra",
+   "System B": "claude_sonnet_55",
+   "System C": "medical_llm_medium_schema_constrained",
+   "System D": "gemini_38_flash"
+  },
+  "NCT01667081__Prot_SAP_000__g001": {
+   "System A": "gpt_56_terra",
+   "System B": "medical_llm_medium_schema_constrained",
+   "System C": "claude_sonnet_55",
+   "System D": "gemini_38_flash"
+  },
+  "NCT01667081__Prot_SAP_000__g002": {
+   "System A": "claude_sonnet_55",
+   "System B": "gpt_56_terra",
+   "System C": "gemini_38_flash",
+   "System D": "medical_llm_medium_schema_constrained"
+  },
+  "NCT01877915__Prot_000__g001": {
+   "System A": "claude_sonnet_55",
+   "System B": "gemini_38_flash",
+   "System C": "gpt_56_terra",
+   "System D": "medical_llm_medium_schema_constrained"
+  },
+  "NCT01923181__Prot_000__g001": {
+   "System A": "medical_llm_medium_schema_constrained",
+   "System B": "claude_sonnet_55",
+   "System C": "gpt_56_terra",
+   "System D": "gemini_38_flash"
+  },
+  "NCT02791490__Prot_SAP_000__g001": {
+   "System A": "medical_llm_medium_schema_constrained",
+   "System B": "claude_sonnet_55",
+   "System C": "gemini_38_flash",
+   "System D": "gpt_56_terra"
+  }
+ }
+}

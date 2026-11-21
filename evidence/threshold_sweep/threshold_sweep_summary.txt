@@ -1,0 +1,6 @@
+SoA score (5-component pooled, x100) by matcher threshold; release/code/score_soa.py --validate --threshold T on release gold and predictions, 2026-11-21
+gemini_38_flash                            0.50:94.32  0.55:94.32  0.60:94.32  0.65:94.32  0.70:93.09   max-min 1.23   |0.50-0.70| 1.23
+claude_sonnet_55                           0.50:87.46  0.55:87.46  0.60:87.46  0.65:87.46  0.70:87.46   max-min 0.00   |0.50-0.70| 0.00
+medical_llm_medium_schema_constrained      0.50:84.31  0.55:83.01  0.60:81.38  0.65:77.52  0.70:75.22   max-min 9.09   |0.50-0.70| 9.09
+medical_llm_medium_unconstrained           0.50:87.37  0.55:87.23  0.60:87.06  0.65:86.75  0.70:86.58   max-min 0.79   |0.50-0.70| 0.79
+gpt_56_terra                               0.50:93.63  0.55:93.63  0.60:93.45  0.65:93.45  0.70:93.45   max-min 0.18   |0.50-0.70| 0.18

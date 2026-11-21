@@ -1,0 +1,1010 @@
+{
+  "activities": [
+    {
+      "id": "act_01",
+      "text": "Informed Consent",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_02",
+      "text": "Informed Consent for FBR 2",
+      "uses_reference_markers": [
+        "2"
+      ]
+    },
+    {
+      "id": "act_03",
+      "text": "Provide Subject Identification Card",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_04",
+      "text": "Medical History 12",
+      "uses_reference_markers": [
+        "12"
+      ]
+    },
+    {
+      "id": "act_05",
+      "text": "Inclusion/Exclusion Criteria",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_06",
+      "text": "Directed Physical Examination (PE)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_07",
+      "text": "Child-Pugh score computation",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_08",
+      "text": "Blood pressure (systolic and diastolic) and heart rate",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_09",
+      "text": "Weight",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_10",
+      "text": "Height",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_11",
+      "text": "Review procedure related AEs, ECIs, and drug-related SAEs3",
+      "uses_reference_markers": [
+        "3"
+      ]
+    },
+    {
+      "id": "act_12",
+      "text": "Chemistry, hematology, and coagulation panel",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_13",
+      "text": "MELD score (with and without dialysis)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_14",
+      "text": "Fibrosure\u00ae (Fibrotest\u00ae)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_15",
+      "text": "eGFR (if prior treatment study was PN052)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_16",
+      "text": "HCV RNA Level5",
+      "uses_reference_markers": [
+        "5"
+      ]
+    },
+    {
+      "id": "act_17",
+      "text": "Viral Resistance and Biomarker6",
+      "uses_reference_markers": [
+        "6"
+      ]
+    },
+    {
+      "id": "act_18",
+      "text": "Blood (DNA) for FBR7",
+      "uses_reference_markers": [
+        "7"
+      ]
+    },
+    {
+      "id": "act_19",
+      "text": "Blood (Plasma) for FBR7",
+      "uses_reference_markers": [
+        "7"
+      ]
+    },
+    {
+      "id": "act_20",
+      "text": "HCV Genotype9",
+      "uses_reference_markers": [
+        "9"
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "activity_id": "act_01",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_03",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_04",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_05",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_10"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_13",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_14",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_15",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_10"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_16",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_09"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_10"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_11"
+    },
+    {
+      "activity_id": "act_17",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    },
+    {
+      "activity_id": "act_18",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_19",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_20",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_20",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_12"
+    }
+  ],
+  "contacts": [
+    {
+      "anchor": "last visit of the previous protocol",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_01",
+      "reference_markers": [
+        "8",
+        "4"
+      ],
+      "text": "Visit No.: 1\u2078 > Screen/ Baseline\u2074"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 6,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_02",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 12,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_03",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 18,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_04",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 24,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_05",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 30,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_06",
+      "reference_markers": [
+        "1"
+      ],
+      "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 36,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_07",
+      "reference_markers": [
+        "11",
+        "1"
+      ],
+      "text": "Visit No.: 7 > Year 3 > Mo. 36\u00b9\u00b9"
+    },
+    {
+      "anchor": "study start",
+      "condition": "only be performed if subjects were in PN052 as their parent study",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 42,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_08",
+      "reference_markers": [
+        "13",
+        "1"
+      ],
+      "text": "Visit No.: 8\u00b9\u00b3 > Year 4 > Mo. 42"
+    },
+    {
+      "anchor": "study start",
+      "condition": "only be performed if subjects were in PN052 as their parent study",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 48,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_09",
+      "reference_markers": [
+        "13",
+        "1"
+      ],
+      "text": "Visit No.: 9\u00b9\u00b3 > Year 4 > Mo. 48"
+    },
+    {
+      "anchor": "study start",
+      "condition": "only be performed if subjects were in PN052 as their parent study",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 54,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_10",
+      "reference_markers": [
+        "13",
+        "1"
+      ],
+      "text": "Visit No.: 10\u00b9\u00b3 > Year 5 > Mo. 54"
+    },
+    {
+      "anchor": "study start",
+      "condition": "only be performed if subjects were in PN052 as their parent study",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 60,
+        "target_unit": "months",
+        "window_after": 3,
+        "window_before": 3,
+        "window_unit": "months"
+      },
+      "id": "con_11",
+      "reference_markers": [
+        "13",
+        "11",
+        "1"
+      ],
+      "text": "Visit No.: 11\u00b9\u00b3 > Year 5 > Mo. 60\u00b9\u00b9"
+    },
+    {
+      "anchor": "study start",
+      "condition": "Unscheduled",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": null,
+        "target_unit": null,
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_12",
+      "reference_markers": [
+        "10"
+      ],
+      "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit\u00b9\u2070"
+    }
+  ],
+  "group_id": "NCT01667081__Prot_SAP_000__g001",
+  "model": "google/gemini-3.8-flash",
+  "references": [
+    {
+      "reference_marker": "1",
+      "text": "Visits should be scheduled as close to the indicated study period as possible. Visit windows are +/- 3 months. All visits should be recorded on the actual date that they occur and any missed or late visits must be documented accordingly."
+    },
+    {
+      "reference_marker": "2",
+      "text": "Participation in FBR is voluntary and is not required in order to participate in the study."
+    },
+    {
+      "reference_marker": "3",
+      "text": "Protocol specified ECIs, AEs related to protocol-specified procedures (blood draw), and drug related new Serious Adverse Events, which occur following enrollment in the present study (after Informed Consent Form is signed) will be reported."
+    },
+    {
+      "reference_marker": "4",
+      "text": "If a subject is directly entered into this long-term follow-up protocol on the same day as the last study day of the prior treatment study, since these visits have different laboratory requirements, the lab kit for each of the two visits must be used. Samples are collected for each study separately at the same visit. (See section 3.2.4.1)"
+    },
+    {
+      "reference_marker": "5",
+      "text": "Subjects who achieved SVR in previous study and who are tested in this study and found to have HCV RNA \u22651000 IU/mL, will have their Viral Resistance sample tested."
+    },
+    {
+      "reference_marker": "6",
+      "text": "HCV sequence analysis will be performed, as appropriate, and will depend on the HCV-RNA level results."
+    },
+    {
+      "reference_marker": "7",
+      "text": "Informed consent for future biomedical research samples must be obtained before the DNA and plasma samples are collected."
+    },
+    {
+      "reference_marker": "8",
+      "text": "The screening visit should occur within 3 months of the last visit of the previous protocol."
+    },
+    {
+      "reference_marker": "9",
+      "text": "Subjects who had HCV RNA < LLoQ at the end of follow-up in the original treatment protocol and who are tested and have HCV-RNA \u2265LLoQ during this study will have their HCV Genotype obtained. If a subject has HCV RNA \u2265 LLoQ at Visit 1, an HCV Genotype must be performed at that visit."
+    },
+    {
+      "reference_marker": "10",
+      "text": "If the unscheduled visit is being performed for follow-up of an AE/SAE (as defined in this protocol), a directed physical exam and safety labs should also be performed at this visit."
+    },
+    {
+      "reference_marker": "11",
+      "text": "For subjects in the 3 year follow-up who discontinue early, a Visit 7 (Month 36) Visit should be completed as the early discontinuation visit. For subjects in the 5 year follow-up (eg. PN052) who discontinue early, a Visit 11 (Month 60) visit should be completed as the early discontinuation visit."
+    },
+    {
+      "reference_marker": "12",
+      "text": "Refer to Section 3.2.4.1 for required medical history."
+    },
+    {
+      "reference_marker": "13",
+      "text": "Visits 8, 9, 10, and 11 will only be performed if subjects were in PN052 as their parent study."
+    }
+  ],
+  "system": "gemini_38_flash"
+}

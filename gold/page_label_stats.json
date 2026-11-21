@@ -1,0 +1,23 @@
+{
+  "pages": 438,
+  "protocols": 99,
+  "annotators": 4,
+  "raw_review_events": 591,
+  "is_soa_related_true": 437,
+  "has_soa_table_true": 256,
+  "labels_exercised": [
+    "is_soa_related",
+    "has_soa_table",
+    "has_multiple_soa_tables",
+    "has_soa_prose",
+    "has_soa_diagram",
+    "refers_to_reference_symbols",
+    "defines_reference_symbols",
+    "has_redacted_data"
+  ],
+  "labels_not_exercised": [
+    "has_soa_text",
+    "has_soa_footnotes"
+  ],
+  "deduplication": "last write wins per page; pages whose final event is an undo are dropped"
+}

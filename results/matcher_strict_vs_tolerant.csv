@@ -1,0 +1,19 @@
+system,axis,matcher,tp_pool,fp_pool,fn_pool,precision,recall,f1
+GPT-5.6-terra,activities,strict,128,35,41,0.7853,0.7574,0.7711
+GPT-5.6-terra,activities,tolerant (0.75),158,5,11,0.9693,0.9349,0.9518
+GPT-5.6-terra,contacts,strict,40,20,20,0.6667,0.6667,0.6667
+GPT-5.6-terra,contacts,tolerant (0.75),60,0,0,1.0000,1.0000,1.0000
+GPT-5.6-terra,references,strict,82,0,0,1.0000,1.0000,1.0000
+GPT-5.6-terra,references,tolerant (0.75),82,0,0,1.0000,1.0000,1.0000
+Gemini-3.8-Flash,activities,strict,145,24,24,0.8580,0.8580,0.8580
+Gemini-3.8-Flash,activities,tolerant (0.75),167,2,2,0.9882,0.9882,0.9882
+Gemini-3.8-Flash,contacts,strict,42,18,18,0.7000,0.7000,0.7000
+Gemini-3.8-Flash,contacts,tolerant (0.75),59,1,1,0.9833,0.9833,0.9833
+Gemini-3.8-Flash,references,strict,73,9,9,0.8902,0.8902,0.8902
+Gemini-3.8-Flash,references,tolerant (0.75),73,9,9,0.8902,0.8902,0.8902
+Claude-Sonnet-5.5,activities,strict,159,10,10,0.9408,0.9408,0.9408
+Claude-Sonnet-5.5,activities,tolerant (0.75),169,0,0,1.0000,1.0000,1.0000
+Claude-Sonnet-5.5,contacts,strict,39,21,21,0.6500,0.6500,0.6500
+Claude-Sonnet-5.5,contacts,tolerant (0.75),60,0,0,1.0000,1.0000,1.0000
+Claude-Sonnet-5.5,references,strict,82,0,0,1.0000,1.0000,1.0000
+Claude-Sonnet-5.5,references,tolerant (0.75),82,0,0,1.0000,1.0000,1.0000

@@ -1,0 +1,5 @@
+                     SoA pub SoA new SoA sem |   act   con  cell   ref  atch | cell P/R
+Gemini-3.8-Flash        94.3    90.2    89.4 | 100.0 100.0  86.6 100.0  82.7 | 92.6/81.3   act_sem 97.6 con_sem 93.3
+GPT-5.6-terra           93.4    88.6    87.4 |  97.0 100.0  86.6 100.0  71.6 | 90.8/82.8   act_sem 89.2 con_sem 100.0
+Claude-Sonnet-5.5       87.5    87.5    86.5 | 100.0 100.0  79.9 100.0  91.7 | 99.8/66.7   act_sem 95.3 con_sem 96.7
+Medical LLM Medium      81.4    80.0    76.3 |  98.8  99.2  79.7  61.3  53.1 | 72.2/88.8   act_sem 88.8 con_sem 56.2

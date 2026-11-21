@@ -1,0 +1,6 @@
+perturbation,reach,TEDS,TEDS_Struct,GriTS_Top,GriTS_Con,SoA_5comp,source
+none,no change (positive control),1.0,1.0,1.0,1.0,1.0,code/reference_metrics/results_v2.json
+delete one cell per schedule,"6 of 690 cells, one per group",0.9963,1.0000,1.0000,0.9959,0.9973,code/reference_metrics/results_v2.json
+delete 10% of cells,69 of 690 cells across the six groups (seed 1337),0.9701,1.0000,1.0000,0.9671,0.9668,code/reference_metrics/results_v2.json
+clear marker fields only,clears the 103 structured marker fields; marker characters remain in the text,1.0000,1.0000,1.0000,1.0000,0.9511,code/reference_metrics/results_v2.json
+remove every reference marker,clears the 103 structured marker fields and strips the marker characters from the text,0.9967,1.0000,1.0000,0.9981,0.9511,code/reference_metrics/results_v2.json

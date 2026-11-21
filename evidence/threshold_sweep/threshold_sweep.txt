@@ -1,0 +1,305 @@
+########## threshold 0.50
+=== gemini_38_flash ===
+       act : p=0.994 r=0.994 f1=0.994  (tp=168/fp=1/fn=1)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=1.000 r=0.878 f1=0.935  (tp=606/fp=0/fn=84)
+  attach   : p=0.871 r=0.786 f1=0.827  (tp=81/fp=12/fn=22)
+    attach-activity: f1=0.980  (tp=50/fp=2/fn=0)
+    attach-contact : f1=0.844  (tp=27/fp=10/fn=0)
+    attach-cell    : f1=0.267  (tp=4/fp=0/fn=22)
+  SoA-4 pooled : 0.9552
+  SoA-5 pooled : 0.9432
+  [OK] attach (81,12,22) vs (81, 12, 22)  SoA-5 0.9432 vs 0.9432
+=== claude_sonnet_55 ===
+       act : p=1.000 r=1.000 f1=1.000  (tp=169/fp=0/fn=0)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.998 r=0.667 f1=0.799  (tp=460/fp=1/fn=230)
+  attach   : p=0.922 r=0.913 f1=0.917  (tp=94/fp=8/fn=9)
+    attach-activity: f1=0.869  (tp=43/fp=6/fn=7)
+    attach-contact : f1=0.926  (tp=25/fp=2/fn=2)
+    attach-cell    : f1=1.000  (tp=26/fp=0/fn=0)
+  SoA-4 pooled : 0.8697
+  SoA-5 pooled : 0.8746
+  [OK] attach (94,8,9) vs (94, 8, 9)  SoA-5 0.8746 vs 0.8746
+=== medical_llm_medium_schema_constrained ===
+       act : p=0.994 r=0.994 f1=0.994  (tp=168/fp=1/fn=1)
+       con : p=0.852 r=0.867 f1=0.860  (tp=52/fp=9/fn=8)
+       ref : p=0.764 r=0.512 f1=0.613  (tp=42/fp=13/fn=40)
+      cell : p=0.787 r=0.968 f1=0.868  (tp=668/fp=181/fn=22)
+  attach   : p=0.546 r=0.573 f1=0.559  (tp=59/fp=49/fn=44)
+    attach-activity: f1=0.636  (tp=35/fp=25/fn=15)
+    attach-contact : f1=0.440  (tp=11/fp=12/fn=16)
+    attach-cell    : f1=0.510  (tp=13/fp=12/fn=13)
+  SoA-4 pooled : 0.8712
+  SoA-5 pooled : 0.8431
+=== medical_llm_medium_unconstrained ===
+       act : p=1.000 r=0.988 f1=0.994  (tp=167/fp=0/fn=2)
+       con : p=0.983 r=0.983 f1=0.983  (tp=59/fp=1/fn=1)
+       ref : p=0.982 r=0.671 f1=0.797  (tp=55/fp=1/fn=27)
+      cell : p=0.807 r=0.975 f1=0.883  (tp=673/fp=161/fn=17)
+  attach   : p=0.602 r=0.573 f1=0.587  (tp=59/fp=39/fn=44)
+    attach-activity: f1=0.610  (tp=32/fp=23/fn=18)
+    attach-contact : f1=0.694  (tp=17/fp=5/fn=10)
+    attach-cell    : f1=0.426  (tp=10/fp=11/fn=16)
+  SoA-4 pooled : 0.9008
+  SoA-5 pooled : 0.8737
+=== gpt_56_terra ===
+       act : p=0.982 r=0.947 f1=0.964  (tp=160/fp=3/fn=9)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.995 r=0.907 f1=0.949  (tp=626/fp=3/fn=64)
+  attach   : p=0.735 r=0.699 f1=0.716  (tp=72/fp=26/fn=31)
+    attach-activity: f1=0.598  (tp=29/fp=18/fn=21)
+    attach-contact : f1=0.808  (tp=21/fp=4/fn=6)
+    attach-cell    : f1=0.846  (tp=22/fp=4/fn=4)
+  SoA-4 pooled : 0.9592
+  SoA-5 pooled : 0.9363
+  [DIFF] attach (72,26,31) vs (72, 26, 31)  SoA-5 0.9363 vs 0.9345
+
+DRIFT present (see docstring)
+########## threshold 0.55
+=== gemini_38_flash ===
+       act : p=0.994 r=0.994 f1=0.994  (tp=168/fp=1/fn=1)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=1.000 r=0.878 f1=0.935  (tp=606/fp=0/fn=84)
+  attach   : p=0.871 r=0.786 f1=0.827  (tp=81/fp=12/fn=22)
+    attach-activity: f1=0.980  (tp=50/fp=2/fn=0)
+    attach-contact : f1=0.844  (tp=27/fp=10/fn=0)
+    attach-cell    : f1=0.267  (tp=4/fp=0/fn=22)
+  SoA-4 pooled : 0.9552
+  SoA-5 pooled : 0.9432
+  [OK] attach (81,12,22) vs (81, 12, 22)  SoA-5 0.9432 vs 0.9432
+=== claude_sonnet_55 ===
+       act : p=1.000 r=1.000 f1=1.000  (tp=169/fp=0/fn=0)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.998 r=0.667 f1=0.799  (tp=460/fp=1/fn=230)
+  attach   : p=0.922 r=0.913 f1=0.917  (tp=94/fp=8/fn=9)
+    attach-activity: f1=0.869  (tp=43/fp=6/fn=7)
+    attach-contact : f1=0.926  (tp=25/fp=2/fn=2)
+    attach-cell    : f1=1.000  (tp=26/fp=0/fn=0)
+  SoA-4 pooled : 0.8697
+  SoA-5 pooled : 0.8746
+  [OK] attach (94,8,9) vs (94, 8, 9)  SoA-5 0.8746 vs 0.8746
+=== medical_llm_medium_schema_constrained ===
+       act : p=0.988 r=0.988 f1=0.988  (tp=167/fp=2/fn=2)
+       con : p=0.852 r=0.867 f1=0.860  (tp=52/fp=9/fn=8)
+       ref : p=0.764 r=0.512 f1=0.613  (tp=42/fp=13/fn=40)
+      cell : p=0.773 r=0.951 f1=0.853  (tp=656/fp=193/fn=34)
+  attach   : p=0.529 r=0.534 f1=0.531  (tp=55/fp=49/fn=48)
+    attach-activity: f1=0.636  (tp=35/fp=25/fn=15)
+    attach-contact : f1=0.440  (tp=11/fp=12/fn=16)
+    attach-cell    : f1=0.383  (tp=9/fp=12/fn=17)
+  SoA-4 pooled : 0.8590
+  SoA-5 pooled : 0.8301
+=== medical_llm_medium_unconstrained ===
+       act : p=1.000 r=0.988 f1=0.994  (tp=167/fp=0/fn=2)
+       con : p=0.983 r=0.983 f1=0.983  (tp=59/fp=1/fn=1)
+       ref : p=0.982 r=0.671 f1=0.797  (tp=55/fp=1/fn=27)
+      cell : p=0.805 r=0.972 f1=0.881  (tp=671/fp=163/fn=19)
+  attach   : p=0.608 r=0.573 f1=0.590  (tp=59/fp=38/fn=44)
+    attach-activity: f1=0.610  (tp=32/fp=23/fn=18)
+    attach-contact : f1=0.694  (tp=17/fp=5/fn=10)
+    attach-cell    : f1=0.435  (tp=10/fp=10/fn=16)
+  SoA-4 pooled : 0.8990
+  SoA-5 pooled : 0.8723
+=== gpt_56_terra ===
+       act : p=0.982 r=0.947 f1=0.964  (tp=160/fp=3/fn=9)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.995 r=0.907 f1=0.949  (tp=626/fp=3/fn=64)
+  attach   : p=0.735 r=0.699 f1=0.716  (tp=72/fp=26/fn=31)
+    attach-activity: f1=0.598  (tp=29/fp=18/fn=21)
+    attach-contact : f1=0.808  (tp=21/fp=4/fn=6)
+    attach-cell    : f1=0.846  (tp=22/fp=4/fn=4)
+  SoA-4 pooled : 0.9592
+  SoA-5 pooled : 0.9363
+  [DIFF] attach (72,26,31) vs (72, 26, 31)  SoA-5 0.9363 vs 0.9345
+
+DRIFT present (see docstring)
+########## threshold 0.60
+=== gemini_38_flash ===
+       act : p=0.994 r=0.994 f1=0.994  (tp=168/fp=1/fn=1)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=1.000 r=0.878 f1=0.935  (tp=606/fp=0/fn=84)
+  attach   : p=0.871 r=0.786 f1=0.827  (tp=81/fp=12/fn=22)
+    attach-activity: f1=0.980  (tp=50/fp=2/fn=0)
+    attach-contact : f1=0.844  (tp=27/fp=10/fn=0)
+    attach-cell    : f1=0.267  (tp=4/fp=0/fn=22)
+  SoA-4 pooled : 0.9552
+  SoA-5 pooled : 0.9432
+  [OK] attach (81,12,22) vs (81, 12, 22)  SoA-5 0.9432 vs 0.9432
+=== claude_sonnet_55 ===
+       act : p=1.000 r=1.000 f1=1.000  (tp=169/fp=0/fn=0)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.998 r=0.667 f1=0.799  (tp=460/fp=1/fn=230)
+  attach   : p=0.922 r=0.913 f1=0.917  (tp=94/fp=8/fn=9)
+    attach-activity: f1=0.869  (tp=43/fp=6/fn=7)
+    attach-contact : f1=0.926  (tp=25/fp=2/fn=2)
+    attach-cell    : f1=1.000  (tp=26/fp=0/fn=0)
+  SoA-4 pooled : 0.8697
+  SoA-5 pooled : 0.8746
+  [OK] attach (94,8,9) vs (94, 8, 9)  SoA-5 0.8746 vs 0.8746
+=== medical_llm_medium_schema_constrained ===
+       act : p=0.982 r=0.982 f1=0.982  (tp=166/fp=3/fn=3)
+       con : p=0.852 r=0.867 f1=0.860  (tp=52/fp=9/fn=8)
+       ref : p=0.764 r=0.512 f1=0.613  (tp=42/fp=13/fn=40)
+      cell : p=0.751 r=0.925 f1=0.829  (tp=638/fp=211/fn=52)
+  attach   : p=0.529 r=0.534 f1=0.531  (tp=55/fp=49/fn=48)
+    attach-activity: f1=0.636  (tp=35/fp=25/fn=15)
+    attach-contact : f1=0.440  (tp=11/fp=12/fn=16)
+    attach-cell    : f1=0.383  (tp=9/fp=12/fn=17)
+  SoA-4 pooled : 0.8412
+  SoA-5 pooled : 0.8138
+=== medical_llm_medium_unconstrained ===
+       act : p=1.000 r=0.988 f1=0.994  (tp=167/fp=0/fn=2)
+       con : p=0.983 r=0.983 f1=0.983  (tp=59/fp=1/fn=1)
+       ref : p=0.982 r=0.671 f1=0.797  (tp=55/fp=1/fn=27)
+      cell : p=0.802 r=0.970 f1=0.878  (tp=669/fp=165/fn=21)
+  attach   : p=0.608 r=0.573 f1=0.590  (tp=59/fp=38/fn=44)
+    attach-activity: f1=0.610  (tp=32/fp=23/fn=18)
+    attach-contact : f1=0.694  (tp=17/fp=5/fn=10)
+    attach-cell    : f1=0.435  (tp=10/fp=10/fn=16)
+  SoA-4 pooled : 0.8971
+  SoA-5 pooled : 0.8706
+=== gpt_56_terra ===
+       act : p=0.969 r=0.935 f1=0.952  (tp=158/fp=5/fn=11)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.995 r=0.907 f1=0.949  (tp=626/fp=3/fn=64)
+  attach   : p=0.735 r=0.699 f1=0.716  (tp=72/fp=26/fn=31)
+    attach-activity: f1=0.598  (tp=29/fp=18/fn=21)
+    attach-contact : f1=0.808  (tp=21/fp=4/fn=6)
+    attach-cell    : f1=0.846  (tp=22/fp=4/fn=4)
+  SoA-4 pooled : 0.9571
+  SoA-5 pooled : 0.9345
+  [OK] attach (72,26,31) vs (72, 26, 31)  SoA-5 0.9345 vs 0.9345
+
+ALL MATCH
+########## threshold 0.65
+=== gemini_38_flash ===
+       act : p=0.994 r=0.994 f1=0.994  (tp=168/fp=1/fn=1)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=1.000 r=0.878 f1=0.935  (tp=606/fp=0/fn=84)
+  attach   : p=0.871 r=0.786 f1=0.827  (tp=81/fp=12/fn=22)
+    attach-activity: f1=0.980  (tp=50/fp=2/fn=0)
+    attach-contact : f1=0.844  (tp=27/fp=10/fn=0)
+    attach-cell    : f1=0.267  (tp=4/fp=0/fn=22)
+  SoA-4 pooled : 0.9552
+  SoA-5 pooled : 0.9432
+  [OK] attach (81,12,22) vs (81, 12, 22)  SoA-5 0.9432 vs 0.9432
+=== claude_sonnet_55 ===
+       act : p=1.000 r=1.000 f1=1.000  (tp=169/fp=0/fn=0)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.998 r=0.667 f1=0.799  (tp=460/fp=1/fn=230)
+  attach   : p=0.922 r=0.913 f1=0.917  (tp=94/fp=8/fn=9)
+    attach-activity: f1=0.869  (tp=43/fp=6/fn=7)
+    attach-contact : f1=0.926  (tp=25/fp=2/fn=2)
+    attach-cell    : f1=1.000  (tp=26/fp=0/fn=0)
+  SoA-4 pooled : 0.8697
+  SoA-5 pooled : 0.8746
+  [OK] attach (94,8,9) vs (94, 8, 9)  SoA-5 0.8746 vs 0.8746
+=== medical_llm_medium_schema_constrained ===
+       act : p=0.976 r=0.976 f1=0.976  (tp=165/fp=4/fn=4)
+       con : p=0.836 r=0.850 f1=0.843  (tp=51/fp=10/fn=9)
+       ref : p=0.764 r=0.512 f1=0.613  (tp=42/fp=13/fn=40)
+      cell : p=0.701 r=0.862 f1=0.773  (tp=595/fp=254/fn=95)
+  attach   : p=0.529 r=0.524 f1=0.527  (tp=54/fp=48/fn=49)
+    attach-activity: f1=0.636  (tp=35/fp=25/fn=15)
+    attach-contact : f1=0.440  (tp=11/fp=12/fn=16)
+    attach-cell    : f1=0.356  (tp=8/fp=11/fn=18)
+  SoA-4 pooled : 0.7991
+  SoA-5 pooled : 0.7752
+=== medical_llm_medium_unconstrained ===
+       act : p=0.994 r=0.982 f1=0.988  (tp=166/fp=1/fn=3)
+       con : p=0.967 r=0.967 f1=0.967  (tp=58/fp=2/fn=2)
+       ref : p=0.982 r=0.671 f1=0.797  (tp=55/fp=1/fn=27)
+      cell : p=0.801 r=0.968 f1=0.877  (tp=668/fp=166/fn=22)
+  attach   : p=0.604 r=0.563 f1=0.583  (tp=58/fp=38/fn=45)
+    attach-activity: f1=0.610  (tp=32/fp=23/fn=18)
+    attach-contact : f1=0.667  (tp=16/fp=5/fn=11)
+    attach-cell    : f1=0.435  (tp=10/fp=10/fn=16)
+  SoA-4 pooled : 0.8942
+  SoA-5 pooled : 0.8675
+=== gpt_56_terra ===
+       act : p=0.969 r=0.935 f1=0.952  (tp=158/fp=5/fn=11)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.995 r=0.907 f1=0.949  (tp=626/fp=3/fn=64)
+  attach   : p=0.735 r=0.699 f1=0.716  (tp=72/fp=26/fn=31)
+    attach-activity: f1=0.598  (tp=29/fp=18/fn=21)
+    attach-contact : f1=0.808  (tp=21/fp=4/fn=6)
+    attach-cell    : f1=0.846  (tp=22/fp=4/fn=4)
+  SoA-4 pooled : 0.9571
+  SoA-5 pooled : 0.9345
+  [OK] attach (72,26,31) vs (72, 26, 31)  SoA-5 0.9345 vs 0.9345
+
+ALL MATCH
+########## threshold 0.70
+=== gemini_38_flash ===
+       act : p=0.988 r=0.988 f1=0.988  (tp=167/fp=2/fn=2)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=0.890 r=0.890 f1=0.890  (tp=73/fp=9/fn=9)
+      cell : p=0.995 r=0.874 f1=0.931  (tp=603/fp=3/fn=87)
+  attach   : p=0.871 r=0.786 f1=0.827  (tp=81/fp=12/fn=22)
+    attach-activity: f1=0.980  (tp=50/fp=2/fn=0)
+    attach-contact : f1=0.844  (tp=27/fp=10/fn=0)
+    attach-cell    : f1=0.267  (tp=4/fp=0/fn=22)
+  SoA-4 pooled : 0.9416
+  SoA-5 pooled : 0.9309
+  [DIFF] attach (81,12,22) vs (81, 12, 22)  SoA-5 0.9309 vs 0.9432
+=== claude_sonnet_55 ===
+       act : p=1.000 r=1.000 f1=1.000  (tp=169/fp=0/fn=0)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.998 r=0.667 f1=0.799  (tp=460/fp=1/fn=230)
+  attach   : p=0.922 r=0.913 f1=0.917  (tp=94/fp=8/fn=9)
+    attach-activity: f1=0.869  (tp=43/fp=6/fn=7)
+    attach-contact : f1=0.926  (tp=25/fp=2/fn=2)
+    attach-cell    : f1=1.000  (tp=26/fp=0/fn=0)
+  SoA-4 pooled : 0.8697
+  SoA-5 pooled : 0.8746
+  [OK] attach (94,8,9) vs (94, 8, 9)  SoA-5 0.8746 vs 0.8746
+=== medical_llm_medium_schema_constrained ===
+       act : p=0.976 r=0.976 f1=0.976  (tp=165/fp=4/fn=4)
+       con : p=0.787 r=0.800 f1=0.793  (tp=48/fp=13/fn=12)
+       ref : p=0.764 r=0.512 f1=0.613  (tp=42/fp=13/fn=40)
+      cell : p=0.673 r=0.828 f1=0.742  (tp=571/fp=278/fn=119)
+  attach   : p=0.535 r=0.515 f1=0.525  (tp=53/fp=46/fn=50)
+    attach-activity: f1=0.636  (tp=35/fp=25/fn=15)
+    attach-contact : f1=0.408  (tp=10/fp=12/fn=17)
+    attach-cell    : f1=0.372  (tp=8/fp=9/fn=18)
+  SoA-4 pooled : 0.7738
+  SoA-5 pooled : 0.7522
+=== medical_llm_medium_unconstrained ===
+       act : p=0.994 r=0.982 f1=0.988  (tp=166/fp=1/fn=3)
+       con : p=0.950 r=0.950 f1=0.950  (tp=57/fp=3/fn=3)
+       ref : p=0.982 r=0.671 f1=0.797  (tp=55/fp=1/fn=27)
+      cell : p=0.800 r=0.967 f1=0.875  (tp=667/fp=167/fn=23)
+  attach   : p=0.604 r=0.563 f1=0.583  (tp=58/fp=38/fn=45)
+    attach-activity: f1=0.610  (tp=32/fp=23/fn=18)
+    attach-contact : f1=0.667  (tp=16/fp=5/fn=11)
+    attach-cell    : f1=0.435  (tp=10/fp=10/fn=16)
+  SoA-4 pooled : 0.8924
+  SoA-5 pooled : 0.8658
+=== gpt_56_terra ===
+       act : p=0.969 r=0.935 f1=0.952  (tp=158/fp=5/fn=11)
+       con : p=1.000 r=1.000 f1=1.000  (tp=60/fp=0/fn=0)
+       ref : p=1.000 r=1.000 f1=1.000  (tp=82/fp=0/fn=0)
+      cell : p=0.995 r=0.907 f1=0.949  (tp=626/fp=3/fn=64)
+  attach   : p=0.735 r=0.699 f1=0.716  (tp=72/fp=26/fn=31)
+    attach-activity: f1=0.598  (tp=29/fp=18/fn=21)
+    attach-contact : f1=0.808  (tp=21/fp=4/fn=6)
+    attach-cell    : f1=0.846  (tp=22/fp=4/fn=4)
+  SoA-4 pooled : 0.9571
+  SoA-5 pooled : 0.9345
+  [OK] attach (72,26,31) vs (72, 26, 31)  SoA-5 0.9345 vs 0.9345
+
+DRIFT present (see docstring)

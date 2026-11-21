@@ -1,0 +1,7332 @@
+{
+ "schema": "soa-judge-alignment/5",
+ "judge": "anthropic/claude-sonnet-5.5",
+ "tasks_hash": "caf866376e25",
+ "alignments": {
+  "tec964d": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "t3d4496": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "teba592": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "t913bcb": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "tacbb07": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "tb7df1d": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "tb1afef": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23"
+  },
+  "tc8cb0e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09"
+  },
+  "t193652": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t4a9ad4": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t01f808": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t250218": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "tc791b1": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "t431b06": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t50fc9d": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20"
+  },
+  "taae133": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12"
+  },
+  "t2bce7a": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t51afd9": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "tb8e1dd": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t9d5791": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "tb501d6": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "t785d0f": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "t57dc32": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12"
+  },
+  "taf3935": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08"
+  },
+  "t0589f4": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "td7ac84": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "t452463": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "tf2f15e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "tade2fa": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "t29161c": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "tfaa0de": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25"
+  },
+  "te8643b": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07"
+  },
+  "t703eaf": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_05",
+   "act_05": "act_06",
+   "act_06": "act_07",
+   "act_07": "act_08",
+   "act_08": "act_09",
+   "act_09": "act_10",
+   "act_10": "act_11",
+   "act_11": "act_12",
+   "act_12": "act_13",
+   "act_13": "act_14",
+   "act_14": "act_15",
+   "act_15": "act_16",
+   "act_16": "act_17",
+   "act_17": "act_19",
+   "act_18": "act_20",
+   "act_19": "act_21",
+   "act_20": "act_22",
+   "act_21": "act_23",
+   "act_22": null,
+   "act_23": "act_24",
+   "act_24": "act_25",
+   "act_25": "act_26",
+   "act_26": "act_27",
+   "act_27": "act_28",
+   "act_28": "act_29",
+   "act_29": "act_30",
+   "act_30": "act_31",
+   "act_31": "act_32",
+   "act_32": "act_33",
+   "act_33": "act_34",
+   "act_34": null,
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tc01958": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t649451": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_15",
+   "act_13": "act_16",
+   "act_14": "act_17",
+   "act_15": "act_18",
+   "act_16": "act_12",
+   "act_17": "act_13",
+   "act_18": "act_14",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tcff5f2": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t8183ed": {
+   "act_01": null,
+   "act_02": "act_24",
+   "act_03": "act_25",
+   "act_04": "act_26",
+   "act_05": "act_27",
+   "act_06": "act_28",
+   "act_07": "act_29",
+   "act_08": "act_30",
+   "act_09": "act_31",
+   "act_10": "act_32",
+   "act_11": "act_33",
+   "act_12": "act_34",
+   "act_13": "act_35",
+   "act_14": "act_36",
+   "act_15": "act_37",
+   "act_16": "act_38",
+   "act_17": "act_08",
+   "act_18": "act_39",
+   "act_19": "act_40",
+   "act_20": "act_41",
+   "act_21": "act_42",
+   "act_22": null,
+   "act_23": "act_01",
+   "act_24": "act_02",
+   "act_25": "act_03",
+   "act_26": "act_04",
+   "act_27": "act_06",
+   "act_28": "act_07",
+   "act_29": null,
+   "act_30": "act_09",
+   "act_31": "act_10",
+   "act_32": "act_11",
+   "act_33": "act_12",
+   "act_34": "act_13",
+   "act_35": "act_14",
+   "act_36": "act_15",
+   "act_37": "act_16",
+   "act_38": null,
+   "act_39": "act_18",
+   "act_40": "act_19",
+   "act_41": "act_20",
+   "act_42": "act_21",
+   "act_43": "act_22",
+   "act_44": "act_23",
+   "act_45": null,
+   "act_46": null,
+   "act_47": null,
+   "act_48": null
+  },
+  "tf1a8fe": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "tba18be": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": null,
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_03",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41",
+   "act_42": "act_42",
+   "act_43": "act_43",
+   "act_44": "act_44",
+   "act_45": "act_45",
+   "act_46": "act_46",
+   "act_47": "act_47",
+   "act_48": "act_48"
+  },
+  "tb8daac": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11",
+   "con_12": "con_12",
+   "con_13": "con_13"
+  },
+  "t6a2780": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t5dada8": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "tdc3ad7": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t9c8a4a": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "t7c9871": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "t77422e": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  },
+  "te984ad": {
+   "act_01": "act_01",
+   "act_02": "act_02",
+   "act_03": "act_03",
+   "act_04": "act_04",
+   "act_05": "act_05",
+   "act_06": "act_06",
+   "act_07": "act_07",
+   "act_08": "act_08",
+   "act_09": "act_09",
+   "act_10": "act_10",
+   "act_11": "act_11",
+   "act_12": "act_12",
+   "act_13": "act_13",
+   "act_14": "act_14",
+   "act_15": "act_15",
+   "act_16": "act_16",
+   "act_17": "act_17",
+   "act_18": "act_18",
+   "act_19": "act_19",
+   "act_20": "act_20",
+   "act_21": "act_21",
+   "act_22": "act_22",
+   "act_23": "act_23",
+   "act_24": "act_24",
+   "act_25": "act_25",
+   "act_26": "act_26",
+   "act_27": "act_27",
+   "act_28": "act_28",
+   "act_29": "act_29",
+   "act_30": "act_30",
+   "act_31": "act_31",
+   "act_32": "act_32",
+   "act_33": "act_33",
+   "act_34": "act_34",
+   "act_35": "act_35",
+   "act_36": "act_36",
+   "act_37": "act_37",
+   "act_38": "act_38",
+   "act_39": "act_39",
+   "act_40": "act_40",
+   "act_41": "act_41"
+  },
+  "tcacd51": {
+   "con_01": "con_01",
+   "con_02": "con_02",
+   "con_03": "con_03",
+   "con_04": "con_04",
+   "con_05": "con_05",
+   "con_06": "con_06",
+   "con_07": "con_07",
+   "con_08": "con_08",
+   "con_09": "con_09",
+   "con_10": "con_10",
+   "con_11": "con_11"
+  }
+ },
+ "content": {
+  "tec964d": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "wrong",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "t3d4496": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "teba592": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "strict",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "t913bcb": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "tacbb07": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "strict",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "wrong",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "strict",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "tb7df1d": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "tb1afef": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "strict",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same"
+  },
+  "tc8cb0e": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same"
+  },
+  "t193652": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "wrong",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "strict",
+   "act_17": "strict",
+   "act_18": "strict",
+   "act_19": "strict",
+   "act_20": "strict"
+  },
+  "t4a9ad4": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "t01f808": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "strict",
+   "act_15": "same",
+   "act_16": "wrong",
+   "act_17": "strict",
+   "act_18": "strict",
+   "act_19": "strict",
+   "act_20": "wrong"
+  },
+  "t250218": {
+   "con_01": "wrong",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "tc791b1": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same"
+  },
+  "t431b06": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "same",
+   "con_12": "same"
+  },
+  "t50fc9d": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same"
+  },
+  "taae133": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "strict"
+  },
+  "t2bce7a": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same"
+  },
+  "t51afd9": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "tb8e1dd": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "strict",
+   "act_11": "strict",
+   "act_12": "wrong"
+  },
+  "t9d5791": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "tb501d6": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same"
+  },
+  "t785d0f": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "strict",
+   "con_08": "strict"
+  },
+  "t57dc32": {
+   "act_01": "same",
+   "act_02": "wrong",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "wrong",
+   "act_11": "wrong",
+   "act_12": "wrong"
+  },
+  "taf3935": {
+   "con_01": "wrong",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same"
+  },
+  "t0589f4": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "td7ac84": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "wrong",
+   "con_06": "same",
+   "con_07": "same"
+  },
+  "t452463": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "tf2f15e": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict"
+  },
+  "tade2fa": {
+   "act_01": "strict",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "wrong",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "strict",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "wrong",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "t29161c": {
+   "con_01": "same",
+   "con_02": "strict",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "strict",
+   "con_06": "same",
+   "con_07": "strict"
+  },
+  "tfaa0de": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "strict",
+   "act_06": "strict",
+   "act_07": "strict",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "strict",
+   "act_13": "strict",
+   "act_14": "same",
+   "act_15": "strict",
+   "act_16": "strict",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "strict",
+   "act_21": "same",
+   "act_22": "strict",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same"
+  },
+  "te8643b": {
+   "con_01": "wrong",
+   "con_02": "wrong",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "same",
+   "con_07": "wrong"
+  },
+  "t703eaf": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "strict",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "wrong",
+   "act_27": "same",
+   "act_28": "wrong",
+   "act_29": "strict",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_35": "strict",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "strict",
+   "act_39": "same",
+   "act_40": "strict",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "strict",
+   "act_47": "strict",
+   "act_48": "wrong"
+  },
+  "tc01958": {
+   "con_01": "strict",
+   "con_02": "wrong",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "wrong",
+   "con_07": "wrong",
+   "con_08": "wrong",
+   "con_09": "wrong",
+   "con_10": "wrong",
+   "con_11": "wrong",
+   "con_12": "wrong",
+   "con_13": "wrong"
+  },
+  "t649451": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "strict",
+   "act_25": "wrong",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "wrong",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "wrong",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "wrong",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "wrong",
+   "act_47": "strict",
+   "act_48": "wrong"
+  },
+  "tcff5f2": {
+   "con_01": "wrong",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "strict",
+   "con_12": "wrong",
+   "con_13": "strict"
+  },
+  "t8183ed": {
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "strict",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "wrong",
+   "act_10": "wrong",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "strict",
+   "act_20": "same",
+   "act_21": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "strict",
+   "act_26": "wrong",
+   "act_27": "same",
+   "act_28": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "wrong",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "strict",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_39": "same",
+   "act_40": "wrong",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same"
+  },
+  "tf1a8fe": {
+   "con_01": "strict",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "strict",
+   "con_12": "strict",
+   "con_13": "strict"
+  },
+  "tba18be": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "wrong",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "same",
+   "act_41": "same",
+   "act_42": "same",
+   "act_43": "same",
+   "act_44": "same",
+   "act_45": "same",
+   "act_46": "same",
+   "act_47": "strict",
+   "act_48": "same"
+  },
+  "tb8daac": {
+   "con_01": "wrong",
+   "con_02": "strict",
+   "con_03": "strict",
+   "con_04": "strict",
+   "con_05": "strict",
+   "con_06": "strict",
+   "con_07": "strict",
+   "con_08": "strict",
+   "con_09": "strict",
+   "con_10": "wrong",
+   "con_11": "strict",
+   "con_12": "strict",
+   "con_13": "strict"
+  },
+  "t6a2780": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "wrong",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "wrong",
+   "act_35": "same",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "wrong",
+   "act_40": "wrong",
+   "act_41": "strict"
+  },
+  "t5dada8": {
+   "con_01": "strict",
+   "con_02": "strict",
+   "con_03": "wrong",
+   "con_04": "wrong",
+   "con_05": "wrong",
+   "con_06": "wrong",
+   "con_07": "wrong",
+   "con_08": "wrong",
+   "con_09": "strict",
+   "con_10": "strict",
+   "con_11": "wrong"
+  },
+  "tdc3ad7": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "same",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "same",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "same",
+   "act_39": "same",
+   "act_40": "same",
+   "act_41": "same"
+  },
+  "t9c8a4a": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "same",
+   "con_11": "same"
+  },
+  "t7c9871": {
+   "act_01": "same",
+   "act_02": "strict",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "strict",
+   "act_07": "strict",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "strict",
+   "act_12": "strict",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "same",
+   "act_16": "same",
+   "act_17": "same",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "strict",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "strict",
+   "act_26": "strict",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "same",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "same",
+   "act_34": "strict",
+   "act_35": "same",
+   "act_36": "wrong",
+   "act_37": "same",
+   "act_38": "strict",
+   "act_39": "wrong",
+   "act_40": "strict",
+   "act_41": "same"
+  },
+  "t77422e": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "strict",
+   "con_10": "same",
+   "con_11": "same"
+  },
+  "te984ad": {
+   "act_01": "same",
+   "act_02": "same",
+   "act_03": "same",
+   "act_04": "same",
+   "act_05": "same",
+   "act_06": "wrong",
+   "act_07": "same",
+   "act_08": "same",
+   "act_09": "same",
+   "act_10": "same",
+   "act_11": "same",
+   "act_12": "wrong",
+   "act_13": "same",
+   "act_14": "same",
+   "act_15": "wrong",
+   "act_16": "same",
+   "act_17": "strict",
+   "act_18": "same",
+   "act_19": "same",
+   "act_20": "same",
+   "act_21": "same",
+   "act_22": "same",
+   "act_23": "same",
+   "act_24": "same",
+   "act_25": "same",
+   "act_26": "same",
+   "act_27": "same",
+   "act_28": "same",
+   "act_29": "strict",
+   "act_30": "same",
+   "act_31": "same",
+   "act_32": "same",
+   "act_33": "strict",
+   "act_34": "same",
+   "act_35": "same",
+   "act_36": "same",
+   "act_37": "same",
+   "act_38": "wrong",
+   "act_39": "wrong",
+   "act_40": "same",
+   "act_41": "strict"
+  },
+  "tcacd51": {
+   "con_01": "same",
+   "con_02": "same",
+   "con_03": "same",
+   "con_04": "same",
+   "con_05": "same",
+   "con_06": "same",
+   "con_07": "same",
+   "con_08": "same",
+   "con_09": "same",
+   "con_10": "strict",
+   "con_11": "same"
+  }
+ },
+ "reasons": {
+  "tec964d": {
+   "act_14": "MSCEIT ME (Managing Emotions) branch name shortened to MSCEIT"
+  },
+  "t3d4496": {},
+  "teba592": {},
+  "t913bcb": {},
+  "tacbb07": {
+   "act_13": "CGI:I changed to CGI; CGI:S written CGI-S"
+  },
+  "tb7df1d": {},
+  "tb1afef": {},
+  "tc8cb0e": {},
+  "t193652": {
+   "act_04": "footnote marker 1 instead of 12"
+  },
+  "t4a9ad4": {},
+  "t01f808": {
+   "act_16": "footnote marker 4 instead of 5",
+   "act_20": "footnote marker 5 instead of 9"
+  },
+  "t250218": {
+   "con_01": "footnote markers 8 and 4 omitted"
+  },
+  "tc791b1": {},
+  "t431b06": {},
+  "t50fc9d": {},
+  "taae133": {},
+  "t2bce7a": {},
+  "t51afd9": {},
+  "tb8e1dd": {
+   "act_12": "marker 2 instead of 8, pointing to wrong footnote"
+  },
+  "t9d5791": {},
+  "tb501d6": {},
+  "t785d0f": {},
+  "t57dc32": {
+   "act_02": "different footnote marker (c vs 2)",
+   "act_10": "footnote marker d instead of 3",
+   "act_11": "footnote marker g instead of 8",
+   "act_12": "footnote marker h instead of 8"
+  },
+  "taf3935": {
+   "con_01": "Screen/Baseline footnote marker 5 instead of 4"
+  },
+  "t0589f4": {},
+  "td7ac84": {
+   "con_05": "footnote marker c added, differs from reference e,f; f missing"
+  },
+  "t452463": {},
+  "tf2f15e": {},
+  "tade2fa": {
+   "act_05": "Preplanned changed to Pregnancy; different meaning",
+   "act_18": "prothrombin changed to prothrombotic complex concentrates"
+  },
+  "t29161c": {},
+  "tfaa0de": {},
+  "te8643b": {
+   "con_01": "period name Screening and window omitted; wrong period given",
+   "con_02": "Baseline marker a dropped fine, but Treatment Period inserted and placement changed",
+   "con_03": "visit window -4/+2 days omitted",
+   "con_04": "visit window -/+4 days omitted",
+   "con_05": "visit window -/+6 days omitted",
+   "con_07": "window 30±15 days omitted"
+  },
+  "t703eaf": {
+   "act_26": "fundus photography omitted; 'findings' added",
+   "act_28": "added footnote marker 5 not in reference",
+   "act_48": "footnote marker 10 instead of 9"
+  },
+  "tc01958": {
+   "con_02": "unit days instead of weeks",
+   "con_03": "days instead of weeks; visit window omitted",
+   "con_04": "unit days instead of weeks",
+   "con_05": "unit days instead of weeks",
+   "con_06": "unit days instead of weeks",
+   "con_07": "unit days instead of weeks",
+   "con_08": "unit days instead of weeks",
+   "con_09": "unit days instead of weeks",
+   "con_10": "unit days instead of weeks",
+   "con_11": "unit days instead of weeks; footnote marker differs",
+   "con_12": "unit days instead of weeks; footnote marker differs",
+   "con_13": "visit 1X, weeks and window omitted; footnote marker differs"
+  },
+  "t649451": {
+   "act_25": "footnote marker e differs from 4",
+   "act_29": "footnote marker f differs from 5",
+   "act_35": "footnote marker g differs from 6",
+   "act_36": "footnote marker h differs from 7",
+   "act_40": "'Hand out' replaced by 'Trial drug'; activity changed",
+   "act_46": "footnote marker i differs from 8",
+   "act_48": "footnote marker j differs from 9"
+  },
+  "tcff5f2": {
+   "con_01": "footnote marker 1 on Screening omitted",
+   "con_12": "footnote marker 3 instead of 2"
+  },
+  "t8183ed": {
+   "act_09": "smoking history instead of smoking habits",
+   "act_10": "'disease' omitted from gallbladder disease",
+   "act_26": "fundus photography omitted",
+   "act_32": "calcium instead of calcitonin",
+   "act_36": "'Blood' omitted from blood pregnancy test",
+   "act_40": "different activity: dispensing/return of products for e-Diary"
+  },
+  "tf1a8fe": {},
+  "tba18be": {
+   "act_08": "Adds surgical history; reference is just medical history"
+  },
+  "tb8daac": {
+   "con_01": "footnote marker x added; reference has footnote 1 digit in 'Screening 1'",
+   "con_10": "window ±5 instead of ±3"
+  },
+  "t6a2780": {
+   "act_08": "'background metformin' changed to 'background medication'",
+   "act_34": "footnote marker h instead of i",
+   "act_36": "added footnote marker i not in reference",
+   "act_38": "footnote marker j instead of l",
+   "act_39": "added footnote marker k not in reference",
+   "act_40": "footnote marker l instead of b"
+  },
+  "t5dada8": {
+   "con_03": "visit window ± 5 days omitted",
+   "con_04": "visit window ± 5 days omitted",
+   "con_05": "visit window ± 1 day omitted",
+   "con_06": "visit window ± 7 days omitted",
+   "con_07": "visit window ± 7 days omitted",
+   "con_08": "visit window ± 7 days omitted",
+   "con_11": "visit window +3 days omitted"
+  },
+  "tdc3ad7": {},
+  "t9c8a4a": {},
+  "t7c9871": {
+   "act_36": "added footnote marker j not in reference",
+   "act_39": "added footnote marker m not in reference"
+  },
+  "t77422e": {},
+  "te984ad": {
+   "act_06": "footnote marker e instead of c",
+   "act_12": "omits '/monitoring'",
+   "act_15": "Met-R instead of Met-IR",
+   "act_38": "footnote marker j instead of l",
+   "act_39": "added footnote marker m"
+  },
+  "tcacd51": {}
+ },
+ "flags": {
+  "tec964d": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": true
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t3d4496": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "teba592": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t913bcb": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tacbb07": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": true,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": true,
+    "semantic": true
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb7df1d": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb1afef": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tc8cb0e": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t193652": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": true
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": true,
+    "semantic": false
+   },
+   "act_19": {
+    "content": true,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t4a9ad4": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t01f808": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": true,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": true
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": true,
+    "semantic": false
+   },
+   "act_19": {
+    "content": true,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t250218": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tc791b1": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t431b06": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   },
+   "con_12": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t50fc9d": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "taae133": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t2bce7a": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t51afd9": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tb8e1dd": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": true,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t9d5791": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tb501d6": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t785d0f": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t57dc32": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": true
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": true,
+    "semantic": true
+   },
+   "act_11": {
+    "content": true,
+    "semantic": true
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "taf3935": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t0589f4": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "td7ac84": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t452463": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tf2f15e": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tade2fa": {
+   "act_01": {
+    "content": true,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": true,
+    "semantic": true
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": true,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": true,
+    "semantic": true
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t29161c": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tfaa0de": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": true,
+    "semantic": false
+   },
+   "act_06": {
+    "content": true,
+    "semantic": false
+   },
+   "act_07": {
+    "content": true,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": false
+   },
+   "act_13": {
+    "content": true,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": true,
+    "semantic": false
+   },
+   "act_16": {
+    "content": true,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": true,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": true,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "te8643b": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": true,
+    "semantic": true
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t703eaf": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": true,
+    "semantic": true
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": true,
+    "semantic": true
+   },
+   "act_29": {
+    "content": true,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": true,
+    "semantic": false
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tc01958": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": true
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": true,
+    "semantic": true
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   },
+   "con_08": {
+    "content": true,
+    "semantic": true
+   },
+   "con_09": {
+    "content": true,
+    "semantic": true
+   },
+   "con_10": {
+    "content": true,
+    "semantic": true
+   },
+   "con_11": {
+    "content": true,
+    "semantic": true
+   },
+   "con_12": {
+    "content": true,
+    "semantic": true
+   },
+   "con_13": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "t649451": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": true,
+    "semantic": false
+   },
+   "act_25": {
+    "content": true,
+    "semantic": true
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": true,
+    "semantic": true
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": true
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": true,
+    "semantic": true
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tcff5f2": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": true
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t8183ed": {
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": true,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": true,
+    "semantic": true
+   },
+   "act_10": {
+    "content": true,
+    "semantic": true
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": true,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": true,
+    "semantic": false
+   },
+   "act_26": {
+    "content": true,
+    "semantic": true
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": true,
+    "semantic": true
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": true,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tf1a8fe": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tba18be": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": true,
+    "semantic": true
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   },
+   "act_42": {
+    "content": false,
+    "semantic": false
+   },
+   "act_43": {
+    "content": false,
+    "semantic": false
+   },
+   "act_44": {
+    "content": false,
+    "semantic": false
+   },
+   "act_45": {
+    "content": false,
+    "semantic": false
+   },
+   "act_46": {
+    "content": false,
+    "semantic": false
+   },
+   "act_47": {
+    "content": true,
+    "semantic": false
+   },
+   "act_48": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "tb8daac": {
+   "con_01": {
+    "content": true,
+    "semantic": true
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": false
+   },
+   "con_04": {
+    "content": true,
+    "semantic": false
+   },
+   "con_05": {
+    "content": true,
+    "semantic": false
+   },
+   "con_06": {
+    "content": true,
+    "semantic": false
+   },
+   "con_07": {
+    "content": true,
+    "semantic": false
+   },
+   "con_08": {
+    "content": true,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": true
+   },
+   "con_11": {
+    "content": true,
+    "semantic": false
+   },
+   "con_12": {
+    "content": true,
+    "semantic": false
+   },
+   "con_13": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t6a2780": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": true,
+    "semantic": true
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": true,
+    "semantic": true
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": true,
+    "semantic": true
+   },
+   "act_41": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "t5dada8": {
+   "con_01": {
+    "content": true,
+    "semantic": false
+   },
+   "con_02": {
+    "content": true,
+    "semantic": false
+   },
+   "con_03": {
+    "content": true,
+    "semantic": true
+   },
+   "con_04": {
+    "content": true,
+    "semantic": true
+   },
+   "con_05": {
+    "content": true,
+    "semantic": true
+   },
+   "con_06": {
+    "content": true,
+    "semantic": true
+   },
+   "con_07": {
+    "content": true,
+    "semantic": true
+   },
+   "con_08": {
+    "content": true,
+    "semantic": true
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": true,
+    "semantic": true
+   }
+  },
+  "tdc3ad7": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": false,
+    "semantic": false
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": false,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": false,
+    "semantic": false
+   },
+   "act_39": {
+    "content": false,
+    "semantic": false
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t9c8a4a": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t7c9871": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": true,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": true,
+    "semantic": false
+   },
+   "act_07": {
+    "content": true,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": true,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": false
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": false,
+    "semantic": false
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": false,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": true,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": true,
+    "semantic": false
+   },
+   "act_26": {
+    "content": true,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": false,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": false,
+    "semantic": false
+   },
+   "act_34": {
+    "content": true,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": true,
+    "semantic": true
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": false
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": true,
+    "semantic": false
+   },
+   "act_41": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "t77422e": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": true,
+    "semantic": false
+   },
+   "con_10": {
+    "content": false,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  },
+  "te984ad": {
+   "act_01": {
+    "content": false,
+    "semantic": false
+   },
+   "act_02": {
+    "content": false,
+    "semantic": false
+   },
+   "act_03": {
+    "content": false,
+    "semantic": false
+   },
+   "act_04": {
+    "content": false,
+    "semantic": false
+   },
+   "act_05": {
+    "content": false,
+    "semantic": false
+   },
+   "act_06": {
+    "content": true,
+    "semantic": true
+   },
+   "act_07": {
+    "content": false,
+    "semantic": false
+   },
+   "act_08": {
+    "content": false,
+    "semantic": false
+   },
+   "act_09": {
+    "content": false,
+    "semantic": false
+   },
+   "act_10": {
+    "content": false,
+    "semantic": false
+   },
+   "act_11": {
+    "content": false,
+    "semantic": false
+   },
+   "act_12": {
+    "content": true,
+    "semantic": true
+   },
+   "act_13": {
+    "content": false,
+    "semantic": false
+   },
+   "act_14": {
+    "content": false,
+    "semantic": false
+   },
+   "act_15": {
+    "content": true,
+    "semantic": true
+   },
+   "act_16": {
+    "content": false,
+    "semantic": false
+   },
+   "act_17": {
+    "content": true,
+    "semantic": false
+   },
+   "act_18": {
+    "content": false,
+    "semantic": false
+   },
+   "act_19": {
+    "content": false,
+    "semantic": false
+   },
+   "act_20": {
+    "content": false,
+    "semantic": false
+   },
+   "act_21": {
+    "content": false,
+    "semantic": false
+   },
+   "act_22": {
+    "content": false,
+    "semantic": false
+   },
+   "act_23": {
+    "content": false,
+    "semantic": false
+   },
+   "act_24": {
+    "content": false,
+    "semantic": false
+   },
+   "act_25": {
+    "content": false,
+    "semantic": false
+   },
+   "act_26": {
+    "content": false,
+    "semantic": false
+   },
+   "act_27": {
+    "content": false,
+    "semantic": false
+   },
+   "act_28": {
+    "content": false,
+    "semantic": false
+   },
+   "act_29": {
+    "content": true,
+    "semantic": false
+   },
+   "act_30": {
+    "content": false,
+    "semantic": false
+   },
+   "act_31": {
+    "content": false,
+    "semantic": false
+   },
+   "act_32": {
+    "content": false,
+    "semantic": false
+   },
+   "act_33": {
+    "content": true,
+    "semantic": false
+   },
+   "act_34": {
+    "content": false,
+    "semantic": false
+   },
+   "act_35": {
+    "content": false,
+    "semantic": false
+   },
+   "act_36": {
+    "content": false,
+    "semantic": false
+   },
+   "act_37": {
+    "content": false,
+    "semantic": false
+   },
+   "act_38": {
+    "content": true,
+    "semantic": true
+   },
+   "act_39": {
+    "content": true,
+    "semantic": true
+   },
+   "act_40": {
+    "content": false,
+    "semantic": false
+   },
+   "act_41": {
+    "content": true,
+    "semantic": false
+   }
+  },
+  "tcacd51": {
+   "con_01": {
+    "content": false,
+    "semantic": false
+   },
+   "con_02": {
+    "content": false,
+    "semantic": false
+   },
+   "con_03": {
+    "content": false,
+    "semantic": false
+   },
+   "con_04": {
+    "content": false,
+    "semantic": false
+   },
+   "con_05": {
+    "content": false,
+    "semantic": false
+   },
+   "con_06": {
+    "content": false,
+    "semantic": false
+   },
+   "con_07": {
+    "content": false,
+    "semantic": false
+   },
+   "con_08": {
+    "content": false,
+    "semantic": false
+   },
+   "con_09": {
+    "content": false,
+    "semantic": false
+   },
+   "con_10": {
+    "content": true,
+    "semantic": false
+   },
+   "con_11": {
+    "content": false,
+    "semantic": false
+   }
+  }
+ },
+ "info": {
+  "tec964d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2508,
+    "completion_tokens": 622,
+    "total_tokens": 3130,
+    "cost": 0.011236,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011236,
+     "upstream_inference_prompt_cost": 0.005016,
+     "upstream_inference_completions_cost": 0.00622
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t3d4496": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2371,
+    "completion_tokens": 235,
+    "total_tokens": 2606,
+    "cost": 0.007092,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007092,
+     "upstream_inference_prompt_cost": 0.004742,
+     "upstream_inference_completions_cost": 0.00235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "teba592": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2510,
+    "completion_tokens": 585,
+    "total_tokens": 3095,
+    "cost": 0.01087,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01087,
+     "upstream_inference_prompt_cost": 0.00502,
+     "upstream_inference_completions_cost": 0.00585
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t913bcb": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2367,
+    "completion_tokens": 235,
+    "total_tokens": 2602,
+    "cost": 0.007084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007084,
+     "upstream_inference_prompt_cost": 0.004734,
+     "upstream_inference_completions_cost": 0.00235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tacbb07": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2508,
+    "completion_tokens": 615,
+    "total_tokens": 3123,
+    "cost": 0.011166,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011166,
+     "upstream_inference_prompt_cost": 0.005016,
+     "upstream_inference_completions_cost": 0.00615
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb7df1d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2367,
+    "completion_tokens": 235,
+    "total_tokens": 2602,
+    "cost": 0.007084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007084,
+     "upstream_inference_prompt_cost": 0.004734,
+     "upstream_inference_completions_cost": 0.00235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb1afef": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2510,
+    "completion_tokens": 585,
+    "total_tokens": 3095,
+    "cost": 0.01087,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01087,
+     "upstream_inference_prompt_cost": 0.00502,
+     "upstream_inference_completions_cost": 0.00585
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc8cb0e": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2371,
+    "completion_tokens": 235,
+    "total_tokens": 2606,
+    "cost": 0.007092,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007092,
+     "upstream_inference_prompt_cost": 0.004742,
+     "upstream_inference_completions_cost": 0.00235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t193652": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2457,
+    "completion_tokens": 530,
+    "total_tokens": 2987,
+    "cost": 0.010214,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010214,
+     "upstream_inference_prompt_cost": 0.004914,
+     "upstream_inference_completions_cost": 0.0053
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t4a9ad4": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2607,
+    "completion_tokens": 310,
+    "total_tokens": 2917,
+    "cost": 0.008314,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008314,
+     "upstream_inference_prompt_cost": 0.005214,
+     "upstream_inference_completions_cost": 0.0031
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t01f808": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2449,
+    "completion_tokens": 550,
+    "total_tokens": 2999,
+    "cost": 0.010398,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010398,
+     "upstream_inference_prompt_cost": 0.004898,
+     "upstream_inference_completions_cost": 0.0055
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t250218": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2575,
+    "completion_tokens": 332,
+    "total_tokens": 2907,
+    "cost": 0.00847,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00847,
+     "upstream_inference_prompt_cost": 0.00515,
+     "upstream_inference_completions_cost": 0.00332
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc791b1": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2455,
+    "completion_tokens": 510,
+    "total_tokens": 2965,
+    "cost": 0.01001,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01001,
+     "upstream_inference_prompt_cost": 0.00491,
+     "upstream_inference_completions_cost": 0.0051
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t431b06": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2594,
+    "completion_tokens": 310,
+    "total_tokens": 2904,
+    "cost": 0.008288,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008288,
+     "upstream_inference_prompt_cost": 0.005188,
+     "upstream_inference_completions_cost": 0.0031
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t50fc9d": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2449,
+    "completion_tokens": 510,
+    "total_tokens": 2959,
+    "cost": 0.009998,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009998,
+     "upstream_inference_prompt_cost": 0.004898,
+     "upstream_inference_completions_cost": 0.0051
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "taae133": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2607,
+    "completion_tokens": 310,
+    "total_tokens": 2917,
+    "cost": 0.008314,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008314,
+     "upstream_inference_prompt_cost": 0.005214,
+     "upstream_inference_completions_cost": 0.0031
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t2bce7a": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2121,
+    "completion_tokens": 310,
+    "total_tokens": 2431,
+    "cost": 0.007342,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007342,
+     "upstream_inference_prompt_cost": 0.004242,
+     "upstream_inference_completions_cost": 0.0031
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t51afd9": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2324,
+    "completion_tokens": 210,
+    "total_tokens": 2534,
+    "cost": 0.006748,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.006748,
+     "upstream_inference_prompt_cost": 0.004648,
+     "upstream_inference_completions_cost": 0.0021
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb8e1dd": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2119,
+    "completion_tokens": 338,
+    "total_tokens": 2457,
+    "cost": 0.007618,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007618,
+     "upstream_inference_prompt_cost": 0.004238,
+     "upstream_inference_completions_cost": 0.00338
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t9d5791": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2315,
+    "completion_tokens": 210,
+    "total_tokens": 2525,
+    "cost": 0.00673,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00673,
+     "upstream_inference_prompt_cost": 0.00463,
+     "upstream_inference_completions_cost": 0.0021
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb501d6": {
+   "problems": [
+    "prose_around_json"
+   ],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2117,
+    "completion_tokens": 344,
+    "total_tokens": 2461,
+    "cost": 0.007674,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007674,
+     "upstream_inference_prompt_cost": 0.004234,
+     "upstream_inference_completions_cost": 0.00344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t785d0f": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2314,
+    "completion_tokens": 210,
+    "total_tokens": 2524,
+    "cost": 0.006728,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.006728,
+     "upstream_inference_prompt_cost": 0.004628,
+     "upstream_inference_completions_cost": 0.0021
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t57dc32": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2129,
+    "completion_tokens": 622,
+    "total_tokens": 2751,
+    "cost": 0.010478,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.010478,
+     "upstream_inference_prompt_cost": 0.004258,
+     "upstream_inference_completions_cost": 0.00622
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "taf3935": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2314,
+    "completion_tokens": 676,
+    "total_tokens": 2990,
+    "cost": 0.011388,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011388,
+     "upstream_inference_prompt_cost": 0.004628,
+     "upstream_inference_completions_cost": 0.00676
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 438,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t0589f4": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2645,
+    "completion_tokens": 586,
+    "total_tokens": 3231,
+    "cost": 0.01115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01115,
+     "upstream_inference_prompt_cost": 0.00529,
+     "upstream_inference_completions_cost": 0.00586
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "td7ac84": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2702,
+    "completion_tokens": 212,
+    "total_tokens": 2914,
+    "cost": 0.007524,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007524,
+     "upstream_inference_prompt_cost": 0.005404,
+     "upstream_inference_completions_cost": 0.00212
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t452463": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2645,
+    "completion_tokens": 635,
+    "total_tokens": 3280,
+    "cost": 0.01164,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01164,
+     "upstream_inference_prompt_cost": 0.00529,
+     "upstream_inference_completions_cost": 0.00635
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tf2f15e": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2680,
+    "completion_tokens": 185,
+    "total_tokens": 2865,
+    "cost": 0.00721,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00721,
+     "upstream_inference_prompt_cost": 0.00536,
+     "upstream_inference_completions_cost": 0.00185
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tade2fa": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2646,
+    "completion_tokens": 688,
+    "total_tokens": 3334,
+    "cost": 0.012172,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.012172,
+     "upstream_inference_prompt_cost": 0.005292,
+     "upstream_inference_completions_cost": 0.00688
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t29161c": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2723,
+    "completion_tokens": 185,
+    "total_tokens": 2908,
+    "cost": 0.007296,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.007296,
+     "upstream_inference_prompt_cost": 0.005446,
+     "upstream_inference_completions_cost": 0.00185
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 2
+  },
+  "tfaa0de": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2633,
+    "completion_tokens": 635,
+    "total_tokens": 3268,
+    "cost": 0.011616,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011616,
+     "upstream_inference_prompt_cost": 0.005266,
+     "upstream_inference_completions_cost": 0.00635
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "te8643b": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2587,
+    "completion_tokens": 318,
+    "total_tokens": 2905,
+    "cost": 0.008354,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.008354,
+     "upstream_inference_prompt_cost": 0.005174,
+     "upstream_inference_completions_cost": 0.00318
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t703eaf": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 1234,
+    "total_tokens": 4243,
+    "cost": 0.018358,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018358,
+     "upstream_inference_prompt_cost": 0.006018,
+     "upstream_inference_completions_cost": 0.01234
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tc01958": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3127,
+    "completion_tokens": 561,
+    "total_tokens": 3688,
+    "cost": 0.011864,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011864,
+     "upstream_inference_prompt_cost": 0.006254,
+     "upstream_inference_completions_cost": 0.00561
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t649451": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3014,
+    "completion_tokens": 1253,
+    "total_tokens": 4267,
+    "cost": 0.018558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018558,
+     "upstream_inference_prompt_cost": 0.006028,
+     "upstream_inference_completions_cost": 0.01253
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tcff5f2": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3076,
+    "completion_tokens": 377,
+    "total_tokens": 3453,
+    "cost": 0.009922,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009922,
+     "upstream_inference_prompt_cost": 0.006152,
+     "upstream_inference_completions_cost": 0.00377
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t8183ed": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2919,
+    "completion_tokens": 1101,
+    "total_tokens": 4020,
+    "cost": 0.016848,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016848,
+     "upstream_inference_prompt_cost": 0.005838,
+     "upstream_inference_completions_cost": 0.01101
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tf1a8fe": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3227,
+    "completion_tokens": 335,
+    "total_tokens": 3562,
+    "cost": 0.009804,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009804,
+     "upstream_inference_prompt_cost": 0.006454,
+     "upstream_inference_completions_cost": 0.00335
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tba18be": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3019,
+    "completion_tokens": 1213,
+    "total_tokens": 4232,
+    "cost": 0.018168,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018168,
+     "upstream_inference_prompt_cost": 0.006038,
+     "upstream_inference_completions_cost": 0.01213
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tb8daac": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 388,
+    "total_tokens": 3638,
+    "cost": 0.01038,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01038,
+     "upstream_inference_prompt_cost": 0.0065,
+     "upstream_inference_completions_cost": 0.00388
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t6a2780": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3478,
+    "completion_tokens": 1144,
+    "total_tokens": 4622,
+    "cost": 0.018396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018396,
+     "upstream_inference_prompt_cost": 0.006956,
+     "upstream_inference_completions_cost": 0.01144
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t5dada8": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 2870,
+    "completion_tokens": 416,
+    "total_tokens": 3286,
+    "cost": 0.0099,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0099,
+     "upstream_inference_prompt_cost": 0.00574,
+     "upstream_inference_completions_cost": 0.00416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tdc3ad7": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3477,
+    "completion_tokens": 1035,
+    "total_tokens": 4512,
+    "cost": 0.017304,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017304,
+     "upstream_inference_prompt_cost": 0.006954,
+     "upstream_inference_completions_cost": 0.01035
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t9c8a4a": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3258,
+    "completion_tokens": 285,
+    "total_tokens": 3543,
+    "cost": 0.009366,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009366,
+     "upstream_inference_prompt_cost": 0.006516,
+     "upstream_inference_completions_cost": 0.00285
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t7c9871": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3483,
+    "completion_tokens": 1071,
+    "total_tokens": 4554,
+    "cost": 0.017676,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017676,
+     "upstream_inference_prompt_cost": 0.006966,
+     "upstream_inference_completions_cost": 0.01071
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "t77422e": {
+   "problems": [
+    "prose_around_json"
+   ],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3275,
+    "completion_tokens": 431,
+    "total_tokens": 3706,
+    "cost": 0.01086,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01086,
+     "upstream_inference_prompt_cost": 0.00655,
+     "upstream_inference_completions_cost": 0.00431
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "te984ad": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3475,
+    "completion_tokens": 1118,
+    "total_tokens": 4593,
+    "cost": 0.01813,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01813,
+     "upstream_inference_prompt_cost": 0.00695,
+     "upstream_inference_completions_cost": 0.01118
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  },
+  "tcacd51": {
+   "problems": [],
+   "finish_reason": "stop",
+   "served_model": "anthropic/claude-sonnet-5.5",
+   "provider": "Claude Platform on AWS",
+   "usage": {
+    "prompt_tokens": 3261,
+    "completion_tokens": 285,
+    "total_tokens": 3546,
+    "cost": 0.009372,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.009372,
+     "upstream_inference_prompt_cost": 0.006522,
+     "upstream_inference_completions_cost": 0.00285
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "attempts": 1
+  }
+ }
+}

@@ -1,0 +1,3561 @@
+{
+ "tasks_hash": "caf866376e25",
+ "content": [
+  {
+   "id": "tec964d|act_14",
+   "task": "tec964d",
+   "gold_id": "act_14",
+   "pred_id": "act_14",
+   "axis": "rows",
+   "group": "NCT01621737__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Cognitive tests (CMINDS® and MSCEIT™ ME) h",
+   "pred": "Cognitive tests (CMINDS® and MSCEIT™) h",
+   "gold_html": "Cognitive tests (CMINDS® and <mark>MSCEIT™ ME)</mark> h",
+   "pred_html": "Cognitive tests (CMINDS® and <mark>MSCEIT™)</mark> h",
+   "human": "same",
+   "marker": "dropped",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "MSCEIT ME (Managing Emotions) branch name shortened to MSCEIT",
+    "gemini-3.8-flash": "omits ME specification from MSCEIT",
+    "gpt-5.6-terra": "ME omitted from MSCEIT assessment name"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker dropped only (rule: not a semantic error)"
+  },
+  {
+   "id": "tacbb07|act_13",
+   "task": "tacbb07",
+   "gold_id": "act_13",
+   "pred_id": "act_13",
+   "axis": "rows",
+   "group": "NCT01621737__Prot_SAP_000__g001",
+   "system": "System C",
+   "gold": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF",
+   "pred": "HAM-A/ CDSS/ CGI-S g/ CGI/ GAF",
+   "gold_html": "HAM-A/ CDSS/ <mark>CGI:S</mark> g/ <mark>CGI:I/</mark> GAF",
+   "pred_html": "HAM-A/ CDSS/ <mark>CGI-S</mark> g/ <mark>CGI/</mark> GAF",
+   "human": "same",
+   "marker": "dropped",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "CGI:I changed to CGI; CGI:S written CGI-S",
+    "gemini-3.8-flash": "CGI:I changed to CGI",
+    "gpt-5.6-terra": "CGI:I designation omitted"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker dropped only (rule: not a semantic error)"
+  },
+  {
+   "id": "tb1afef|act_17",
+   "task": "tb1afef",
+   "gold_id": "act_17",
+   "pred_id": "act_17",
+   "axis": "rows",
+   "group": "NCT01621737__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "PTS/ SPIN/ ASEX i/ ER-40/ ECR",
+   "pred": "PTS/ SPIN/ ASEX/ ER-40/ ECR i",
+   "gold_html": "PTS/ SPIN/ <mark>ASEX i/</mark> ER-40/ ECR",
+   "pred_html": "PTS/ SPIN/ <mark>ASEX/</mark> ER-40/ ECR<mark> i</mark>",
+   "human": "same",
+   "marker": "format",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": "Footnote marker moved from ASEX to ECR"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker format only (rule: not a semantic error)"
+  },
+  {
+   "id": "t193652|act_04",
+   "task": "t193652",
+   "gold_id": "act_04",
+   "pred_id": "act_04",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Medical History 12",
+   "pred": "Medical History¹",
+   "gold_html": "Medical <mark>History 12</mark>",
+   "pred_html": "Medical <mark>History¹</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 1 instead of 12",
+    "gemini-3.8-flash": "footnote marker 1 instead of 12",
+    "gpt-5.6-terra": "footnote marker 1 instead of 12"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t01f808|act_11",
+   "task": "t01f808",
+   "gold_id": "act_11",
+   "pred_id": "act_11",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g001",
+   "system": "System B",
+   "gold": "Review procedure related AEs, ECIs, and drug-related SAEs 3",
+   "pred": "Review procedure related AEs, ECLs, and drug-related SAEs3",
+   "gold_html": "Review procedure related AEs, <mark>ECIs,</mark> and drug-related <mark>SAEs 3</mark>",
+   "pred_html": "Review procedure related AEs, <mark>ECLs,</mark> and drug-related <mark>SAEs3</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": "ECLs instead of ECIs"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t01f808|act_16",
+   "task": "t01f808",
+   "gold_id": "act_16",
+   "pred_id": "act_16",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g001",
+   "system": "System B",
+   "gold": "HCV RNA Level 5",
+   "pred": "HCV RNA Level4",
+   "gold_html": "HCV RNA <mark>Level 5</mark>",
+   "pred_html": "HCV RNA <mark>Level4</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 4 instead of 5",
+    "gemini-3.8-flash": "footnote marker 4 instead of 5",
+    "gpt-5.6-terra": "footnote 4 instead of 5"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t01f808|act_20",
+   "task": "t01f808",
+   "gold_id": "act_20",
+   "pred_id": "act_20",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g001",
+   "system": "System B",
+   "gold": "HCV Genotype 9",
+   "pred": "HCV Genotype5",
+   "gold_html": "HCV <mark>Genotype 9</mark>",
+   "pred_html": "HCV <mark>Genotype5</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 5 instead of 9",
+    "gemini-3.8-flash": "footnote marker 5 instead of 9",
+    "gpt-5.6-terra": "footnote 5 instead of 9"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t250218|con_01",
+   "task": "t250218",
+   "gold_id": "con_01",
+   "pred_id": "con_01",
+   "axis": "columns",
+   "group": "NCT01667081__Prot_SAP_000__g001",
+   "system": "System B",
+   "gold": "Visit No.: 1 8 > Screen/ Baseline 4",
+   "pred": "Visit No.: 1 > Screen/Baseline",
+   "gold_html": "Visit No.: 1 <mark>8 </mark>&gt; <mark>Screen/ Baseline 4</mark>",
+   "pred_html": "Visit No.: 1 &gt; <mark>Screen/Baseline</mark>",
+   "human": "same",
+   "marker": "dropped",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote markers 8 and 4 omitted",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker dropped only (rule: not a semantic error)"
+  },
+  {
+   "id": "tb8e1dd|act_12",
+   "task": "tb8e1dd",
+   "gold_id": "act_12",
+   "pred_id": "act_12",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System B",
+   "gold": "Viral Resistance and Biomarker 8",
+   "pred": "Viral Resistance and Biomarker²",
+   "gold_html": "Viral Resistance and <mark>Biomarker 8</mark>",
+   "pred_html": "Viral Resistance and <mark>Biomarker²</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "marker 2 instead of 8, pointing to wrong footnote",
+    "gemini-3.8-flash": "footnote marker 2 instead of 8",
+    "gpt-5.6-terra": "footnote marker 2 instead of 8"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t57dc32|act_02",
+   "task": "t57dc32",
+   "gold_id": "act_02",
+   "pred_id": "act_02",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System D",
+   "gold": "Informed Consent/Assent for FBR 2",
+   "pred": "Informed Consent/Assent for FBRᶜ",
+   "gold_html": "Informed Consent/Assent for <mark>FBR 2</mark>",
+   "pred_html": "Informed Consent/Assent for <mark>FBRᶜ</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "different footnote marker (c vs 2)",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker c instead of 2"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t57dc32|act_10",
+   "task": "t57dc32",
+   "gold_id": "act_10",
+   "pred_id": "act_10",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System D",
+   "gold": "Procedure Related AEs and drug-related SAEs 3",
+   "pred": "Procedure Related AEs and drug-related SAEsᵈ",
+   "gold_html": "Procedure Related AEs and drug-related <mark>SAEs 3</mark>",
+   "pred_html": "Procedure Related AEs and drug-related <mark>SAEsᵈ</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker d instead of 3",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker d instead of 3"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t57dc32|act_11",
+   "task": "t57dc32",
+   "gold_id": "act_11",
+   "pred_id": "act_11",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System D",
+   "gold": "HCV RNA Level and sequence analysis 8",
+   "pred": "HCV RNA Level and sequence analysisᵍ",
+   "gold_html": "HCV RNA Level and sequence <mark>analysis 8</mark>",
+   "pred_html": "HCV RNA Level and sequence <mark>analysisᵍ</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker g instead of 8",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker g instead of 8"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t57dc32|act_12",
+   "task": "t57dc32",
+   "gold_id": "act_12",
+   "pred_id": "act_12",
+   "axis": "rows",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System D",
+   "gold": "Viral Resistance and Biomarker 8",
+   "pred": "Viral Resistance and Biomarkerʰ",
+   "gold_html": "Viral Resistance and <mark>Biomarker 8</mark>",
+   "pred_html": "Viral Resistance and <mark>Biomarkerʰ</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker h instead of 8",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker h instead of 8"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "taf3935|con_01",
+   "task": "taf3935",
+   "gold_id": "con_01",
+   "pred_id": "con_01",
+   "axis": "columns",
+   "group": "NCT01667081__Prot_SAP_000__g002",
+   "system": "System D",
+   "gold": "Visit No.: 1 5 > Screen/Baseline 4",
+   "pred": "Visit No.: 15 > Screen/Baseline5",
+   "gold_html": "Visit No.: <mark>1 5</mark> &gt; <mark>Screen/Baseline 4</mark>",
+   "pred_html": "Visit No.: <mark>15</mark> &gt; <mark>Screen/Baseline5</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "Screen/Baseline footnote marker 5 instead of 4",
+    "gemini-3.8-flash": "footnote marker 5 instead of 4",
+    "gpt-5.6-terra": "footnote marker 5 instead of 4"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "td7ac84|con_05",
+   "task": "td7ac84",
+   "gold_id": "con_05",
+   "pred_id": "con_05",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System A",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days",
+   "pred": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wkc,e (q84d) > Window: -/+6 days",
+   "gold_html": "Period/Phase: Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: <mark>q12wk e,f</mark> (q84d) &gt; Window: -/+6 days",
+   "pred_html": "Period/Phase: Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: <mark>q12wkc,e</mark> (q84d) &gt; Window: -/+6 days",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker c added, differs from reference e,f; f missing",
+    "gemini-3.8-flash": "different footnote markers",
+    "gpt-5.6-terra": "footnote markers differ"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "second judge run: majority says semantic error"
+  },
+  {
+   "id": "tf2f15e|con_06",
+   "task": "tf2f15e",
+   "gold_id": "con_06",
+   "pred_id": "con_06",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System B",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation",
+   "pred": "Period/Phase: Double-Blind Treatment Phase > Early Permanent Study Drug Discontinuation",
+   "gold_html": "Period/Phase: Double-Blind Treatment Phase &gt; <mark>Treatment Period &gt; Day/Week: </mark>Early Permanent Study Drug Discontinuation",
+   "pred_html": "Period/Phase: Double-Blind Treatment Phase &gt; Early Permanent Study Drug Discontinuation",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "Treatment Period omitted",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tade2fa|act_01",
+   "task": "tade2fa",
+   "gold_id": "act_01",
+   "pred_id": "act_01",
+   "axis": "rows",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System C",
+   "gold": "Informed consent (ICF)",
+   "pred": "Informed consent (IC)",
+   "gold_html": "Informed consent <mark>(ICF)</mark>",
+   "pred_html": "Informed consent <mark>(IC)</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "'IC' instead of 'ICF'",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "second judge run: one judge only says semantic error"
+  },
+  {
+   "id": "tade2fa|act_05",
+   "task": "tade2fa",
+   "gold_id": "act_05",
+   "pred_id": "act_05",
+   "axis": "rows",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System C",
+   "gold": "Preplanned surgical/procedure(s)",
+   "pred": "Pregnancy surgical/procedure(s)",
+   "gold_html": "<mark>Preplanned</mark> surgical/procedure(s)",
+   "pred_html": "<mark>Pregnancy</mark> surgical/procedure(s)",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "Preplanned changed to Pregnancy; different meaning",
+    "gemini-3.8-flash": "'Pregnancy' instead of 'Preplanned'",
+    "gpt-5.6-terra": "Pregnancy instead of preplanned"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tade2fa|act_18",
+   "task": "tade2fa",
+   "gold_id": "act_18",
+   "pred_id": "act_18",
+   "axis": "rows",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System C",
+   "gold": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications",
+   "pred": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombotic complex concentrates, and prohibited medications",
+   "gold_html": "Review antiplatelet, anticoagulant, proton pump inhibitors, <mark>prothrombin</mark> complex concentrates, and prohibited medications",
+   "pred_html": "Review antiplatelet, anticoagulant, proton pump inhibitors, <mark>prothrombotic</mark> complex concentrates, and prohibited medications",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "prothrombin changed to prothrombotic complex concentrates",
+    "gemini-3.8-flash": "'prothrombotic' instead of 'prothrombin'",
+    "gpt-5.6-terra": "Prothrombotic instead of prothrombin complex concentrates"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te8643b|con_01",
+   "task": "te8643b",
+   "gold_id": "con_01",
+   "pred_id": "con_01",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge",
+   "pred": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Day -51 to Day -1",
+   "gold_html": "<mark>Period/Phase:</mark> <mark>Screening</mark> Period<mark> a,b,c,d</mark> &gt; Day/Week: Day -51 to Day -1<mark> &gt; Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge</mark>",
+   "pred_html": "<mark>Double-Blind</mark> <mark>Treatment Phase &gt; Treatment</mark> Period &gt; Day/Week: Day -51 to Day -1",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "period name Screening and window omitted; wrong period given",
+    "gemini-3.8-flash": "wrong period and window omitted",
+    "gpt-5.6-terra": "screening period and 21-day window omitted; treatment phase substituted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te8643b|con_02",
+   "task": "te8643b",
+   "gold_id": "con_02",
+   "pred_id": "con_02",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization",
+   "pred": "Double-Blind Treatment Phase > Treatment Period > Baseline > Day/Week: Day 1/ Randomization",
+   "gold_html": "<mark>Period/Phase: </mark>Double-Blind Treatment Phase &gt; Baseline<mark> a</mark> &gt; Day/Week: Day 1/ Randomization",
+   "pred_html": "Double-Blind Treatment Phase &gt; <mark>Treatment Period &gt; </mark>Baseline &gt; Day/Week: Day 1/ Randomization",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "Baseline marker a dropped fine, but Treatment Period inserted and placement changed",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "second judge run: one judge only says semantic error"
+  },
+  {
+   "id": "te8643b|con_03",
+   "task": "te8643b",
+   "gold_id": "con_03",
+   "pred_id": "con_03",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days",
+   "pred": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28)",
+   "gold_html": "<mark>Period/Phase: </mark>Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: Week 4 (Day 28)<mark> &gt; Window: -4/+2 days</mark>",
+   "pred_html": "Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: Week 4 (Day 28)",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window -4/+2 days omitted",
+    "gemini-3.8-flash": "visit window omitted",
+    "gpt-5.6-terra": "visit window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te8643b|con_04",
+   "task": "te8643b",
+   "gold_id": "con_04",
+   "pred_id": "con_04",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days",
+   "pred": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84)",
+   "gold_html": "<mark>Period/Phase: </mark>Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: Week 12 (Day 84)<mark> &gt; Window: -/+4 days</mark>",
+   "pred_html": "Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: Week 12 (Day 84)",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window -/+4 days omitted",
+    "gemini-3.8-flash": "visit window omitted",
+    "gpt-5.6-terra": "visit window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te8643b|con_05",
+   "task": "te8643b",
+   "gold_id": "con_05",
+   "pred_id": "con_05",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days",
+   "pred": "Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk (q84d)",
+   "gold_html": "<mark>Period/Phase: </mark>Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: q12wk <mark>e,f </mark>(q84d)<mark> &gt; Window: -/+6 days</mark>",
+   "pred_html": "Double-Blind Treatment Phase &gt; Treatment Period &gt; Day/Week: q12wk (q84d)",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window -/+6 days omitted",
+    "gemini-3.8-flash": "visit window omitted",
+    "gpt-5.6-terra": "visit window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te8643b|con_07",
+   "task": "te8643b",
+   "gold_id": "con_07",
+   "pred_id": "con_07",
+   "axis": "columns",
+   "group": "NCT01877915__Prot_000__g001",
+   "system": "System D",
+   "gold": "Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days",
+   "pred": "Follow-Up After GTED > Day/Week: End of Study",
+   "gold_html": "<mark>Period/Phase: </mark>Follow-Up After GTED &gt; Day/Week: End of Study<mark> g &gt; Window: 30±15 days</mark>",
+   "pred_html": "Follow-Up After GTED &gt; Day/Week: End of Study",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "window 30±15 days omitted",
+    "gemini-3.8-flash": "visit window omitted",
+    "gpt-5.6-terra": "30±15-day window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t703eaf|act_04",
+   "task": "t703eaf",
+   "gold_id": "act_04",
+   "pred_id": "act_05",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Concomitant illness",
+   "pred": "Coexisting illness",
+   "gold_html": "<mark>Concomitant</mark> illness",
+   "pred_html": "<mark>Coexisting</mark> illness",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t703eaf|act_26",
+   "task": "t703eaf",
+   "gold_id": "act_26",
+   "pred_id": "act_27",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Fundoscopy/fundus photography",
+   "pred": "Fundoscopy findings",
+   "gold_html": "<mark>Fundoscopy/fundus</mark> <mark>photography</mark>",
+   "pred_html": "<mark>Fundoscopy</mark> <mark>findings</mark>",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "fundus photography omitted; 'findings' added",
+    "gemini-3.8-flash": "omitted fundus photography",
+    "gpt-5.6-terra": "fundus photography omitted; findings substituted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t703eaf|act_28",
+   "task": "t703eaf",
+   "gold_id": "act_28",
+   "pred_id": "act_29",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Vital signs",
+   "pred": "Vital signs 5",
+   "gold_html": "Vital signs",
+   "pred_html": "Vital signs<mark> 5</mark>",
+   "human": "wrong",
+   "marker": "added",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker 5 not in reference",
+    "gemini-3.8-flash": "added footnote marker",
+    "gpt-5.6-terra": "extra footnote marker points to different footnote"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker added (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t703eaf|act_35",
+   "task": "t703eaf",
+   "gold_id": "act_35",
+   "pred_id": "act_35",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "PK sampling (trough + peak) 6",
+   "pred": "PK sampling (trough + peaks) 6",
+   "gold_html": "PK sampling (trough + <mark>peak)</mark> 6",
+   "pred_html": "PK sampling (trough + <mark>peaks)</mark> 6",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": "multiple peaks instead of one peak"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t703eaf|act_38",
+   "task": "t703eaf",
+   "gold_id": "act_38",
+   "pred_id": "act_38",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "IV/IWRS call",
+   "pred": "IV/IVRS call",
+   "gold_html": "<mark>IV/IWRS</mark> call",
+   "pred_html": "<mark>IV/IVRS</mark> call",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "IVRS replaces IWRS",
+    "gpt-5.6-terra": "IWRS changed to IVRS"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t703eaf|act_48",
+   "task": "t703eaf",
+   "gold_id": "act_48",
+   "pred_id": "act_48",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "End of trial 9",
+   "pred": "End of trial 10",
+   "gold_html": "End of trial <mark>9</mark>",
+   "pred_html": "End of trial <mark>10</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 10 instead of 9",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker 10 instead of 9"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "tc01958|con_02",
+   "task": "tc01958",
+   "gold_id": "con_02",
+   "pred_id": "con_02",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0",
+   "pred": "Trial Periods > Randomisation > Visit number: 2 > Timing of visit: 0 days",
+   "gold_html": "Trial <mark>Periods:</mark> Randomisation &gt; Visit number: 2 &gt; Timing of <mark>visit Weeks:</mark> 0",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Randomisation &gt; Visit number: 2 &gt; Timing of <mark>visit:</mark> 0<mark> days</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_03",
+   "task": "tc01958",
+   "gold_id": "con_03",
+   "pred_id": "con_03",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3",
+   "pred": "Trial Periods > Treatment > Visit number: 3 > Timing of visit: 2 days",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 3 &gt; Timing of <mark>visit Weeks:</mark> 2 <mark>&gt; Visit window Days: ±3</mark>",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 3 &gt; Timing of <mark>visit:</mark> 2 <mark>days</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "days instead of weeks; visit window omitted",
+    "gemini-3.8-flash": "timing unit days instead of weeks and window omitted",
+    "gpt-5.6-terra": "days instead of weeks; visit window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_04",
+   "task": "tc01958",
+   "gold_id": "con_04",
+   "pred_id": "con_04",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3",
+   "pred": "Trial Periods > Treatment > Visit number: 4 > Timing of visit: 4 days ±3",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 4 &gt; Timing of <mark>visit Weeks:</mark> 4 <mark>&gt; Visit window Days:</mark> ±3",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 4 &gt; Timing of <mark>visit:</mark> 4 <mark>days</mark> ±3",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_05",
+   "task": "tc01958",
+   "gold_id": "con_05",
+   "pred_id": "con_05",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3",
+   "pred": "Trial Periods > Treatment > Visit number: 5 > Timing of visit: 6 days ±3",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 5 &gt; Timing of <mark>visit Weeks:</mark> 6 <mark>&gt; Visit window Days:</mark> ±3",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 5 &gt; Timing of <mark>visit:</mark> 6 <mark>days</mark> ±3",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_06",
+   "task": "tc01958",
+   "gold_id": "con_06",
+   "pred_id": "con_06",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3",
+   "pred": "Trial Periods > Treatment > Visit number: 6 > Timing of visit: 8 days ±3",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 6 &gt; Timing of <mark>visit Weeks:</mark> 8 <mark>&gt; Visit window Days:</mark> ±3",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 6 &gt; Timing of <mark>visit:</mark> 8 <mark>days</mark> ±3",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_07",
+   "task": "tc01958",
+   "gold_id": "con_07",
+   "pred_id": "con_07",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5",
+   "pred": "Trial Periods > Treatment > Visit number: 7 > Timing of visit: 12 days ±5",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 7 &gt; Timing of <mark>visit Weeks:</mark> 12 <mark>&gt; Visit window Days:</mark> ±5",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 7 &gt; Timing of <mark>visit:</mark> 12 <mark>days</mark> ±5",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_08",
+   "task": "tc01958",
+   "gold_id": "con_08",
+   "pred_id": "con_08",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5",
+   "pred": "Trial Periods > Treatment > Visit number: 8 > Timing of visit: 16 days ±5",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 8 &gt; Timing of <mark>visit Weeks:</mark> 16 <mark>&gt; Visit window Days:</mark> ±5",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 8 &gt; Timing of <mark>visit:</mark> 16 <mark>days</mark> ±5",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_09",
+   "task": "tc01958",
+   "gold_id": "con_09",
+   "pred_id": "con_09",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5",
+   "pred": "Trial Periods > Treatment > Visit number: 9 > Timing of visit: 20 days ±5",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 9 &gt; Timing of <mark>visit Weeks:</mark> 20 <mark>&gt; Visit window Days:</mark> ±5",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 9 &gt; Timing of <mark>visit:</mark> 20 <mark>days</mark> ±5",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_10",
+   "task": "tc01958",
+   "gold_id": "con_10",
+   "pred_id": "con_10",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3",
+   "pred": "Trial Periods > Treatment > Visit number: 10 > Timing of visit: 24 days ±3",
+   "gold_html": "Trial <mark>Periods:</mark> Treatment &gt; Visit number: 10 &gt; Timing of <mark>visit Weeks:</mark> 24 <mark>&gt; Visit window Days:</mark> ±3",
+   "pred_html": "Trial <mark>Periods &gt;</mark> Treatment &gt; Visit number: 10 &gt; Timing of <mark>visit:</mark> 24 <mark>days</mark> ±3",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_11",
+   "task": "tc01958",
+   "gold_id": "con_11",
+   "pred_id": "con_11",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3",
+   "pred": "Trial Periods > End-of-treatment2) > Visit number: 11 > Timing of visit: 26 days ±3",
+   "gold_html": "Trial <mark>Periods:</mark> <mark>End-of-treatment</mark> <mark>2</mark> &gt; Visit number: 11 &gt; Timing of <mark>visit Weeks:</mark> 26 <mark>&gt; Visit window Days:</mark> ±3",
+   "pred_html": "Trial <mark>Periods</mark> <mark>&gt;</mark> <mark>End-of-treatment2)</mark> &gt; Visit number: 11 &gt; Timing of <mark>visit:</mark> 26 <mark>days</mark> ±3",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks; footnote marker differs",
+    "gemini-3.8-flash": "timing unit days instead of weeks",
+    "gpt-5.6-terra": "days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_12",
+   "task": "tc01958",
+   "gold_id": "con_12",
+   "pred_id": "con_12",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5",
+   "pred": "Trial Periods > Follow-up3) > Visit number: 12 > Timing of visit: 31 days +5",
+   "gold_html": "Trial <mark>Periods:</mark> <mark>Follow-up</mark> <mark>2</mark> &gt; Visit number: 12 &gt; Timing of <mark>visit Weeks:</mark> 31 <mark>&gt; Visit window Days:</mark> +5",
+   "pred_html": "Trial <mark>Periods</mark> <mark>&gt;</mark> <mark>Follow-up3)</mark> &gt; Visit number: 12 &gt; Timing of <mark>visit:</mark> 31 <mark>days</mark> +5",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "unit days instead of weeks; footnote marker differs",
+    "gemini-3.8-flash": "timing unit days instead of weeks and incorrect footnote marker",
+    "gpt-5.6-terra": "wrong footnote marker; days instead of weeks"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tc01958|con_13",
+   "task": "tc01958",
+   "gold_id": "con_13",
+   "pred_id": "con_13",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System A",
+   "gold": "Trial Periods: End-of-trial – premature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3",
+   "pred": "Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 1X",
+   "gold_html": "Trial <mark>Periods:</mark> End-of-trial – premature <mark>discontinuation 3</mark> &gt; Visit number: <mark>11X &gt; Timing of visit Weeks: 26 &gt; Visit window Days: ±3</mark>",
+   "pred_html": "Trial <mark>Periods &gt;</mark> End-of-trial – premature <mark>discontinuation4)</mark> &gt; Visit number: <mark>1X</mark>",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit 1X, weeks and window omitted; footnote marker differs",
+    "gemini-3.8-flash": "incorrect visit number, timing and window omitted, incorrect footnote marker",
+    "gpt-5.6-terra": "wrong footnote, visit number, and timing omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t649451|act_24",
+   "task": "t649451",
+   "gold_id": "act_24",
+   "pred_id": "act_24",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Hypoglycaemic episodes",
+   "pred": "Hyper/hypoglycaemic episodes",
+   "gold_html": "<mark>Hypoglycaemic</mark> episodes",
+   "pred_html": "<mark>Hyper/hypoglycaemic</mark> episodes",
+   "human": "strict",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "adds hyperglycaemic episodes",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t649451|act_25",
+   "task": "t649451",
+   "gold_id": "act_25",
+   "pred_id": "act_25",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "ECG, overall interpretation 4",
+   "pred": "ECG, overall interpretation e",
+   "gold_html": "ECG, overall interpretation <mark>4</mark>",
+   "pred_html": "ECG, overall interpretation <mark>e</mark>",
+   "human": "strict",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker e differs from 4",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t649451|act_29",
+   "task": "t649451",
+   "gold_id": "act_29",
+   "pred_id": "act_29",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Antibodies 5",
+   "pred": "Antibodies f",
+   "gold_html": "Antibodies <mark>5</mark>",
+   "pred_html": "Antibodies <mark>f</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker f differs from 5",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t649451|act_35",
+   "task": "t649451",
+   "gold_id": "act_35",
+   "pred_id": "act_35",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "PK sampling (trough + peak) 6",
+   "pred": "PK sampling (trough + peak) g",
+   "gold_html": "PK sampling (trough + peak) <mark>6</mark>",
+   "pred_html": "PK sampling (trough + peak) <mark>g</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker g differs from 6",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t649451|act_36",
+   "task": "t649451",
+   "gold_id": "act_36",
+   "pred_id": "act_36",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Blood pregnancy test 7",
+   "pred": "Blood pregnancy test h",
+   "gold_html": "Blood pregnancy test <mark>7</mark>",
+   "pred_html": "Blood pregnancy test <mark>h</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker h differs from 7",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t649451|act_40",
+   "task": "t649451",
+   "gold_id": "act_40",
+   "pred_id": "act_40",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Hand out directions for use of s.c. trial product",
+   "pred": "Trial drug directions for use of s.c. trial product",
+   "gold_html": "<mark>Hand</mark> <mark>out</mark> directions for use of s.c. trial product",
+   "pred_html": "<mark>Trial</mark> <mark>drug</mark> directions for use of s.c. trial product",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "'Hand out' replaced by 'Trial drug'; activity changed",
+    "gemini-3.8-flash": "'Hand out' replaced by 'Trial drug'",
+    "gpt-5.6-terra": "Hand out action omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t649451|act_46",
+   "task": "t649451",
+   "gold_id": "act_46",
+   "pred_id": "act_46",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Attend visit fasting 8",
+   "pred": "Attend visit fasting i",
+   "gold_html": "Attend visit fasting <mark>8</mark>",
+   "pred_html": "Attend visit fasting <mark>i</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker i differs from 8",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t649451|act_48",
+   "task": "t649451",
+   "gold_id": "act_48",
+   "pred_id": "act_48",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "End of trial 9",
+   "pred": "End of trial j",
+   "gold_html": "End of trial <mark>9</mark>",
+   "pred_html": "End of trial <mark>j</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker j differs from 9",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "Different footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "tcff5f2|con_01",
+   "task": "tcff5f2",
+   "gold_id": "con_01",
+   "pred_id": "con_01",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2",
+   "pred": "Trial Periods: Screening > Visit number: 1 > Timing of visit Weeks: -2",
+   "gold_html": "Trial Periods: Screening<mark> 1</mark> &gt; Visit number: 1 &gt; Timing of visit Weeks: -2",
+   "pred_html": "Trial Periods: Screening &gt; Visit number: 1 &gt; Timing of visit Weeks: -2",
+   "human": "same",
+   "marker": "dropped",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 1 on Screening omitted",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker dropped only (rule: not a semantic error)"
+  },
+  {
+   "id": "tcff5f2|con_12",
+   "task": "tcff5f2",
+   "gold_id": "con_12",
+   "pred_id": "con_12",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System B",
+   "gold": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5",
+   "pred": "Follow-up3 > Visit number: 12 > Weeks: 31 > Visit window Days: +5",
+   "gold_html": "<mark>Trial Periods: Follow-up 2</mark> &gt; Visit number: 12 &gt;<mark> Timing of visit</mark> Weeks: 31 &gt; Visit window Days: +5",
+   "pred_html": "<mark>Follow-up3</mark> &gt; Visit number: 12 &gt; Weeks: 31 &gt; Visit window Days: +5",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker 3 instead of 2",
+    "gemini-3.8-flash": "footnote marker 3 instead of 2",
+    "gpt-5.6-terra": "footnote marker 3 instead of 2"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "second judge run: majority says semantic error"
+  },
+  {
+   "id": "t8183ed|act_09",
+   "task": "t8183ed",
+   "gold_id": "act_09",
+   "pred_id": "act_31",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Smoking habits",
+   "pred": "Smoking history",
+   "gold_html": "Smoking <mark>habits</mark>",
+   "pred_html": "Smoking <mark>history</mark>",
+   "human": "strict",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "smoking history instead of smoking habits",
+    "gemini-3.8-flash": "history instead of habits",
+    "gpt-5.6-terra": "Smoking history replaces smoking habits"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t8183ed|act_10",
+   "task": "t8183ed",
+   "gold_id": "act_10",
+   "pred_id": "act_32",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "History of gallbladder disease",
+   "pred": "History of gallbladder",
+   "gold_html": "History of gallbladder<mark> disease</mark>",
+   "pred_html": "History of gallbladder",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "'disease' omitted from gallbladder disease",
+    "gemini-3.8-flash": "omitted disease",
+    "gpt-5.6-terra": "Disease qualifier omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t8183ed|act_19",
+   "task": "t8183ed",
+   "gold_id": "act_19",
+   "pred_id": "act_40",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "HbA1c",
+   "pred": "HbA₁c",
+   "gold_html": "<mark>HbA1c</mark>",
+   "pred_html": "<mark>HbA₁c</mark>",
+   "human": "wrong",
+   "marker": "dropped",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "footnote marker dropped only (rule: not a semantic error)"
+  },
+  {
+   "id": "t8183ed|act_26",
+   "task": "t8183ed",
+   "gold_id": "act_26",
+   "pred_id": "act_04",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Fundoscopy/fundus photography",
+   "pred": "Fundoscopy",
+   "gold_html": "<mark>Fundoscopy/fundus photography</mark>",
+   "pred_html": "<mark>Fundoscopy</mark>",
+   "human": "strict",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "fundus photography omitted",
+    "gemini-3.8-flash": "omitted fundus photography",
+    "gpt-5.6-terra": "Fundus photography omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t8183ed|act_32",
+   "task": "t8183ed",
+   "gold_id": "act_32",
+   "pred_id": "act_11",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Calcitonin",
+   "pred": "Calcium",
+   "gold_html": "<mark>Calcitonin</mark>",
+   "pred_html": "<mark>Calcium</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "calcium instead of calcitonin",
+    "gemini-3.8-flash": "calcium instead of calcitonin",
+    "gpt-5.6-terra": "Calcium instead of calcitonin"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t8183ed|act_34",
+   "task": "t8183ed",
+   "gold_id": "act_34",
+   "pred_id": "act_13",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "PK sampling",
+   "pred": "PK sampling",
+   "gold_html": "PK sampling",
+   "pred_html": "PK sampling",
+   "human": "strict",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": false,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": false,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": false,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t8183ed|act_36",
+   "task": "t8183ed",
+   "gold_id": "act_36",
+   "pred_id": "act_15",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Blood pregnancy test 7",
+   "pred": "Pregnancy test⁷",
+   "gold_html": "<mark>Blood</mark> <mark>pregnancy test 7</mark>",
+   "pred_html": "<mark>Pregnancy</mark> <mark>test⁷</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "'Blood' omitted from blood pregnancy test",
+    "gemini-3.8-flash": "omitted blood",
+    "gpt-5.6-terra": "Blood specimen qualifier omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "tba18be|act_03",
+   "task": "tba18be",
+   "gold_id": "act_03",
+   "pred_id": "act_08",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Concomitant medication",
+   "pred": "Alcohol history",
+   "gold_html": "<mark>Concomitant</mark> <mark>medication</mark>",
+   "pred_html": "<mark>Alcohol</mark> <mark>history</mark>",
+   "human": "wrong",
+   "marker": null,
+   "judges": {},
+   "reasons": {},
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "tba18be|act_08",
+   "task": "tba18be",
+   "gold_id": "act_08",
+   "pred_id": "act_03",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Medical history",
+   "pred": "Medical and surgical history",
+   "gold_html": "Medical history",
+   "pred_html": "Medical <mark>and surgical </mark>history",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "Adds surgical history; reference is just medical history"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "second judge run: one judge only says semantic error"
+  },
+  {
+   "id": "tb8daac|con_01",
+   "task": "tb8daac",
+   "gold_id": "con_01",
+   "pred_id": "con_01",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2",
+   "pred": "Trial Periods: Screeningx > Visit number: 1 > Timing of visit: Weeks: -2",
+   "gold_html": "Trial Periods: <mark>Screening 1</mark> &gt; Visit number: 1 &gt; Timing of <mark>visit</mark> Weeks: -2",
+   "pred_html": "Trial Periods: <mark>Screeningx</mark> &gt; Visit number: 1 &gt; Timing of <mark>visit:</mark> Weeks: -2",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker x added; reference has footnote 1 digit in 'Screening 1'",
+    "gemini-3.8-flash": "footnote marker x instead of 1",
+    "gpt-5.6-terra": "wrong footnote marker"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "second judge run: majority says semantic error"
+  },
+  {
+   "id": "tb8daac|con_10",
+   "task": "tb8daac",
+   "gold_id": "con_10",
+   "pred_id": "con_10",
+   "axis": "columns",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3",
+   "pred": "Trial Periods: Treatment > Visit number: 10 > Timing of visit: Weeks: 24 > Visit window: Days: ±5",
+   "gold_html": "Trial Periods: Treatment &gt; Visit number: 10 &gt; Timing of <mark>visit</mark> Weeks: 24 &gt; Visit <mark>window</mark> Days: <mark>±3</mark>",
+   "pred_html": "Trial Periods: Treatment &gt; Visit number: 10 &gt; Timing of <mark>visit:</mark> Weeks: 24 &gt; Visit <mark>window:</mark> Days: <mark>±5</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "window ±5 instead of ±3",
+    "gemini-3.8-flash": "window ±5 days instead of ±3 days",
+    "gpt-5.6-terra": "visit window is ±5 instead of ±3"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t6a2780|act_08",
+   "task": "t6a2780",
+   "gold_id": "act_08",
+   "pred_id": "act_08",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Counsel subject to switch current AHA or adjust background metformin (if applicable)",
+   "pred": "Counsel subject to switch current AHA or adjust background medication (if applicable)",
+   "gold_html": "Counsel subject to switch current AHA or adjust background <mark>metformin</mark> (if applicable)",
+   "pred_html": "Counsel subject to switch current AHA or adjust background <mark>medication</mark> (if applicable)",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "'background metformin' changed to 'background medication'",
+    "gemini-3.8-flash": "medication instead of metformin",
+    "gpt-5.6-terra": "metformin replaced by nonspecific background medication"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t6a2780|act_34",
+   "task": "t6a2780",
+   "gold_id": "act_34",
+   "pred_id": "act_34",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "C-Peptide i",
+   "pred": "C-Peptide h",
+   "gold_html": "C-Peptide <mark>i</mark>",
+   "pred_html": "C-Peptide <mark>h</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker h instead of i",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker h instead of i"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t6a2780|act_36",
+   "task": "t6a2780",
+   "gold_id": "act_36",
+   "pred_id": "act_36",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Thyroid stimulating hormone (TSH)",
+   "pred": "Thyroid stimulating hormone (TSH) i",
+   "gold_html": "Thyroid stimulating hormone (TSH)",
+   "pred_html": "Thyroid stimulating hormone (TSH)<mark> i</mark>",
+   "human": "same",
+   "marker": "added",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker i not in reference",
+    "gemini-3.8-flash": "added footnote marker",
+    "gpt-5.6-terra": "extra incorrect footnote marker i"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker added (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t6a2780|act_38",
+   "task": "t6a2780",
+   "gold_id": "act_38",
+   "pred_id": "act_38",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Urine Pregnancy Test (as applicable) l",
+   "pred": "Urine Pregnancy Test (as applicable) j",
+   "gold_html": "Urine Pregnancy Test (as applicable) <mark>l</mark>",
+   "pred_html": "Urine Pregnancy Test (as applicable) <mark>j</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker j instead of l",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker j instead of l"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t6a2780|act_39",
+   "task": "t6a2780",
+   "gold_id": "act_39",
+   "pred_id": "act_39",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Dipstick urinalysis",
+   "pred": "Dipstick urinalysis k",
+   "gold_html": "Dipstick urinalysis",
+   "pred_html": "Dipstick urinalysis<mark> k</mark>",
+   "human": "same",
+   "marker": "added",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker k not in reference",
+    "gemini-3.8-flash": "added footnote marker",
+    "gpt-5.6-terra": "extra incorrect footnote marker k"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker added (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t6a2780|act_40",
+   "task": "t6a2780",
+   "gold_id": "act_40",
+   "pred_id": "act_40",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Plasma and serum for Future Biomedical Research b",
+   "pred": "Plasma and serum for Future Biomedical Research l",
+   "gold_html": "Plasma and serum for Future Biomedical Research <mark>b</mark>",
+   "pred_html": "Plasma and serum for Future Biomedical Research <mark>l</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker l instead of b",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker l instead of b"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t5dada8|con_03",
+   "task": "t5dada8",
+   "gold_id": "con_03",
+   "pred_id": "con_03",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days",
+   "pred": "Screening and Run-in Period > Visit 3 > Week: -2",
+   "gold_html": "<mark>Trial Period: </mark>Screening and Run-in Period &gt; Visit <mark>Number/Title: Visit </mark>3 &gt; <mark>Scheduled Day, </mark>Week: <mark>Week </mark>-2<mark> &gt; Scheduling Window Days etc.: ± 5 days</mark>",
+   "pred_html": "Screening and Run-in Period &gt; Visit 3 &gt; Week: -2",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 5 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 5 days",
+    "gpt-5.6-terra": "± 5 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_04",
+   "task": "t5dada8",
+   "gold_id": "con_04",
+   "pred_id": "con_04",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days",
+   "pred": "Randomization > Visit 4 > Day: 1",
+   "gold_html": "<mark>Trial Period: </mark>Randomization &gt;<mark> Visit Number/Title:</mark> Visit 4 &gt; <mark>Scheduled Day, Week: Day</mark> 1<mark> &gt; Scheduling Window Days etc.: ± 5 days</mark>",
+   "pred_html": "Randomization &gt; Visit 4 &gt; <mark>Day:</mark> 1",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 5 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 5 days",
+    "gpt-5.6-terra": "± 5 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_05",
+   "task": "t5dada8",
+   "gold_id": "con_05",
+   "pred_id": "con_05",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)",
+   "pred": "Double-Blind Treatment > TC > Day: 9",
+   "gold_html": "<mark>Trial Period: </mark>Double-Blind Treatment &gt; <mark>Visit Number/Title: </mark>TC &gt; <mark>Scheduled Day, Week: Day</mark> 9<mark> &gt; Scheduling Window Days etc.: ± 1 day(s)</mark>",
+   "pred_html": "Double-Blind Treatment &gt; TC &gt; <mark>Day:</mark> 9",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 1 day omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 1 day(s)",
+    "gpt-5.6-terra": "± 1 day(s) scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_06",
+   "task": "t5dada8",
+   "gold_id": "con_06",
+   "pred_id": "con_06",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days",
+   "pred": "Double-Blind Treatment > Visit 5 > Week: 6",
+   "gold_html": "<mark>Trial Period: </mark>Double-Blind Treatment &gt; Visit <mark>Number/Title: Visit </mark>5 &gt; <mark>Scheduled Day, </mark>Week: <mark>Week </mark>6<mark> &gt; Scheduling Window Days etc.: ± 7 days</mark>",
+   "pred_html": "Double-Blind Treatment &gt; Visit 5 &gt; Week: 6",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 7 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 7 days",
+    "gpt-5.6-terra": "± 7 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_07",
+   "task": "t5dada8",
+   "gold_id": "con_07",
+   "pred_id": "con_07",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days",
+   "pred": "Double-Blind Treatment > Visit 6 > Week: 14",
+   "gold_html": "<mark>Trial Period: </mark>Double-Blind Treatment &gt; Visit <mark>Number/Title: Visit </mark>6 &gt; <mark>Scheduled Day, </mark>Week: <mark>Week </mark>14<mark> &gt; Scheduling Window Days etc.: ± 7 days</mark>",
+   "pred_html": "Double-Blind Treatment &gt; Visit 6 &gt; Week: 14",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 7 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 7 days",
+    "gpt-5.6-terra": "± 7 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_08",
+   "task": "t5dada8",
+   "gold_id": "con_08",
+   "pred_id": "con_08",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days",
+   "pred": "Double-Blind Treatment > Visit 7 > Week: 20",
+   "gold_html": "<mark>Trial Period: </mark>Double-Blind Treatment &gt; Visit <mark>Number/Title: Visit </mark>7 &gt; <mark>Scheduled Day, </mark>Week: <mark>Week </mark>20<mark> &gt; Scheduling Window Days etc.: ± 7 days</mark>",
+   "pred_html": "Double-Blind Treatment &gt; Visit 7 &gt; Week: 20",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window ± 7 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window ± 7 days",
+    "gpt-5.6-terra": "± 7 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t5dada8|con_09",
+   "task": "t5dada8",
+   "gold_id": "con_09",
+   "pred_id": "con_09",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue",
+   "pred": "Post-Treatment > Rescue > Rescue",
+   "gold_html": "<mark>Visit</mark> <mark>Number/Title:</mark> Rescue &gt; <mark>Scheduled Day, Week: </mark>Rescue",
+   "pred_html": "<mark>Post-Treatment</mark> <mark>&gt;</mark> Rescue &gt; Rescue",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "judge majority says meaning unchanged"
+  },
+  {
+   "id": "t5dada8|con_11",
+   "task": "t5dada8",
+   "gold_id": "con_11",
+   "pred_id": "con_11",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System A",
+   "gold": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days",
+   "pred": "Post-Treatment > Follow-up > 14-Day Post Treatment Telephone Contact",
+   "gold_html": "<mark>Trial Period: </mark>Post-Treatment &gt; <mark>Visit Number/Title: </mark>Follow-up &gt;<mark> Scheduled Day, Week:</mark> 14-Day Post Treatment Telephone Contact<mark> &gt; Scheduling Window Days etc.: +3 days</mark>",
+   "pred_html": "Post-Treatment &gt; Follow-up &gt; 14-Day Post Treatment Telephone Contact",
+   "human": "wrong",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "visit window +3 days omitted",
+    "gemini-3.8-flash": "omitted scheduling window +3 days",
+    "gpt-5.6-terra": "+3 days scheduling window omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "t7c9871|act_36",
+   "task": "t7c9871",
+   "gold_id": "act_36",
+   "pred_id": "act_36",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System C",
+   "gold": "Thyroid stimulating hormone (TSH)",
+   "pred": "Thyroid stimulating hormone (TSH)j",
+   "gold_html": "Thyroid stimulating hormone <mark>(TSH)</mark>",
+   "pred_html": "Thyroid stimulating hormone <mark>(TSH)j</mark>",
+   "human": "same",
+   "marker": "added",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker j not in reference",
+    "gemini-3.8-flash": "added footnote marker j",
+    "gpt-5.6-terra": "extra footnote marker j not in reference"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker added (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "t7c9871|act_39",
+   "task": "t7c9871",
+   "gold_id": "act_39",
+   "pred_id": "act_39",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System C",
+   "gold": "Dipstick urinalysis",
+   "pred": "Dipstick urinalysism",
+   "gold_html": "Dipstick <mark>urinalysis</mark>",
+   "pred_html": "Dipstick <mark>urinalysism</mark>",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker m not in reference",
+    "gemini-3.8-flash": "added footnote marker m",
+    "gpt-5.6-terra": "extra footnote marker m not in reference"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "second judge run: majority says semantic error"
+  },
+  {
+   "id": "t77422e|con_09",
+   "task": "t77422e",
+   "gold_id": "con_09",
+   "pred_id": "con_09",
+   "axis": "columns",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System C",
+   "gold": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue",
+   "pred": "Trial Period: Double-Blind Treatment > Visit Number/Title: Rescue > Scheduled Day, Week: Rescue",
+   "gold_html": "Visit Number/Title: Rescue &gt; Scheduled Day, Week: Rescue",
+   "pred_html": "<mark>Trial Period: Double-Blind Treatment &gt; </mark>Visit Number/Title: Rescue &gt; Scheduled Day, Week: Rescue",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": "extra Double-Blind Treatment trial period stated"
+   },
+   "suggest": {
+    "semantic": false
+   },
+   "why": "second judge run: one judge only says semantic error"
+  },
+  {
+   "id": "te984ad|act_06",
+   "task": "te984ad",
+   "gold_id": "act_06",
+   "pred_id": "act_06",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "Review Prior/Concomitant Medication c",
+   "pred": "Review Prior/Concomitant Medication e",
+   "gold_html": "Review Prior/Concomitant Medication <mark>c</mark>",
+   "pred_html": "Review Prior/Concomitant Medication <mark>e</mark>",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker e instead of c",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker e instead of c"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "te984ad|act_12",
+   "task": "te984ad",
+   "gold_id": "act_12",
+   "pred_id": "act_12",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "Diet and exercise counseling/monitoring d",
+   "pred": "Diet and exercise counseling d",
+   "gold_html": "Diet and exercise <mark>counseling/monitoring</mark> d",
+   "pred_html": "Diet and exercise <mark>counseling</mark> d",
+   "human": "same",
+   "marker": null,
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "omits '/monitoring'",
+    "gemini-3.8-flash": "monitoring omitted",
+    "gpt-5.6-terra": "monitoring omitted"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "judge majority (semantic or info missing)"
+  },
+  {
+   "id": "te984ad|act_15",
+   "task": "te984ad",
+   "gold_id": "act_15",
+   "pred_id": "act_15",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "Witness dose of blinded study medication and Met-IR in clinic",
+   "pred": "Witness dose of blinded study medication and Met-R in clinic",
+   "gold_html": "Witness dose of blinded study medication and <mark>Met-IR</mark> in clinic",
+   "pred_html": "Witness dose of blinded study medication and <mark>Met-R</mark> in clinic",
+   "human": "wrong",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": false,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "Met-R instead of Met-IR",
+    "gemini-3.8-flash": "",
+    "gpt-5.6-terra": ""
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "te984ad|act_38",
+   "task": "te984ad",
+   "gold_id": "act_38",
+   "pred_id": "act_38",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "Urine Pregnancy Test (as applicable) l",
+   "pred": "Urine Pregnancy Test (as applicable) j",
+   "gold_html": "Urine Pregnancy Test (as applicable) <mark>l</mark>",
+   "pred_html": "Urine Pregnancy Test (as applicable) <mark>j</mark>",
+   "human": "same",
+   "marker": "changed",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "footnote marker j instead of l",
+    "gemini-3.8-flash": "different footnote marker",
+    "gpt-5.6-terra": "footnote marker j instead of l"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker changed (rule: wrong footnote = semantic error)"
+  },
+  {
+   "id": "te984ad|act_39",
+   "task": "te984ad",
+   "gold_id": "act_39",
+   "pred_id": "act_39",
+   "axis": "rows",
+   "group": "NCT02791490__Prot_SAP_000__g001",
+   "system": "System D",
+   "gold": "Dipstick urinalysis",
+   "pred": "Dipstick urinalysis m",
+   "gold_html": "Dipstick urinalysis",
+   "pred_html": "Dipstick urinalysis<mark> m</mark>",
+   "human": "same",
+   "marker": "added",
+   "judges": {
+    "claude-sonnet-5.5": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gemini-3.8-flash": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    },
+    "gpt-5.6-terra": {
+     "content": true,
+     "semantic": true,
+     "missing": false
+    }
+   },
+   "reasons": {
+    "claude-sonnet-5.5": "added footnote marker m",
+    "gemini-3.8-flash": "added footnote marker",
+    "gpt-5.6-terra": "extra footnote marker m"
+   },
+   "suggest": {
+    "semantic": true
+   },
+   "why": "footnote marker added (rule: wrong footnote = semantic error)"
+  }
+ ],
+ "alignment": [
+  {
+   "id": "t8183ed|act_38",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "IV/IWRS call",
+   "human": null,
+   "human_id": null,
+   "judge": "Trial visits",
+   "judge_id": "act_17"
+  },
+  {
+   "id": "t8183ed|act_40",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Hand out directions for use of s.c. trial product",
+   "human": null,
+   "human_id": null,
+   "judge": "Dispensing/return of trial products for use of e-Diary",
+   "judge_id": "act_19"
+  },
+  {
+   "id": "t8183ed|act_45",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System C",
+   "gold": "Collect and review diary",
+   "human": "Dispensing/return of trial products for use of e-Diary",
+   "human_id": "act_19",
+   "judge": null,
+   "judge_id": null
+  },
+  {
+   "id": "tba18be|act_03",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Concomitant medication",
+   "human": "Alcohol history",
+   "human_id": "act_08",
+   "judge": "Medical and surgical history",
+   "judge_id": "act_03"
+  },
+  {
+   "id": "tba18be|act_08",
+   "axis": "rows",
+   "group": "NCT01923181__Prot_000__g001",
+   "system": "System D",
+   "gold": "Medical history",
+   "human": "Medical and surgical history",
+   "human_id": "act_03",
+   "judge": "Alcohol history",
+   "judge_id": "act_08"
+  }
+ ],
+ "auto_not_semantic": {
+  "format": 84,
+  "other-char-difference": 41,
+  "dropped": 23
+ }
+}

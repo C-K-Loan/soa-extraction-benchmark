@@ -1,0 +1,395 @@
+{
+  "activities": [
+    {
+      "id": "act_01",
+      "text": "Informed consent (ICF)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_02",
+      "text": "Inclusion/exclusion criteria",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_03",
+      "text": "Review medical history requirements (including history of smoking)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_04",
+      "text": "Demographics, body weight, height, pulse and blood pressure",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_05",
+      "text": "Preplanned surgical/procedure(s)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_06",
+      "text": "Urine or serum pregnancy test j",
+      "uses_reference_markers": [
+        "j"
+      ]
+    },
+    {
+      "id": "act_07",
+      "text": "BNP or NT-proBNP l",
+      "uses_reference_markers": [
+        "l"
+      ]
+    },
+    {
+      "id": "act_08",
+      "text": "Randomization",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_09",
+      "text": "Record NYHA classification",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_10",
+      "text": "Record LVEF",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_11",
+      "text": "Dispense study drug o",
+      "uses_reference_markers": [
+        "o"
+      ]
+    },
+    {
+      "id": "act_12",
+      "text": "First dose of study drug administered in clinic p",
+      "uses_reference_markers": [
+        "p"
+      ]
+    },
+    {
+      "id": "act_13",
+      "text": "Study drug administration q,r",
+      "uses_reference_markers": [
+        "q",
+        "r"
+      ]
+    },
+    {
+      "id": "act_14",
+      "text": "Study drug accountability",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_15",
+      "text": "Clinical status review: record outcome events s",
+      "uses_reference_markers": [
+        "s"
+      ]
+    },
+    {
+      "id": "act_16",
+      "text": "Adverse events assessment t",
+      "uses_reference_markers": [
+        "t"
+      ]
+    },
+    {
+      "id": "act_17",
+      "text": "Review concomitant medications related to subject's HF and CAD",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_18",
+      "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_19",
+      "text": "Medical resource utilization",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_20",
+      "text": "Hemoglobin u",
+      "uses_reference_markers": [
+        "u"
+      ]
+    },
+    {
+      "id": "act_21",
+      "text": "Platelet count, automated",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_22",
+      "text": "Serum creatinine for eGFR x",
+      "uses_reference_markers": [
+        "x"
+      ]
+    },
+    {
+      "id": "act_23",
+      "text": "Modified Rankin Evaluation, if stroke outcome event occurred",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_24",
+      "text": "D-dimer",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_25",
+      "text": "CK-MB, troponin",
+      "uses_reference_markers": []
+    }
+  ],
+  "cells": [],
+  "contacts": [
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": -1.0,
+        "target_unit": "days",
+        "window_after": null,
+        "window_before": 50.0,
+        "window_unit": "days"
+      },
+      "id": "con_01",
+      "reference_markers": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 1.0,
+        "target_unit": "days",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_02",
+      "reference_markers": [
+        "a"
+      ],
+      "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 4.0,
+        "target_unit": "weeks",
+        "window_after": 2.0,
+        "window_before": 4.0,
+        "window_unit": "days"
+      },
+      "id": "con_03",
+      "reference_markers": [],
+      "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 12.0,
+        "target_unit": "weeks",
+        "window_after": 4.0,
+        "window_before": 4.0,
+        "window_unit": "days"
+      },
+      "id": "con_04",
+      "reference_markers": [],
+      "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": 84.0,
+        "cycles": [
+          1,
+          null
+        ],
+        "target": null,
+        "target_unit": null,
+        "window_after": 6.0,
+        "window_before": 6.0,
+        "window_unit": "days"
+      },
+      "id": "con_05",
+      "reference_markers": [
+        "e",
+        "f"
+      ],
+      "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wke,f (q84d) > Window: -/+6 days"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": null,
+        "target_unit": null,
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_06",
+      "reference_markers": [],
+      "text": "Period/Phase: Double-Blind Treatment Phase > Early Permanent Study Drug Discontinuation"
+    },
+    {
+      "anchor": "GTED",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 30.0,
+        "target_unit": "days",
+        "window_after": 15.0,
+        "window_before": 15.0,
+        "window_unit": "days"
+      },
+      "id": "con_07",
+      "reference_markers": [
+        "g"
+      ],
+      "text": "Period/Phase: Follow-Up After GTED > End of Study g > Window: 30\u00b115 days"
+    }
+  ],
+  "group_id": "NCT01877915__Prot_000__g001",
+  "model": "google/gemini-3.8-flash",
+  "references": [
+    {
+      "reference_marker": "a",
+      "text": "All screening evaluations must be completed before randomization. Both screening and baseline evaluations may occur on the day of randomization (defined as Day 1)."
+    },
+    {
+      "reference_marker": "b",
+      "text": "The screening period may last up to 51 days before randomization (21 days maximum for a hospitalization admission plus up to 30 days after discharge from the facility treating the index event)."
+    },
+    {
+      "reference_marker": "c",
+      "text": "Laboratory screening assessments that are part of the standard care performed by the investigator do not need to be repeated if performed within the timeframe required by the protocol."
+    },
+    {
+      "reference_marker": "d",
+      "text": "Hospital/local laboratory results and imaging studies (within 51 days [21 days maximum for a hospitalization admission plus up to 30 days after discharge from the facility treating the index event]) will be used for screening purposes and will serve as the baseline (Day 1) laboratory results."
+    },
+    {
+      "reference_marker": "e",
+      "text": "Treatment visit every 12 weeks until the global treatment end date (GTED) when pre-specified number of primary efficacy outcome events is estimated to be reached."
+    },
+    {
+      "reference_marker": "f",
+      "text": "At the GTED subjects will be instructed to stop their study drug and return to the study site 30 Days (\u00b115 days) for the End-of-Study visit. Subjects who permanently discontinue the study drug before the GTED will complete the Early Permanent Study Drug Discontinuation visit as soon as possible after their last dose of study drug. In addition, every attempt will be made to follow these subjects for all subsequent scheduled visits until EOS."
+    },
+    {
+      "reference_marker": "g",
+      "text": "Contact will take place 30\u00b115 days, but no sooner than 15 days after the GTED to assess efficacy and safety outcomes. For subjects who discontinue study drug prematurely this contact will take place within the same time frame after the GTED. See Section 9.1.4."
+    },
+    {
+      "reference_marker": "h",
+      "text": "If subject is screened and randomized the same day."
+    },
+    {
+      "reference_marker": "i",
+      "text": "To be reviewed before randomization."
+    },
+    {
+      "reference_marker": "j",
+      "text": "To be performed on all women of childbearing potential. Additional serum or urine pregnancy tests may be performed, as determined necessary by the investigator or required by local regulation, to establish the absence of pregnancy at any time during the subject's participation in the study."
+    },
+    {
+      "reference_marker": "k",
+      "text": "Use local laboratory results for the inclusion and exclusion clinical laboratory parameters and for early permanent study drug discontinuation or the GTED visits. All screening clinical laboratory results must be completed and reviewed before randomization."
+    },
+    {
+      "reference_marker": "l",
+      "text": "Blood for BNP or NT proBNP measurements will be drawn prior to randomization as part of the inclusion criteria. If available, BNP or NT-proBNP will be measured by the local hospital laboratory. If local measurements of BNP or NT-proBNP are not available, approximately 5 mL of blood will be sent to a local central laboratory for measurement of BNP or NT-proBNP (whichever is available at that laboratory)."
+    },
+    {
+      "reference_marker": "m",
+      "text": "Subjects will be randomized up to 30 days after discharge from the facility treating the index event."
+    },
+    {
+      "reference_marker": "n",
+      "text": "Documented within 1 year before randomization. If more than one LVEF is available the most recent one should be used."
+    },
+    {
+      "reference_marker": "o",
+      "text": "Study drug will be dispensed on Day 1 after randomization and every scheduled visit thereafter except Week 4 until end of treatment. Lost medication requiring replacement should be dispensed at an unscheduled visit before the next scheduled visits."
+    },
+    {
+      "reference_marker": "p",
+      "text": "If the first dose of study drug is taken prior to or at 12:00 PM (noon), it is considered the AM dose of the day and a PM dose should also be taken. If it is taken after 12:00 PM (noon), it is considered the PM dose of the day and another pill should not be taken that day."
+    },
+    {
+      "reference_marker": "q",
+      "text": "Subjects will self-administer study drug once in the morning and once in the evening (approximately 12 hours apart), at approximately the same times each day."
+    },
+    {
+      "reference_marker": "r",
+      "text": "Subjects who experience any outcome events (except for death and hemorrhagic stroke) may continue to receive blinded study drug and complete all scheduled visits."
+    },
+    {
+      "reference_marker": "s",
+      "text": "When an outcome event occurs, or after discharge for any re-hospitalization, an unscheduled visit before the next scheduled visit should be done for clinical status review and outcome event recording."
+    },
+    {
+      "reference_marker": "t",
+      "text": "See Section 9.5, Safety Evaluations and Outcomes for adverse events that will be recorded. Based upon the severity of the adverse event and clinical judgment of the investigator, an unscheduled visit before the next scheduled visit may be needed to assess adverse events."
+    },
+    {
+      "reference_marker": "u",
+      "text": "If the subject is re-hospitalized for bleeding at any time after randomization, and a hemoglobin or hematocrit test is done, the result should be recorded on the hematology lab page(s) in the eCRF."
+    },
+    {
+      "reference_marker": "v",
+      "text": "Test result closest to randomization should be used."
+    },
+    {
+      "reference_marker": "w",
+      "text": "If a hemoglobin collection is not done at the local lab at Week 12 (\u00b114 days), it should be collected no later than Week 24 (+ 14 days)."
+    },
+    {
+      "reference_marker": "x",
+      "text": "Creatinine concentration for eGFR will be calculated by the interactive web response system using the Modification of Diet in Renal Disease formula (Attachment 1)."
+    },
+    {
+      "reference_marker": "y",
+      "text": "A Modified Rankin Evaluation (Attachment 2) will be obtained between 6 and 18 weeks following a stroke outcome event or at End of Study, whichever occurs first."
+    },
+    {
+      "reference_marker": "z",
+      "text": "To be collected from all subjects prior to the first dose of study drug and analyzed by the central laboratory."
+    },
+    {
+      "reference_marker": "aa",
+      "text": "To be collected from approximately 10% of randomly selected subjects within each country and analyzed by the central laboratory."
+    },
+    {
+      "reference_marker": "ab",
+      "text": "If available during the index event, the value of CK-MB and/or troponin should be recorded on the lab page(s) of the eCRF (if more than one test values are available, use the highest value)."
+    }
+  ],
+  "system": "gemini_38_flash"
+}

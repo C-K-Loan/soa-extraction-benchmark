@@ -1,0 +1,8593 @@
+{
+ "meta": {
+  "n_tasks": 48,
+  "tasks_hash": "caf866376e25",
+  "axes": {
+   "rows": "activities (table rows)",
+   "columns": "contacts (visit columns)"
+  },
+  "prefill_rule": "text identical after score_soa._norm, first unused in order"
+ },
+ "tasks": [
+  {
+   "task_id": "tec964d",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23"
+   }
+  },
+  {
+   "task_id": "t3d4496",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screen a > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screenᵃ > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09"
+   }
+  },
+  {
+   "task_id": "teba592",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEITTM ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23"
+   }
+  },
+  {
+   "task_id": "t913bcb",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screen a > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screena > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09"
+   }
+  },
+  {
+   "task_id": "tacbb07",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry/ Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI-S g/ CGI/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23"
+   }
+  },
+  {
+   "task_id": "tb7df1d",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screen a > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screen > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09"
+   }
+  },
+  {
+   "task_id": "tb1afef",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d/Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g/ CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX i/ ER-40/ ECR"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Assess Inclusion/Exclusion"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_04",
+     "text": "Physical Exam"
+    },
+    {
+     "id": "act_05",
+     "text": "SCID/Psychiatric History"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine Drug Screen b"
+    },
+    {
+     "id": "act_07",
+     "text": "Urine Pregnancy Screen c"
+    },
+    {
+     "id": "act_08",
+     "text": "Vital signs/ weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Blood chemistry d /Urine osmolality"
+    },
+    {
+     "id": "act_10",
+     "text": "Oxytocin Levels e"
+    },
+    {
+     "id": "act_11",
+     "text": "EEG"
+    },
+    {
+     "id": "act_12",
+     "text": "PANSS f"
+    },
+    {
+     "id": "act_13",
+     "text": "HAM-A/ CDSS/ CGI:S g / CGI:I/ GAF"
+    },
+    {
+     "id": "act_14",
+     "text": "Cognitive tests (CMINDS® and MSCEIT™ ME) h"
+    },
+    {
+     "id": "act_15",
+     "text": "CTQ"
+    },
+    {
+     "id": "act_16",
+     "text": "TSQM"
+    },
+    {
+     "id": "act_17",
+     "text": "PTS/ SPIN/ ASEX/ ER-40/ ECR i"
+    },
+    {
+     "id": "act_18",
+     "text": "Mid-Week Safety Call j"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_20",
+     "text": "Single Challenge Dose k"
+    },
+    {
+     "id": "act_21",
+     "text": "Concomitant Meds"
+    },
+    {
+     "id": "act_22",
+     "text": "Adverse Events"
+    },
+    {
+     "id": "act_23",
+     "text": "1-hr safety monitoring following in-clinic dose"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23"
+   }
+  },
+  {
+   "task_id": "tc8cb0e",
+   "group_id": "NCT01621737__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screen a > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit: Screenᵃ > Week: -1 > Days: -7 to -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit: Baseline > Week: 0 > Days: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit: Midweek > Week: 0 > Days: 3/4"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit: 3 > Week: 1 > Days: 7"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit: 4 > Week: 2 > Days: 14"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit: 5 > Week: 3 > Days: 21"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit: 6 > Week: 4 > Days: 28"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit: 7 > Week: 5 > Days: 35"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit: 8/ET > Week: 6 > Days: 42"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09"
+   }
+  },
+  {
+   "task_id": "t193652",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs 3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level 5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker 6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR 7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR 7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR²"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History¹"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs³"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level⁵"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker⁶"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR⁷"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (plasma) for FBR⁷"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype⁹"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_03": "act_03",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15"
+   }
+  },
+  {
+   "task_id": "t4a9ad4",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 8 > Screen/ Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 11"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 13 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 13 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 13 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 13 > Year 5 > Mo. 60 11"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit 10"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No. > 1⁸ > Screen/ Baseline⁴"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No. > 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No. > 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No. > 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No. > 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No. > 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No. > 7 > Year 3 > Mo. 36¹¹"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No. > 8¹³ > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No. > 9¹³ > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No. > 10¹³ > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No. > 11¹³ > Year 5 > Mo. 60¹¹"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No. > 12 > (Unscheduled) Viral Confirmation Visit¹⁰"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "t01f808",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs 3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level 5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker 6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR 7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR 7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECLs, and drug-related SAEs3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrousse® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level4"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype5"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_15": "act_15"
+   }
+  },
+  {
+   "task_id": "t250218",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 8 > Screen/ Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 11"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 13 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 13 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 13 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 13 > Year 5 > Mo. 60 11"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit 10"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 > Screen/Baseline"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 > Year 5 > Mo. 60"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "tc791b1",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs 3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level 5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker 6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR 7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR 7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs 3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level 5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker 6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR 7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR 7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype 9"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20"
+   }
+  },
+  {
+   "task_id": "t431b06",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 8 > Screen/ Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 11"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 13 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 13 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 13 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 13 > Year 5 > Mo. 60 11"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit 10"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 8 > Screen/ Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 11"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 13 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 13 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 13 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 13 > Year 5 > Mo. 60 11"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit 10"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09",
+    "con_10": "con_10",
+    "con_11": "con_11",
+    "con_12": "con_12"
+   }
+  },
+  {
+   "task_id": "t50fc9d",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs 3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level 5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker 6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR 7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR 7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Medical History 12"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination (PE)"
+    },
+    {
+     "id": "act_07",
+     "text": "Child-Pugh score computation"
+    },
+    {
+     "id": "act_08",
+     "text": "Blood pressure (systolic and diastolic) and heart rate"
+    },
+    {
+     "id": "act_09",
+     "text": "Weight"
+    },
+    {
+     "id": "act_10",
+     "text": "Height"
+    },
+    {
+     "id": "act_11",
+     "text": "Review procedure related AEs, ECIs, and drug-related SAEs3"
+    },
+    {
+     "id": "act_12",
+     "text": "Chemistry, hematology, and coagulation panel"
+    },
+    {
+     "id": "act_13",
+     "text": "MELD score (with and without dialysis)"
+    },
+    {
+     "id": "act_14",
+     "text": "Fibrosure® (Fibrotest®)"
+    },
+    {
+     "id": "act_15",
+     "text": "eGFR (if prior treatment study was PN052)"
+    },
+    {
+     "id": "act_16",
+     "text": "HCV RNA Level5"
+    },
+    {
+     "id": "act_17",
+     "text": "Viral Resistance and Biomarker6"
+    },
+    {
+     "id": "act_18",
+     "text": "Blood (DNA) for FBR7"
+    },
+    {
+     "id": "act_19",
+     "text": "Blood (Plasma) for FBR7"
+    },
+    {
+     "id": "act_20",
+     "text": "HCV Genotype9"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15"
+   }
+  },
+  {
+   "task_id": "taae133",
+   "group_id": "NCT01667081__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 8 > Screen/ Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 11"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8 13 > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9 13 > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10 13 > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11 13 > Year 5 > Mo. 60 11"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit 10"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1⁸ > Screen/ Baseline⁴"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36¹¹"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: 8¹³ > Year 4 > Mo. 42"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit No.: 9¹³ > Year 4 > Mo. 48"
+    },
+    {
+     "id": "con_10",
+     "text": "Visit No.: 10¹³ > Year 5 > Mo. 54"
+    },
+    {
+     "id": "con_11",
+     "text": "Visit No.: 11¹³ > Year 5 > Mo. 60¹¹"
+    },
+    {
+     "id": "con_12",
+     "text": "Visit No.: 12 > (Unscheduled) Viral Confirmation Visit¹⁰"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "t2bce7a",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs 3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis 8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker 8"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs 3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis 8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker 8"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12"
+   }
+  },
+  {
+   "task_id": "t51afd9",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 5 > Screen/Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 7"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit 6"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1⁵ > Screen/Baseline⁴"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36⁷"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit⁶"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "tb8e1dd",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs 3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis 8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker 8"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR²"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs³"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis⁸"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker²"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09"
+   }
+  },
+  {
+   "task_id": "t9d5791",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 5 > Screen/Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 7"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit 6"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1⁵ > Screen/Baseline⁴"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36"
+    },
+    {
+     "id": "con_08",
+     "text": "Unscheduled Visit⁶"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "tb501d6",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs 3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis 8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker 8"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker8"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09"
+   }
+  },
+  {
+   "task_id": "t785d0f",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 5 > Screen/Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 7"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit 6"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1^5 > Screen/Baseline^4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36^7"
+    },
+    {
+     "id": "con_08",
+     "text": "Unscheduled Visit^6"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07"
+   }
+  },
+  {
+   "task_id": "t57dc32",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBR 2"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEs 3"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysis 8"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarker 8"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent/Assent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent/Assent for FBRᶜ"
+    },
+    {
+     "id": "act_03",
+     "text": "Provide Subject Identification Card"
+    },
+    {
+     "id": "act_04",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_05",
+     "text": "Medical History"
+    },
+    {
+     "id": "act_06",
+     "text": "Directed Physical Examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Weight"
+    },
+    {
+     "id": "act_08",
+     "text": "Height"
+    },
+    {
+     "id": "act_09",
+     "text": "Date of menarche (females only)"
+    },
+    {
+     "id": "act_10",
+     "text": "Procedure Related AEs and drug-related SAEsᵈ"
+    },
+    {
+     "id": "act_11",
+     "text": "HCV RNA Level and sequence analysisᵍ"
+    },
+    {
+     "id": "act_12",
+     "text": "Viral Resistance and Biomarkerʰ"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09"
+   }
+  },
+  {
+   "task_id": "taf3935",
+   "group_id": "NCT01667081__Prot_SAP_000__g002",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 1 5 > Screen/Baseline 4"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 36 7"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit 6"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Visit No.: 15 > Screen/Baseline5"
+    },
+    {
+     "id": "con_02",
+     "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+     "id": "con_03",
+     "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+     "id": "con_04",
+     "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+     "id": "con_05",
+     "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+     "id": "con_06",
+     "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+     "id": "con_07",
+     "text": "Visit No.: 7 > Year 3 > Mo. 367"
+    },
+    {
+     "id": "con_08",
+     "text": "Visit No.: Unscheduled Visit6"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "t0589f4",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25"
+   }
+  },
+  {
+   "task_id": "td7ac84",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Perioda,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baselinea > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wkc,e (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Studyg > Window: 30±15 days"
+    }
+   ],
+   "prefill": {
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "t452463",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25"
+   }
+  },
+  {
+   "task_id": "tf2f15e",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wke,f (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > End of Study g > Window: 30±15 days"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04"
+   }
+  },
+  {
+   "task_id": "tade2fa",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (IC)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Pregnancy surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q, r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombotic complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "prefill": {
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25"
+   }
+  },
+  {
+   "task_id": "t29161c",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Periodᵃ,ᵇ,ᶜ,ᵈ > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baselineᵃ > Day/Week: Day 1/Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wkᶠ (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Studyᵍ > Window: 30±15 days"
+    }
+   ],
+   "prefill": {
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_06": "con_06"
+   }
+  },
+  {
+   "task_id": "tfaa0de",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical/procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test j"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP l"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug o"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic p"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration q,r"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review: record outcome events s"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment t"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin u"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR x"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent (ICF)"
+    },
+    {
+     "id": "act_02",
+     "text": "Inclusion/exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Review medical history requirements (including history of smoking)"
+    },
+    {
+     "id": "act_04",
+     "text": "Demographics, body weight, height, pulse and blood pressure"
+    },
+    {
+     "id": "act_05",
+     "text": "Preplanned surgical procedure(s)"
+    },
+    {
+     "id": "act_06",
+     "text": "Urine or serum pregnancy test"
+    },
+    {
+     "id": "act_07",
+     "text": "BNP or NT-proBNP"
+    },
+    {
+     "id": "act_08",
+     "text": "Randomization"
+    },
+    {
+     "id": "act_09",
+     "text": "Record NYHA classification"
+    },
+    {
+     "id": "act_10",
+     "text": "Record LVEF"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense study drug"
+    },
+    {
+     "id": "act_12",
+     "text": "First dose of study drug administered in clinic"
+    },
+    {
+     "id": "act_13",
+     "text": "Study drug administration"
+    },
+    {
+     "id": "act_14",
+     "text": "Study drug accountability"
+    },
+    {
+     "id": "act_15",
+     "text": "Clinical status review; record outcome events"
+    },
+    {
+     "id": "act_16",
+     "text": "Adverse events assessment"
+    },
+    {
+     "id": "act_17",
+     "text": "Review concomitant medications related to subject's HF and CAD"
+    },
+    {
+     "id": "act_18",
+     "text": "Review antiplatelet, anticoagulant, proton pump inhibitors, prothrombin complex concentrates, and prohibited medications"
+    },
+    {
+     "id": "act_19",
+     "text": "Medical resource utilization"
+    },
+    {
+     "id": "act_20",
+     "text": "Hemoglobin"
+    },
+    {
+     "id": "act_21",
+     "text": "Platelet count, automated"
+    },
+    {
+     "id": "act_22",
+     "text": "Serum creatinine for eGFR"
+    },
+    {
+     "id": "act_23",
+     "text": "Modified Rankin Evaluation, if stroke outcome event occurred"
+    },
+    {
+     "id": "act_24",
+     "text": "D-dimer"
+    },
+    {
+     "id": "act_25",
+     "text": "CK-MB, troponin"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_14": "act_14",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_21": "act_21",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25"
+   }
+  },
+  {
+   "task_id": "te8643b",
+   "group_id": "NCT01877915__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Period/Phase: Screening Period a,b,c,d > Day/Week: Day -51 to Day -1 > Window: 21 days maximum for a hospitalization admission plus up to 30 days after discharge"
+    },
+    {
+     "id": "con_02",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Baseline a > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28) > Window: -4/+2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84) > Window: -/+4 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk e,f (q84d) > Window: -/+6 days"
+    },
+    {
+     "id": "con_06",
+     "text": "Period/Phase: Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Period/Phase: Follow-Up After GTED > Day/Week: End of Study g > Window: 30±15 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Day -51 to Day -1"
+    },
+    {
+     "id": "con_02",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Baseline > Day/Week: Day 1/ Randomization"
+    },
+    {
+     "id": "con_03",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 4 (Day 28)"
+    },
+    {
+     "id": "con_04",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Week 12 (Day 84)"
+    },
+    {
+     "id": "con_05",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Day/Week: q12wk (q84d)"
+    },
+    {
+     "id": "con_06",
+     "text": "Double-Blind Treatment Phase > Treatment Period > Day/Week: Early Permanent Study Drug Discontinuation"
+    },
+    {
+     "id": "con_07",
+     "text": "Follow-Up After GTED > Day/Week: End of Study"
+    }
+   ],
+   "prefill": {}
+  },
+  {
+   "task_id": "t703eaf",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_13",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_14",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_15",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_16",
+     "text": "Height"
+    },
+    {
+     "id": "act_17",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_18",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or Case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Prior medication"
+    },
+    {
+     "id": "act_05",
+     "text": "Coexisting illness"
+    },
+    {
+     "id": "act_06",
+     "text": "Demography"
+    },
+    {
+     "id": "act_07",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_08",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_09",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_10",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_11",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_12",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_13",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_14",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_15",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_16",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_17",
+     "text": "Height"
+    },
+    {
+     "id": "act_18",
+     "text": "Weight"
+    },
+    {
+     "id": "act_19",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_20",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_21",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_22",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_23",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_24",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_25",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_26",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_27",
+     "text": "Fundoscopy findings"
+    },
+    {
+     "id": "act_28",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_29",
+     "text": "Vital signs 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Antibodies"
+    },
+    {
+     "id": "act_31",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_32",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_33",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_34",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peaks) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IVRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out instructions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attended visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 10"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_05": "act_06",
+    "act_06": "act_07",
+    "act_07": "act_08",
+    "act_08": "act_09",
+    "act_09": "act_10",
+    "act_10": "act_11",
+    "act_11": "act_12",
+    "act_12": "act_13",
+    "act_13": "act_14",
+    "act_14": "act_15",
+    "act_15": "act_16",
+    "act_16": "act_17",
+    "act_17": "act_19",
+    "act_18": "act_20",
+    "act_19": "act_21",
+    "act_20": "act_22",
+    "act_21": "act_23",
+    "act_23": "act_24",
+    "act_24": "act_25",
+    "act_25": "act_26",
+    "act_27": "act_28",
+    "act_30": "act_31",
+    "act_31": "act_32",
+    "act_32": "act_33",
+    "act_33": "act_34",
+    "act_36": "act_36",
+    "act_37": "act_37",
+    "act_39": "act_39",
+    "act_41": "act_41",
+    "act_42": "act_42",
+    "act_43": "act_43",
+    "act_44": "act_44",
+    "act_45": "act_45",
+    "act_47": "act_47"
+   }
+  },
+  {
+   "task_id": "tc01958",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial – premature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods > Screening > Visit number: 1 > Timing of visit: -2 weeks"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods > Randomisation > Visit number: 2 > Timing of visit: 0 days"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods > Treatment > Visit number: 3 > Timing of visit: 2 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods > Treatment > Visit number: 4 > Timing of visit: 4 days ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods > Treatment > Visit number: 5 > Timing of visit: 6 days ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods > Treatment > Visit number: 6 > Timing of visit: 8 days ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods > Treatment > Visit number: 7 > Timing of visit: 12 days ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods > Treatment > Visit number: 8 > Timing of visit: 16 days ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods > Treatment > Visit number: 9 > Timing of visit: 20 days ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods > Treatment > Visit number: 10 > Timing of visit: 24 days ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods > End-of-treatment2) > Visit number: 11 > Timing of visit: 26 days ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods > Follow-up3) > Visit number: 12 > Timing of visit: 31 days +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 1X"
+    },
+    {
+     "id": "con_14",
+     "text": "Trial Periods > End-of-trial – premature discontinuation4) > Visit number: 26 days ±3"
+    }
+   ],
+   "prefill": {}
+  },
+  {
+   "task_id": "t649451",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_13",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_14",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_15",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_16",
+     "text": "Height"
+    },
+    {
+     "id": "act_17",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_18",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or Case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Height"
+    },
+    {
+     "id": "act_13",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_14",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_15",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_16",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_17",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_18",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hyper/hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation e"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies f"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) g"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test h"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Trial drug directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting i"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or Case book signed"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial j"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_15",
+    "act_13": "act_16",
+    "act_14": "act_17",
+    "act_15": "act_18",
+    "act_16": "act_12",
+    "act_17": "act_13",
+    "act_18": "act_14",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_26": "act_26",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_34": "act_34",
+    "act_37": "act_37",
+    "act_38": "act_38",
+    "act_39": "act_39",
+    "act_41": "act_41",
+    "act_42": "act_42",
+    "act_43": "act_43",
+    "act_44": "act_44",
+    "act_45": "act_45"
+   }
+  },
+  {
+   "task_id": "tcff5f2",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial – premature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Treatment > Visit number: 3 > Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Treatment > Visit number: 4 > Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Treatment > Visit number: 5 > Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Treatment > Visit number: 6 > Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Treatment > Visit number: 7 > Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Treatment > Visit number: 8 > Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Treatment > Visit number: 9 > Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Treatment > Visit number: 10 > Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "End-of-treatment2 > Visit number: 11 > Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Follow-up3 > Visit number: 12 > Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "End-of-trial - premature discontinuation3 > Visit number: 11X > Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "prefill": {}
+  },
+  {
+   "task_id": "t8183ed",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_13",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_14",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_15",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_16",
+     "text": "Height"
+    },
+    {
+     "id": "act_17",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_18",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or Case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_02",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_03",
+     "text": "ECG, overall interpretation⁴"
+    },
+    {
+     "id": "act_04",
+     "text": "Fundoscopy"
+    },
+    {
+     "id": "act_05",
+     "text": "Photography"
+    },
+    {
+     "id": "act_06",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_07",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_08",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_09",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_10",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_11",
+     "text": "Calcium"
+    },
+    {
+     "id": "act_12",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_13",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_14",
+     "text": "PK sampling (trough + peak)⁶"
+    },
+    {
+     "id": "act_15",
+     "text": "Pregnancy test⁷"
+    },
+    {
+     "id": "act_16",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_17",
+     "text": "Trial visits"
+    },
+    {
+     "id": "act_18",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_19",
+     "text": "Dispensing/return of trial products for use of e-Diary"
+    },
+    {
+     "id": "act_20",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_21",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_22",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_23",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_24",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_25",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_26",
+     "text": "Concomitant illnesses"
+    },
+    {
+     "id": "act_27",
+     "text": "Demography"
+    },
+    {
+     "id": "act_28",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_29",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_30",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_31",
+     "text": "Smoking history"
+    },
+    {
+     "id": "act_32",
+     "text": "History of gallbladder"
+    },
+    {
+     "id": "act_33",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_34",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_35",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_36",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_37",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_38",
+     "text": "Height"
+    },
+    {
+     "id": "act_39",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_40",
+     "text": "HbA₁c"
+    },
+    {
+     "id": "act_41",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_42",
+     "text": "Lipids"
+    }
+   ],
+   "prefill": {
+    "act_02": "act_24",
+    "act_03": "act_25",
+    "act_05": "act_27",
+    "act_06": "act_28",
+    "act_07": "act_29",
+    "act_08": "act_30",
+    "act_11": "act_33",
+    "act_12": "act_34",
+    "act_13": "act_35",
+    "act_14": "act_36",
+    "act_15": "act_37",
+    "act_16": "act_38",
+    "act_17": "act_08",
+    "act_18": "act_39",
+    "act_20": "act_41",
+    "act_21": "act_42",
+    "act_23": "act_01",
+    "act_24": "act_02",
+    "act_27": "act_06",
+    "act_28": "act_07",
+    "act_30": "act_09",
+    "act_31": "act_10",
+    "act_33": "act_12",
+    "act_34": "act_13",
+    "act_37": "act_16",
+    "act_39": "act_18",
+    "act_41": "act_20",
+    "act_42": "act_21",
+    "act_43": "act_22",
+    "act_44": "act_23"
+   }
+  },
+  {
+   "task_id": "tf1a8fe",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial – premature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening¹ > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment² > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up² > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial – premature discontinuation³ > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09",
+    "con_10": "con_10"
+   }
+  },
+  {
+   "task_id": "tba18be",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Concomitant medication"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Medical history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_13",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_14",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_15",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_16",
+     "text": "Height"
+    },
+    {
+     "id": "act_17",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_18",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or Case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 9"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed consent"
+    },
+    {
+     "id": "act_02",
+     "text": "In- and exclusion criteria"
+    },
+    {
+     "id": "act_03",
+     "text": "Medical and surgical history"
+    },
+    {
+     "id": "act_04",
+     "text": "Concomitant illness"
+    },
+    {
+     "id": "act_05",
+     "text": "Demography"
+    },
+    {
+     "id": "act_06",
+     "text": "Diagnosis of diabetes"
+    },
+    {
+     "id": "act_07",
+     "text": "Diabetes treatment history"
+    },
+    {
+     "id": "act_08",
+     "text": "Alcohol history"
+    },
+    {
+     "id": "act_09",
+     "text": "Smoking habits"
+    },
+    {
+     "id": "act_10",
+     "text": "History of gallbladder disease"
+    },
+    {
+     "id": "act_11",
+     "text": "History of cardiovascular disease"
+    },
+    {
+     "id": "act_12",
+     "text": "Renal impairment history"
+    },
+    {
+     "id": "act_13",
+     "text": "Randomisation"
+    },
+    {
+     "id": "act_14",
+     "text": "Withdrawal criteria"
+    },
+    {
+     "id": "act_15",
+     "text": "Post-dose fasting routines"
+    },
+    {
+     "id": "act_16",
+     "text": "Height"
+    },
+    {
+     "id": "act_17",
+     "text": "Body weight"
+    },
+    {
+     "id": "act_18",
+     "text": "Waist circumference"
+    },
+    {
+     "id": "act_19",
+     "text": "HbA1c"
+    },
+    {
+     "id": "act_20",
+     "text": "Glucose metabolism"
+    },
+    {
+     "id": "act_21",
+     "text": "Lipids"
+    },
+    {
+     "id": "act_22",
+     "text": "PRO questionnaire"
+    },
+    {
+     "id": "act_23",
+     "text": "Adverse events"
+    },
+    {
+     "id": "act_24",
+     "text": "Hypoglycaemic episodes"
+    },
+    {
+     "id": "act_25",
+     "text": "ECG, overall interpretation 4"
+    },
+    {
+     "id": "act_26",
+     "text": "Fundoscopy/fundus photography"
+    },
+    {
+     "id": "act_27",
+     "text": "Physical examination"
+    },
+    {
+     "id": "act_28",
+     "text": "Vital signs"
+    },
+    {
+     "id": "act_29",
+     "text": "Antibodies 5"
+    },
+    {
+     "id": "act_30",
+     "text": "Biochemistry"
+    },
+    {
+     "id": "act_31",
+     "text": "Creatinine"
+    },
+    {
+     "id": "act_32",
+     "text": "Calcitonin"
+    },
+    {
+     "id": "act_33",
+     "text": "Haematology"
+    },
+    {
+     "id": "act_34",
+     "text": "PK sampling"
+    },
+    {
+     "id": "act_35",
+     "text": "PK sampling (trough + peak) 6"
+    },
+    {
+     "id": "act_36",
+     "text": "Blood pregnancy test 7"
+    },
+    {
+     "id": "act_37",
+     "text": "Urinalysis"
+    },
+    {
+     "id": "act_38",
+     "text": "IV/IWRS call"
+    },
+    {
+     "id": "act_39",
+     "text": "Dispensing visit"
+    },
+    {
+     "id": "act_40",
+     "text": "Hand out directions for use of s.c. trial product"
+    },
+    {
+     "id": "act_41",
+     "text": "Drug accountability"
+    },
+    {
+     "id": "act_42",
+     "text": "Dispense glucose meter"
+    },
+    {
+     "id": "act_43",
+     "text": "Dispense subject identity card"
+    },
+    {
+     "id": "act_44",
+     "text": "Dispense diary"
+    },
+    {
+     "id": "act_45",
+     "text": "Collect and review diary"
+    },
+    {
+     "id": "act_46",
+     "text": "Attend visit fasting 8"
+    },
+    {
+     "id": "act_47",
+     "text": "Affirmation statement or case book signed 9"
+    },
+    {
+     "id": "act_48",
+     "text": "End of trial 9"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25",
+    "act_26": "act_26",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_29": "act_29",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_34": "act_34",
+    "act_35": "act_35",
+    "act_36": "act_36",
+    "act_37": "act_37",
+    "act_38": "act_38",
+    "act_39": "act_39",
+    "act_40": "act_40",
+    "act_41": "act_41",
+    "act_42": "act_42",
+    "act_43": "act_43",
+    "act_44": "act_44",
+    "act_45": "act_45",
+    "act_46": "act_46",
+    "act_47": "act_47",
+    "act_48": "act_48"
+   }
+  },
+  {
+   "task_id": "tb8daac",
+   "group_id": "NCT01923181__Prot_000__g001",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screening 1 > Visit number: 1 > Timing of visit Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit Weeks: 2 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit Weeks: 4 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit Weeks: 6 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit Weeks: 8 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit Weeks: 12 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit Weeks: 16 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit Weeks: 20 > Visit window Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit Weeks: 24 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment 2 > Visit number: 11 > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up 2 > Visit number: 12 > Timing of visit Weeks: 31 > Visit window Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial – premature discontinuation 3 > Visit number: 11X > Timing of visit Weeks: 26 > Visit window Days: ±3"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Periods: Screeningx > Visit number: 1 > Timing of visit: Weeks: -2"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Periods: Randomisation > Visit number: 2 > Timing of visit: Weeks: 0"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Periods: Treatment > Visit number: 3 > Timing of visit: Weeks: 2 > Visit window: Days: ±3"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Periods: Treatment > Visit number: 4 > Timing of visit: Weeks: 4 > Visit window: Days: ±3"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Periods: Treatment > Visit number: 5 > Timing of visit: Weeks: 6 > Visit window: Days: ±3"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Periods: Treatment > Visit number: 6 > Timing of visit: Weeks: 8 > Visit window: Days: ±3"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Periods: Treatment > Visit number: 7 > Timing of visit: Weeks: 12 > Visit window: Days: ±5"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Periods: Treatment > Visit number: 8 > Timing of visit: Weeks: 16 > Visit window: Days: ±5"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Periods: Treatment > Visit number: 9 > Timing of visit: Weeks: 20 > Visit window: Days: ±5"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Periods: Treatment > Visit number: 10 > Timing of visit: Weeks: 24 > Visit window: Days: ±5"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Periods: End-of-treatment² > Visit number: 11 > Timing of visit: Weeks: 26 > Visit window: Days: ±3"
+    },
+    {
+     "id": "con_12",
+     "text": "Trial Periods: Follow-up² > Visit number: 12 > Timing of visit: Weeks: 31 > Visit window: Days: +5"
+    },
+    {
+     "id": "con_13",
+     "text": "Trial Periods: End-of-trial - premature discontinuation³ > Visit number: 11X > Timing of visit: Weeks: 26 > Visit window: Days: ±3"
+    }
+   ],
+   "prefill": {
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09"
+   }
+  },
+  {
+   "task_id": "t6a2780",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA)for Future Biomedical Research b"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background medication (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide h"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH) i"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) j"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis k"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research l"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA) for Future Biomedical Research b"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25",
+    "act_26": "act_26",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_29": "act_29",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_35": "act_35",
+    "act_37": "act_37",
+    "act_41": "act_41"
+   }
+  },
+  {
+   "task_id": "t5dada8",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System A",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Screening and Run-in Period > Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Screening and Run-in Period > Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Screening and Run-in Period > Visit 3 > Week: -2"
+    },
+    {
+     "id": "con_04",
+     "text": "Randomization > Visit 4 > Day: 1"
+    },
+    {
+     "id": "con_05",
+     "text": "Double-Blind Treatment > TC > Day: 9"
+    },
+    {
+     "id": "con_06",
+     "text": "Double-Blind Treatment > Visit 5 > Week: 6"
+    },
+    {
+     "id": "con_07",
+     "text": "Double-Blind Treatment > Visit 6 > Week: 14"
+    },
+    {
+     "id": "con_08",
+     "text": "Double-Blind Treatment > Visit 7 > Week: 20"
+    },
+    {
+     "id": "con_09",
+     "text": "Post-Treatment > Rescue > Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Post-Treatment > Discontinuation > At time of discontinuationᵃ"
+    },
+    {
+     "id": "con_11",
+     "text": "Post-Treatment > Follow-up > 14-Day Post Treatment Telephone Contact"
+    }
+   ],
+   "prefill": {}
+  },
+  {
+   "task_id": "tdc3ad7",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA)for Future Biomedical Research b"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA) for Future Biomedical Research b"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_06": "act_06",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_12": "act_12",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25",
+    "act_26": "act_26",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_29": "act_29",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_34": "act_34",
+    "act_35": "act_35",
+    "act_36": "act_36",
+    "act_37": "act_37",
+    "act_38": "act_38",
+    "act_39": "act_39",
+    "act_40": "act_40",
+    "act_41": "act_41"
+   }
+  },
+  {
+   "task_id": "t9c8a4a",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System B",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09",
+    "con_10": "con_10",
+    "con_11": "con_11"
+   }
+  },
+  {
+   "task_id": "t7c9871",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA)for Future Biomedical Research b"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Researchb"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medicationc"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAsc"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense Blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoringd"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examinatione"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurementf"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinicg"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptidei"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)j"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable)l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysism"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Researchb"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA)for Future Biomedical Research b"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_15": "act_15",
+    "act_16": "act_16",
+    "act_17": "act_17",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_29": "act_29",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_35": "act_35",
+    "act_37": "act_37",
+    "act_38": "act_38",
+    "act_41": "act_41"
+   }
+  },
+  {
+   "task_id": "t77422e",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System C",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_10": "con_10",
+    "con_11": "con_11"
+   }
+  },
+  {
+   "task_id": "te984ad",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "rows",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication c"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling/monitoring d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-IR in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titration of metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1C (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) l"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA)for Future Biomedical Research b"
+    }
+   ],
+   "pred": [
+    {
+     "id": "act_01",
+     "text": "Informed Consent"
+    },
+    {
+     "id": "act_02",
+     "text": "Informed Consent for Future Biomedical Research b"
+    },
+    {
+     "id": "act_03",
+     "text": "Assignment of Screening Number"
+    },
+    {
+     "id": "act_04",
+     "text": "Contact IVRS"
+    },
+    {
+     "id": "act_05",
+     "text": "Inclusion/Exclusion Criteria"
+    },
+    {
+     "id": "act_06",
+     "text": "Review Prior/Concomitant Medication e"
+    },
+    {
+     "id": "act_07",
+     "text": "Review use of any prohibited medications, including AHAs; counsel patients on importance of not taking other AHAs c"
+    },
+    {
+     "id": "act_08",
+     "text": "Counsel subject to switch current AHA or adjust background metformin (if applicable)"
+    },
+    {
+     "id": "act_09",
+     "text": "Dispense subject identification card"
+    },
+    {
+     "id": "act_10",
+     "text": "Dispense Hypoglycemia Assessment Log (HAL) and instruct on Hypoglycemia Symptoms and Management"
+    },
+    {
+     "id": "act_11",
+     "text": "Dispense blood Glucose Meter / provide Self-Monitoring Blood Glucose (SMBG) Instruction"
+    },
+    {
+     "id": "act_12",
+     "text": "Diet and exercise counseling d"
+    },
+    {
+     "id": "act_13",
+     "text": "Assignment of Randomization Number"
+    },
+    {
+     "id": "act_14",
+     "text": "Dispense single-blind run-in medication"
+    },
+    {
+     "id": "act_15",
+     "text": "Witness dose of blinded study medication and Met-R in clinic"
+    },
+    {
+     "id": "act_16",
+     "text": "Dispense double-blind study medication"
+    },
+    {
+     "id": "act_17",
+     "text": "Assess compliance with double-blind study medication and HAL"
+    },
+    {
+     "id": "act_18",
+     "text": "Demographics and Medical History"
+    },
+    {
+     "id": "act_19",
+     "text": "Vital Signs measured in duplicate (heart rate, blood pressure)"
+    },
+    {
+     "id": "act_20",
+     "text": "Full Physical Examination"
+    },
+    {
+     "id": "act_21",
+     "text": "Brief Physical Examination e"
+    },
+    {
+     "id": "act_22",
+     "text": "Height (measured in duplicate)"
+    },
+    {
+     "id": "act_23",
+     "text": "Weight (measured in duplicate)"
+    },
+    {
+     "id": "act_24",
+     "text": "12-Lead Electrocardiogram (read locally)"
+    },
+    {
+     "id": "act_25",
+     "text": "Site A1C fingerstick measurement f"
+    },
+    {
+     "id": "act_26",
+     "text": "Fasting fingerstick glucose in clinic g"
+    },
+    {
+     "id": "act_27",
+     "text": "Review of SMBG measurements and HAL"
+    },
+    {
+     "id": "act_28",
+     "text": "Adverse events monitoring"
+    },
+    {
+     "id": "act_29",
+     "text": "Subject telephone contact (TC) to assess titrating metformin to 2,000mg"
+    },
+    {
+     "id": "act_30",
+     "text": "Hematology"
+    },
+    {
+     "id": "act_31",
+     "text": "Chemistry panel"
+    },
+    {
+     "id": "act_32",
+     "text": "Fasting plasma glucose (FPG)"
+    },
+    {
+     "id": "act_33",
+     "text": "Hemoglobin A1c (A1C)"
+    },
+    {
+     "id": "act_34",
+     "text": "C-Peptide i"
+    },
+    {
+     "id": "act_35",
+     "text": "Lipid panel"
+    },
+    {
+     "id": "act_36",
+     "text": "Thyroid stimulating hormone (TSH)"
+    },
+    {
+     "id": "act_37",
+     "text": "Fasting Triglycerides"
+    },
+    {
+     "id": "act_38",
+     "text": "Urine Pregnancy Test (as applicable) j"
+    },
+    {
+     "id": "act_39",
+     "text": "Dipstick urinalysis m"
+    },
+    {
+     "id": "act_40",
+     "text": "Plasma and serum for Future Biomedical Research b"
+    },
+    {
+     "id": "act_41",
+     "text": "Blood (DNA) for Future Biomedical Research b"
+    }
+   ],
+   "prefill": {
+    "act_01": "act_01",
+    "act_02": "act_02",
+    "act_03": "act_03",
+    "act_04": "act_04",
+    "act_05": "act_05",
+    "act_07": "act_07",
+    "act_08": "act_08",
+    "act_09": "act_09",
+    "act_10": "act_10",
+    "act_11": "act_11",
+    "act_13": "act_13",
+    "act_14": "act_14",
+    "act_16": "act_16",
+    "act_18": "act_18",
+    "act_19": "act_19",
+    "act_20": "act_20",
+    "act_21": "act_21",
+    "act_22": "act_22",
+    "act_23": "act_23",
+    "act_24": "act_24",
+    "act_25": "act_25",
+    "act_26": "act_26",
+    "act_27": "act_27",
+    "act_28": "act_28",
+    "act_30": "act_30",
+    "act_31": "act_31",
+    "act_32": "act_32",
+    "act_33": "act_33",
+    "act_34": "act_34",
+    "act_35": "act_35",
+    "act_36": "act_36",
+    "act_37": "act_37",
+    "act_40": "act_40",
+    "act_41": "act_41"
+   }
+  },
+  {
+   "task_id": "tcacd51",
+   "group_id": "NCT02791490__Prot_SAP_000__g001",
+   "axis": "columns",
+   "system_label": "System D",
+   "gold": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuation a"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "pred": [
+    {
+     "id": "con_01",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 1"
+    },
+    {
+     "id": "con_02",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 2"
+    },
+    {
+     "id": "con_03",
+     "text": "Trial Period: Screening and Run-in Period > Visit Number/Title: Visit 3 > Scheduled Day, Week: Week -2 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_04",
+     "text": "Trial Period: Randomization > Visit Number/Title: Visit 4 > Scheduled Day, Week: Day 1 > Scheduling Window Days etc.: ± 5 days"
+    },
+    {
+     "id": "con_05",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: TC > Scheduled Day, Week: Day 9 > Scheduling Window Days etc.: ± 1 day(s)"
+    },
+    {
+     "id": "con_06",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 5 > Scheduled Day, Week: Week 6 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_07",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 6 > Scheduled Day, Week: Week 14 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_08",
+     "text": "Trial Period: Double-Blind Treatment > Visit Number/Title: Visit 7 > Scheduled Day, Week: Week 20 > Scheduling Window Days etc.: ± 7 days"
+    },
+    {
+     "id": "con_09",
+     "text": "Visit Number/Title: Rescue > Scheduled Day, Week: Rescue"
+    },
+    {
+     "id": "con_10",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Discontinuation > Scheduled Day, Week: At time of discontinuationᵃ"
+    },
+    {
+     "id": "con_11",
+     "text": "Trial Period: Post-Treatment > Visit Number/Title: Follow-up > Scheduled Day, Week: 14-Day Post Treatment Telephone Contact > Scheduling Window Days etc.: +3 days"
+    }
+   ],
+   "prefill": {
+    "con_01": "con_01",
+    "con_02": "con_02",
+    "con_03": "con_03",
+    "con_04": "con_04",
+    "con_05": "con_05",
+    "con_06": "con_06",
+    "con_07": "con_07",
+    "con_08": "con_08",
+    "con_09": "con_09",
+    "con_11": "con_11"
+   }
+  }
+ ]
+}

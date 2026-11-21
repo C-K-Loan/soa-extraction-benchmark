@@ -1,0 +1,16 @@
+60 pairs; keys of grits: ['grits_con', 'grits_con_upper_bound', 'grits_precision_con', 'grits_precision_top', 'grits_recall_con', 'grits_recall_top', 'grits_top', 'grits_top_upper_bound']
+
+TABLE 4 (reference implementations, mean over six schedules; header cells as td)
+system                                      TEDS  TEDS-S   G-Top   G-Con   (TEDS with th: )
+medical_llm_medium_schema_constrained      0.894   0.990   0.994   0.889   0.900  n=6
+gpt_56_terra                               0.908   0.980   0.989   0.926   0.910  n=6
+gemini_38_flash                            0.922   1.000   1.000   0.915   0.924  n=6
+claude_sonnet_55                           0.934   1.000   1.000   0.932   0.936  n=6
+
+TABLE 5 (perturbed gold vs gold)
+identity                                  1.0000  1.0000  1.0000  1.0000   th 1.0000  {'groups_changed': 0, 'label_chars_removed': 0}
+delete_one_cell                           0.9963  1.0000  1.0000  0.9959   th 0.9963  {'groups_changed': 6, 'label_chars_removed': 0, 'cells_deleted': 6, 'attachments_lost': 0, 'soa': 0.997275204359673, 'groups_touched': 6}
+delete_10pct                              0.9701  1.0000  1.0000  0.9671   th 0.9701  {'groups_changed': 6, 'label_chars_removed': 0, 'cells_deleted': 69, 'attachments_lost': 2, 'soa': 0.9667758540009359, 'groups_touched': 6}
+clear_marker_fields                       1.0000  1.0000  1.0000  1.0000   th 1.0000  {'groups_changed': 0, 'label_chars_removed': 0}
+strip_shipped                             0.9967  1.0000  1.0000  0.9981   th 0.9977  {'groups_changed': 6, 'label_chars_removed': 172}
+strip_exact                               0.9969  1.0000  1.0000  0.9982   th 0.9977  {'groups_changed': 6, 'label_chars_removed': 162}

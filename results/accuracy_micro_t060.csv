@@ -1,0 +1,6 @@
+arm,backend,system,model,cell_p,cell_r,cell_f1,act_p,act_r,act_f1,con_p,con_r,con_f1,ref_p,ref_r,ref_f1,atch_p,atch_r,atch_f1,soa4,soa5,cell_tp,cell_fp,cell_fn,n_pred_cells_total,n_groups_ok,n_groups_empty,n_groups_ctx_overflow,n_groups_malformed,n_groups_api_error,n_groups_not_run
+pipeline,internal,medical_llm_medium_schema_constrained,Medical LLM Medium (schema-constrained),0.7515,0.9246,0.8291,0.9822,0.9822,0.9822,0.8525,0.8667,0.8595,0.7636,0.5122,0.6131,0.5288,0.534,0.5314,0.8412,0.8138,638,211,52,849,6,0,0,0,0,0
+pipeline,internal,medical_llm_medium_unconstrained,Medical LLM Medium (unconstrained),0.8022,0.9696,0.878,1.0,0.9882,0.994,0.9833,0.9833,0.9833,0.9821,0.6707,0.7971,0.6082,0.5728,0.59,0.8971,0.8706,669,165,21,834,6,0,0,0,0,0
+pipeline,openrouter,gemini_38_flash,google/gemini-3.8-flash,1.0,0.8783,0.9352,0.9941,0.9941,0.9941,1.0,1.0,1.0,1.0,1.0,1.0,0.871,0.7864,0.8265,0.9552,0.9432,606,0,84,606,6,0,0,0,0,0
+pipeline,openrouter,gpt_56_terra,openai/gpt-5.6-terra,0.9952,0.9072,0.9492,0.9693,0.9349,0.9518,1.0,1.0,1.0,1.0,1.0,1.0,0.7347,0.699,0.7164,0.9571,0.9345,626,3,64,629,6,0,0,0,0,0
+pipeline,openrouter,claude_sonnet_55,anthropic/claude-sonnet-5.5,0.9978,0.6667,0.7993,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.9216,0.9126,0.9171,0.8697,0.8746,460,1,230,461,6,0,0,0,0,0

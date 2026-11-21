@@ -1,0 +1,5 @@
+system,teds,teds_struct,grits_top,grits_con,soa_score,source
+Medical LLM Medium,0.894,0.990,0.994,0.889,0.814,"reference implementations (PubTabNet TEDS, table-transformer GriTS), code/reference_metrics/results_v2.json"
+GPT-5.6-terra,0.908,0.980,0.989,0.926,0.934,"reference implementations (PubTabNet TEDS, table-transformer GriTS), code/reference_metrics/results_v2.json"
+Gemini-3.8-Flash,0.922,1.000,1.000,0.915,0.943,"reference implementations (PubTabNet TEDS, table-transformer GriTS), code/reference_metrics/results_v2.json"
+Claude-Sonnet-5.5,0.934,1.000,1.000,0.932,0.875,"reference implementations (PubTabNet TEDS, table-transformer GriTS), code/reference_metrics/results_v2.json"

@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "groups_changed": 0,
+  "label_chars_removed": 0
+ },
+ "delete_one_cell": {
+  "groups_changed": 6,
+  "label_chars_removed": 0,
+  "cells_deleted": 6,
+  "attachments_lost": 0,
+  "soa": 0.997275204359673,
+  "groups_touched": 6
+ },
+ "delete_10pct": {
+  "groups_changed": 6,
+  "label_chars_removed": 0,
+  "cells_deleted": 69,
+  "attachments_lost": 2,
+  "soa": 0.9667758540009359,
+  "groups_touched": 6
+ },
+ "clear_marker_fields": {
+  "groups_changed": 0,
+  "label_chars_removed": 0
+ },
+ "strip_shipped": {
+  "groups_changed": 6,
+  "label_chars_removed": 172
+ },
+ "strip_exact": {
+  "groups_changed": 6,
+  "label_chars_removed": 162
+ }
+}

@@ -1,0 +1,554 @@
+{
+  "activities": [
+    {
+      "id": "act_01",
+      "text": "Informed Consent/Assent",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_02",
+      "text": "Informed Consent/Assent for FBR2",
+      "uses_reference_markers": [
+        "2"
+      ]
+    },
+    {
+      "id": "act_03",
+      "text": "Provide Subject Identification Card",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_04",
+      "text": "Inclusion/Exclusion Criteria",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_05",
+      "text": "Medical History",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_06",
+      "text": "Directed Physical Examination",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_07",
+      "text": "Weight",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_08",
+      "text": "Height",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_09",
+      "text": "Date of menarche (females only)",
+      "uses_reference_markers": []
+    },
+    {
+      "id": "act_10",
+      "text": "Procedure Related AEs and drug-related SAEs3",
+      "uses_reference_markers": [
+        "3"
+      ]
+    },
+    {
+      "id": "act_11",
+      "text": "HCV RNA Level and sequence analysis8",
+      "uses_reference_markers": [
+        "8"
+      ]
+    },
+    {
+      "id": "act_12",
+      "text": "Viral Resistance and Biomarker8",
+      "uses_reference_markers": [
+        "8"
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "activity_id": "act_01",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_02",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_03",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_04",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_05",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_06",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_07",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_08",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_09",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_10",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_11",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_01"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_02"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_03"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_04"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_05"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_06"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_07"
+    },
+    {
+      "activity_id": "act_12",
+      "cell_content": "X",
+      "cell_reference_markers": [],
+      "visit_id": "con_08"
+    }
+  ],
+  "contacts": [
+    {
+      "anchor": "last visit of the previous protocol",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 0.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": 3.0,
+        "window_unit": "months"
+      },
+      "id": "con_01",
+      "reference_markers": [
+        "5",
+        "4"
+      ],
+      "text": "Visit No.: 1^5 > Screen/Baseline^4"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 6.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_02",
+      "reference_markers": [],
+      "text": "Visit No.: 2 > Year 1 > Mo. 6"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 12.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_03",
+      "reference_markers": [],
+      "text": "Visit No.: 3 > Year 1 > Mo. 12"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 18.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_04",
+      "reference_markers": [],
+      "text": "Visit No.: 4 > Year 2 > Mo. 18"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 24.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_05",
+      "reference_markers": [],
+      "text": "Visit No.: 5 > Year 2 > Mo. 24"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 30.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_06",
+      "reference_markers": [],
+      "text": "Visit No.: 6 > Year 3 > Mo. 30"
+    },
+    {
+      "anchor": "study start",
+      "condition": null,
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": 36.0,
+        "target_unit": "months",
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_07",
+      "reference_markers": [
+        "7"
+      ],
+      "text": "Visit No.: 7 > Year 3 > Mo. 36^7"
+    },
+    {
+      "anchor": "study start",
+      "condition": "unscheduled",
+      "contact_interval_relative_from_anchor": {
+        "cycle_length_days": null,
+        "cycles": null,
+        "target": null,
+        "target_unit": null,
+        "window_after": null,
+        "window_before": null,
+        "window_unit": null
+      },
+      "id": "con_08",
+      "reference_markers": [
+        "6"
+      ],
+      "text": "Unscheduled Visit^6"
+    }
+  ],
+  "group_id": "NCT01667081__Prot_SAP_000__g002",
+  "model": "google/gemini-3.8-flash",
+  "references": [
+    {
+      "reference_marker": "1",
+      "text": "Visits should be scheduled as close to the indicated study period as possible. Visit windows are +/- 3 months. All visits should be recorded on the actual date that they occur and any missed or late visits must be documented accordingly."
+    },
+    {
+      "reference_marker": "2",
+      "text": "Participation in FBR is voluntary and is not required in order to participate in the study."
+    },
+    {
+      "reference_marker": "3",
+      "text": "AEs related to protocol-specified procedures (blood draw) and drug related new Serious Adverse Events, which occur following enrollment in the present study (after Informed Consent Form is signed) will be reported."
+    },
+    {
+      "reference_marker": "4",
+      "text": "If a subject is directly entered into this long-term follow-up protocol on the same day as the last study day of the prior treatment study, only the lab kit from prior treatment study needs to be used."
+    },
+    {
+      "reference_marker": "5",
+      "text": "The screening visit should occur within 3 months of the last visit of the previous protocol."
+    },
+    {
+      "reference_marker": "6",
+      "text": "If the unscheduled visit is being performed for follow-up of an AE/SAE (as defined in this protocol), only a directed physical exam is needed at this visit. If for follow-up of viral resistance, only HCV evaluations are needed."
+    },
+    {
+      "reference_marker": "7",
+      "text": "For subjects who discontinue early, a Visit 7 (Month 36) should be completed as the early discontinuation visit."
+    },
+    {
+      "reference_marker": "8",
+      "text": "Leftover main study plasma from HCV RNA and resistance will be stored for FBR if the subject/legally acceptable representative consents to FBR."
+    }
+  ],
+  "system": "gemini_38_flash"
+}
