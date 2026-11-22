@@ -33,6 +33,7 @@ code/reference_metrics/        reference TEDS / GriTS run behind Tables 4 and 5
 code/metrics_teds_grits.py     earlier in-house TEDS / GriTS-style code (see below)
 code/run_perturbation.py       earlier perturbation harness (see below)
 prompts/                       Stage 3 prompts and SETTINGS.md
+docs/gold_record_excerpt_NCT01621737.md  an annotated excerpt of one gold record
 evidence/                      alignment, judge, bootstrap, temporal and error-analysis files
 protocols/                     NCT identifiers and a fetch script
 reproduce.sh                   regenerates every scored CSV from predictions/

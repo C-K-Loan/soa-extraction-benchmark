@@ -1,5 +1,5 @@
 {
-  "README.md": "055255c99fb4b5c17bc4725cffea4049a29c82d68455e481de6b169c7712d8f0",
+  "README.md": "1332075bc7798cf5af6a993fc889900c63a072b3758e0ee70859962dec25e345",
   "code/metrics_teds_grits.py": "375b16f43fbdd2fb4f8097009c62c5b4fc595313b4355508cc68c6104ed0256b",
   "code/reference_metrics/README.md": "917cbf91fc11d568f3e5833ef464eabe9547c734bca37c177bbda24baeec1fdb",
   "code/reference_metrics/build_pairs_v2.py": "56e95c8ee170ae4da1cf29be7122bdaa3216f0944becdd739ee707c2f2a934ad",
@@ -235,5 +235,6 @@
   "results/teds_grits_table4.csv": "420dceffe1a6ae9b1014a969db154b359ae036ff3e8bff2296e840b08312f39a",
   "silver/silver_stats.json": "6fd8c14f29c4f53331de4fd3e8e59077bf7f0e5b7a24f36f96fc9eeab4b2e20a",
   "silver/stage1_page_labels.jsonl": "de1562702ef26f9f974386fad6ccf066cc7495dafea20664a871bfa722216996",
-  "verify.py": "215c43fba631fd45ce1e72fb8bebe9fb94f07312afe7750fc2053713a5feeb8c"
+  "verify.py": "215c43fba631fd45ce1e72fb8bebe9fb94f07312afe7750fc2053713a5feeb8c",
+  "docs/gold_record_excerpt_NCT01621737.md": "3b3012d8b24de8076b44691e904e9d5deafd07e4c1f01a4744fd4ef907494a3b"
 }
